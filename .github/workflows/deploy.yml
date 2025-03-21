@@ -20,7 +20,7 @@ jobs:
           extended: true  # 如果需要扩展版 Hugo
 
       - name: Build Hugo site
-        run: hugo --minify
+        run: hugo --minify --gc  # 清理缓存并构建
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
