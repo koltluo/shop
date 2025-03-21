@@ -59,13 +59,4 @@ title: 变频器工作原理是怎样的？
 
 综合考虑以上因素，可以选择适合特定负载的变频器，以确保系统稳定运行并达到最佳性能。最好在选择变频器时咨询专业工程师或供应商，以确保选择的变频器能够最好地满足系统需求。
 
-## 接下来
-
-直接进入以下部分开始：
-
-{{< cards >}}
-  {{< card link="https://item.taobao.com/item.htm?ft=t&id=771441899583" title="立即购买" icon="shopping-cart" >}}
-  {{< card link="/docs/table-of-contents/" title="变频器使用说明书目录" icon="newspaper"  >}}
-  {{< card link="/blog/faq/" title="变频器常见问题解答" icon="newspaper" >}}
-{{< /cards >}}	
 

@@ -40,7 +40,7 @@ languages:
     description: 山东临沂森阔机电有限公司是一家专业供应变频器、软启动器、软启动柜、高低压成套设备的公司，具备多年的生产和销售经验，提供高质量、高性能的产品，以满足不同客户的需求。我们致力于为客户提供全面的售前、售中、售后服务，欢迎联系我们。热线：15064999739
 
 pagination:
-  pagerSize: 12
+  pagerSize: 10
 imaging:
   resampleFilter: "CatmullRom"
   quality: 85
@@ -174,4 +174,3 @@ params:
       # emitMetadata: 0
       # inputPosition: top
       lang: en
-      

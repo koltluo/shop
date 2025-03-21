@@ -16,7 +16,7 @@ jobs:
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'  # 使用最新版本
+          hugo-version: '0.145.0'  # 指定 Hugo 版本
           extended: true  # 如果需要扩展版 Hugo
 
       - name: Build Hugo site
@@ -41,7 +41,7 @@ jobs:
           node-version: '18'  # 使用 Node.js v18
 
       - name: Install Wrangler
-        run: npm install -g wrangler
+        run: npm install -g wrangler@latest
 
       - name: Configure Cloudflare Worker environment variables
         run: |
@@ -53,4 +53,4 @@ jobs:
       - name: Deploy Cloudflare Worker
         run: |
           cd cloudflare-worker
-          wrangler publish
+          wrangler deploy
