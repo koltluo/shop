@@ -36,17 +36,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install dependencies
+        working-directory: ./cloudflare-worker
         run: npm install
 
       - name: Build Worker
+        working-directory: ./cloudflare-worker
         run: npm run build
 
-      - name: Install Wrangler
-        run: npm install -g wrangler
-
       - name: Deploy Cloudflare Worker
+        working-directory: ./cloudflare-worker
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: |
-          cd cloudflare-worker
-          wrangler deploy
+        run: wrangler deploy
