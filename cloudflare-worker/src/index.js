@@ -50,7 +50,7 @@ async function handleAlipayRequest(request, event) {
     };
 
     // 生成签名
-    const sign = generateSignature(params, privateKey);
+    const sign = await generateSignature(params, privateKey);
     params.sign = sign;
 
     // 构造支付宝支付 URL
@@ -69,13 +69,34 @@ async function handleAlipayRequest(request, event) {
 }
 
 // 生成签名函数
-function generateSignature(params, privateKey) {
-  const crypto = require('crypto');
+async function generateSignature(params, privateKey) {
+  const encoder = new TextEncoder();
   const sortedParams = Object.keys(params)
     .sort()
     .map(key => `${key}=${params[key]}`)
     .join('&');
-  const sign = crypto.createSign('RSA-SHA256');
-  sign.update(sortedParams, 'utf8');
-  return sign.sign(privateKey, 'base64');
+
+  // 将私钥转换为 CryptoKey
+  const keyData = `-----BEGIN PRIVATE KEY-----\n${privateKey}\n-----END PRIVATE KEY-----`;
+  const privateKeyBuffer = encoder.encode(keyData);
+  const cryptoKey = await crypto.subtle.importKey(
+    'pkcs8',
+    privateKeyBuffer,
+    {
+      name: 'RSASSA-PKCS1-v1_5',
+      hash: { name: 'SHA-256' },
+    },
+    false,
+    ['sign']
+  );
+
+  // 使用 Web Crypto API 生成签名
+  const signature = await crypto.subtle.sign(
+    'RSASSA-PKCS1-v1_5',
+    cryptoKey,
+    encoder.encode(sortedParams)
+  );
+
+  // 将签名转换为 Base64 格式
+  return btoa(String.fromCharCode(...new Uint8Array(signature)));
 }
