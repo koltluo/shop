@@ -53,4 +53,4 @@ jobs:
       - name: Deploy Cloudflare Worker
         run: |
           cd cloudflare-worker
-          wrangler deploy
+          wrangler deploy src/index.js
