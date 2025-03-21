@@ -4,7 +4,7 @@ workers_dev = true
 compatibility_date = "2025-03-21"
 
 # 指定入口文件
-main = "src/index.js"
+main = "dist/index.js"
 
 # KV 命名空间绑定
 [[kv_namespaces]]
