@@ -11,11 +11,7 @@ main = "dist/index.js"
 binding = "ORDERS"  # Worker 中使用的变量名
 id = "c713a9818d7549ebbd8b1ed37c6b76e3"  # KV 命名空间 ID
 
-# 环境变量
-[vars]
-ALIPAY_APP_ID = "@alipayAppId"
-ALIPAY_PRIVATE_KEY = "@alipayPrivateKey"
-ALIPAY_PUBLIC_KEY = "@alipayPublicKey"
+
 
 # 生产环境配置（可选）
 [env.production]
