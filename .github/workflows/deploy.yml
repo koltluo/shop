@@ -35,6 +35,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install Wrangler
+        run: npm install -g wrangler
+
       - name: Install dependencies
         working-directory: ./cloudflare-worker
         run: npm install
