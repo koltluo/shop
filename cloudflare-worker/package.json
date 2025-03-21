@@ -1,11 +1,12 @@
 {
   "name": "cloudflare-worker",
   "version": "1.0.0",
+  "type": "module",
   "main": "dist/index.js",
   "dependencies": {
     "acorn": "^8.14.0",
     "acorn-walk": "^8.3.2",
-    "alipay-sdk": "^3.6.2",
+    "alipay-sdk": "^3.0.0",
     "as-table": "^1.0.55",
     "blake3-wasm": "^2.1.5",
     "color": "^4.2.3",
@@ -52,6 +53,6 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "esbuild": "^0.17.19"
+    "esbuild": "^0.17.0"
   }
 }
