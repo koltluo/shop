@@ -1,0 +1,960 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山东临沂森阔机电有限公司 – 第二章 产品信息</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/</link><description>Recent content in 第二章 产品信息 on 山东临沂森阔机电有限公司</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://koltluo.github.io/shop/docs/vfd/product-information/index.xml" rel="self" type="application/rss+xml"/><item><title>2.1 技术规范表</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/technical-specifications-table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/product-information/technical-specifications-table/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">项目&lt;/th>
+&lt;th style="text-align: center">&lt;/th>
+&lt;th style="text-align: center">规格&lt;/th>
+&lt;th style="text-align: center">&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">控制特性&lt;/td>
+&lt;td style="text-align: center">控制方式&lt;/td>
+&lt;td style="text-align: center">无速度传感器矢量控制（SVC）&lt;/td>
+&lt;td style="text-align: center">V/F控制&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">启动转矩&lt;/td>
+&lt;td style="text-align: center">0.5Hz/150%&lt;/td>
+&lt;td style="text-align: center">0.5Hz/100%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">调速范围&lt;/td>
+&lt;td style="text-align: center">1：100&lt;/td>
+&lt;td style="text-align: center">1：50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">稳速精度&lt;/td>
+&lt;td style="text-align: center">±0.5%&lt;/td>
+&lt;td style="text-align: center">±1%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">载波频率&lt;/td>
+&lt;td style="text-align: center">0.5kHz~16kHz;可根据负载特性，自动调整载波频率&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">过载能力&lt;/td>
+&lt;td style="text-align: center">G型机：150% 额定电流60s,220%额定电流1s &lt;/br> P型机：120% 额定电流60s,150%额定电流1s&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">转矩提升&lt;/td>
+&lt;td style="text-align: center">0.0%自动转矩提升；手动转矩提升0.1%~30%&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">输入输出&lt;/td>
+&lt;td style="text-align: center">输入电压范围&lt;/td>
+&lt;td style="text-align: center">220V/380V； 波动范围：±15%&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">输入频率范围&lt;/td>
+&lt;td style="text-align: center">50/60Hz； 波动范围：±5%&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">输出电压范围&lt;/td>
+&lt;td style="text-align: center">0~输入电压，误差小于5%&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">输出频率范围&lt;/td>
+&lt;td style="text-align: center">SVC：0~320Hz； V/F:0-3200Hz&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">运行控制&lt;/td>
+&lt;td style="text-align: center">运行命令通道&lt;/td>
+&lt;td style="text-align: center">3种通道：操作面板给定、控制端子给定、串行通讯口给定。可通过多种方式切换。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">频率源&lt;/td>
+&lt;td style="text-align: center">数字给定、面板电位器给定、模拟电压给定、模拟电流给定、串口通讯给定等。可通过多种方式切换。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">辅助频率源&lt;/td>
+&lt;td style="text-align: center">多种辅助频率源。可进行频率合成、频率微调。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">输入端子&lt;/td>
+&lt;td style="text-align: center">7个数字输入端子&lt;/br> 2个模拟量输入端子&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">输出端子&lt;/td>
+&lt;td style="text-align: center">2个开路集电极输出端子&lt;/br> 2个继电器输出端子 &lt;/br> 2个模拟量输出端子&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">基本功能&lt;/td>
+&lt;td style="text-align: center">直流制动功能&lt;/td>
+&lt;td style="text-align: center">制动时间：0.0s~100.0s，制动动作电流值：0.0%~100.0%&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">V/F曲线&lt;/td>
+&lt;td style="text-align: center">3种方式：直线型、多点型、平方型&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">加减速曲线&lt;/td>
+&lt;td style="text-align: center">直线或S曲线加减速方式；四组加减速时间；加减速时间范围：0.0~6500.0s&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">简易PLC、多段速&lt;/td>
+&lt;td style="text-align: center">通过内置PLC或控制端子实现最多16段速运行&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">内置PID&lt;/td>
+&lt;td style="text-align: center">可方便实现过程控制闭环控制系统&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">AVR功能&lt;/td>
+&lt;td style="text-align: center">当电网电压变化时，能自动保持输出电压恒定&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">过压过流失速&lt;/td>
+&lt;td style="text-align: center">对运行期间电流电压自动限制，防止频繁过流过压跳闸&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">快速限流功能&lt;/td>
+&lt;td style="text-align: center">最大限度减小过流故障，提高系统稳定性&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">转矩限定与控制&lt;/td>
+&lt;td style="text-align: center">“挖土机”特性，对运行期间转矩自动限制，防止频繁过流跳闸&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">上电外围设备安全自检&lt;/td>
+&lt;td style="text-align: center">可实现上电对外围设备进行安全检测如接地、短路等&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">定时控制功能&lt;/td>
+&lt;td style="text-align: center">设定时间范围0h~65535h&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">保护功能&lt;/td>
+&lt;td style="text-align: center">输出缺相保护、过流保护、过压保护、欠压保护、过热保护、过载保护、上电继电器故障检测等&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">显示与键盘操作&lt;/td>
+&lt;td style="text-align: center">LED显示&lt;/td>
+&lt;td style="text-align: center">5位LED显示&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">参数锁定功能&lt;/td>
+&lt;td style="text-align: center">设置参数只读控制，以防误操作&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">MF.K键&lt;/td>
+&lt;td style="text-align: center">可编程键：命令通道切换/正反转运行/点动运行功能选择/菜单模式切换&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">使用环境&lt;/td>
+&lt;td style="text-align: center">使用场所&lt;/td>
+&lt;td style="text-align: center">室内，不受阳光直晒，无尘埃、腐蚀性气体、可燃性气体、油雾、水蒸汽、滴水或盐份等&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">海拔高度&lt;/td>
+&lt;td style="text-align: center">低于1000m；高于1000m以上时，要降额使用，每升高100m,需要降额1%&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">环境温度&lt;/td>
+&lt;td style="text-align: center">-10℃~40℃，温度超过40℃时需要降额使用，环境温度每升高1℃ ，需要降额1%，最高使用环境温度为50℃&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">湿度&lt;/td>
+&lt;td style="text-align: center">≤95%RH，避免结霜&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">振动&lt;/td>
+&lt;td style="text-align: center">振动加速度小于0.6g&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">存储温度&lt;/td>
+&lt;td style="text-align: center">-25℃~+60℃&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>2.2 产品铭牌</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/product-aluminum-plate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/product-information/product-aluminum-plate/</guid><description>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/cpmp.jpg" title="矢量变频器产品铭牌" alt="产品铭牌" loading="lazy" />
+&lt;figcaption>矢量变频器产品铭牌&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>2.3 型号说明</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/model-description/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/product-information/model-description/</guid><description>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/xh.jpg" title="矢量变频器型号说明" alt="型号说明" loading="lazy" />
+&lt;figcaption>矢量变频器型号说明&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">字段&lt;/th>
+&lt;th style="text-align: center">标识&lt;/th>
+&lt;th style="text-align: center">标识说明&lt;/th>
+&lt;th style="text-align: center">具体内容&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">产品系列&lt;/td>
+&lt;td style="text-align: center">①&lt;/td>
+&lt;td style="text-align: center">产品系列&lt;/td>
+&lt;td style="text-align: center">通用矢量变频器系列为8000&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">额定功率1&lt;/td>
+&lt;td style="text-align: center">②&lt;/td>
+&lt;td style="text-align: center">G型机功率范围&lt;/td>
+&lt;td style="text-align: center">5R5-5.5KW，R为小数点&lt;/br>G-恒转矩负载 &lt;/br>B-内置制动单元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">额定功率2&lt;/td>
+&lt;td style="text-align: center">③&lt;/td>
+&lt;td style="text-align: center">P型机功率范围&lt;/td>
+&lt;td style="text-align: center">7R5-7.5KW，R为小数点&lt;/br>P-变转矩负载 &lt;/br>B-内置制动单元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">输入电源&lt;/td>
+&lt;td style="text-align: center">④&lt;/td>
+&lt;td style="text-align: center">电源相数标识&lt;/td>
+&lt;td style="text-align: center">S：单相；T：三相&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">电压等级&lt;/td>
+&lt;td style="text-align: center">⑤&lt;/td>
+&lt;td style="text-align: center">电压等级&lt;/td>
+&lt;td style="text-align: center">2：220VAC; 4: 380VAC&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>2.4 产品选型规格表</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/product-selection-specification-table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/product-information/product-selection-specification-table/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">变频器型号G/P&lt;/th>
+&lt;th style="text-align: center">额定功率(kw)&lt;/th>
+&lt;th style="text-align: center">电源容量 (KVA)&lt;/th>
+&lt;th style="text-align: center">输入电流(A)&lt;/th>
+&lt;th style="text-align: center">输出电流(A)&lt;/th>
+&lt;th style="text-align: center">适配电机G/P(KW)&lt;/th>
+&lt;th style="text-align: center">适配电机G/P(HP)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">R75GB-S2&lt;/td>
+&lt;td style="text-align: center">0.75&lt;/td>
+&lt;td style="text-align: center">1.5&lt;/td>
+&lt;td style="text-align: center">8.2&lt;/td>
+&lt;td style="text-align: center">4.5&lt;/td>
+&lt;td style="text-align: center">0.75&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">1R5GB-S2&lt;/td>
+&lt;td style="text-align: center">1.5&lt;/td>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">1.5&lt;/td>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2R2GB-S2&lt;/td>
+&lt;td style="text-align: center">2.2&lt;/td>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">23&lt;/td>
+&lt;td style="text-align: center">9.6&lt;/td>
+&lt;td style="text-align: center">2.2&lt;/td>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">R75GB-T4&lt;/td>
+&lt;td style="text-align: center">0.75&lt;/td>
+&lt;td style="text-align: center">1.5&lt;/td>
+&lt;td style="text-align: center">3.4&lt;/td>
+&lt;td style="text-align: center">2.1&lt;/td>
+&lt;td style="text-align: center">0.75&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">1R5GB-T4&lt;/td>
+&lt;td style="text-align: center">1.5&lt;/td>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">5.0&lt;/td>
+&lt;td style="text-align: center">3.8&lt;/td>
+&lt;td style="text-align: center">1.5&lt;/td>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2R2GB-T4&lt;/td>
+&lt;td style="text-align: center">2.2&lt;/td>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">5.8&lt;/td>
+&lt;td style="text-align: center">5.1&lt;/td>
+&lt;td style="text-align: center">2.2&lt;/td>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">004GB/5R5PB-T4&lt;/td>
+&lt;td style="text-align: center">4/5.5&lt;/td>
+&lt;td style="text-align: center">5.9/8.9&lt;/td>
+&lt;td style="text-align: center">10.5/14.6&lt;/td>
+&lt;td style="text-align: center">9/13&lt;/td>
+&lt;td style="text-align: center">4/5.5&lt;/td>
+&lt;td style="text-align: center">5.5/7.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5R5GB/7R5PB-T4&lt;/td>
+&lt;td style="text-align: center">5.5/7.5&lt;/td>
+&lt;td style="text-align: center">8.9/11&lt;/td>
+&lt;td style="text-align: center">14.6/20.5&lt;/td>
+&lt;td style="text-align: center">13/17&lt;/td>
+&lt;td style="text-align: center">5.5/7.5&lt;/td>
+&lt;td style="text-align: center">7.5/10&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7R5GB-T4&lt;/td>
+&lt;td style="text-align: center">7.5&lt;/td>
+&lt;td style="text-align: center">11&lt;/td>
+&lt;td style="text-align: center">20.5&lt;/td>
+&lt;td style="text-align: center">17&lt;/td>
+&lt;td style="text-align: center">7.5&lt;/td>
+&lt;td style="text-align: center">10&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">011GB/015PB-T4&lt;/td>
+&lt;td style="text-align: center">11/15&lt;/td>
+&lt;td style="text-align: center">17/21&lt;/td>
+&lt;td style="text-align: center">26/35&lt;/td>
+&lt;td style="text-align: center">25/32&lt;/td>
+&lt;td style="text-align: center">11/15&lt;/td>
+&lt;td style="text-align: center">15/20&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">015GB/18R5PB-T4&lt;/td>
+&lt;td style="text-align: center">15/18.5&lt;/td>
+&lt;td style="text-align: center">21/24&lt;/td>
+&lt;td style="text-align: center">35/38.5&lt;/td>
+&lt;td style="text-align: center">32/37&lt;/td>
+&lt;td style="text-align: center">15/18.5&lt;/td>
+&lt;td style="text-align: center">20/25&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">018R5GB/022PB-T4&lt;/td>
+&lt;td style="text-align: center">18.5/22&lt;/td>
+&lt;td style="text-align: center">24/30&lt;/td>
+&lt;td style="text-align: center">38.5/46&lt;/td>
+&lt;td style="text-align: center">37/45&lt;/td>
+&lt;td style="text-align: center">18.5/22&lt;/td>
+&lt;td style="text-align: center">25/30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">022GB/030PB-T4&lt;/td>
+&lt;td style="text-align: center">22/30&lt;/td>
+&lt;td style="text-align: center">30/40&lt;/td>
+&lt;td style="text-align: center">46.5/62&lt;/td>
+&lt;td style="text-align: center">45/60&lt;/td>
+&lt;td style="text-align: center">22/30&lt;/td>
+&lt;td style="text-align: center">30/40&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">030G/037P-T4&lt;/td>
+&lt;td style="text-align: center">30/37&lt;/td>
+&lt;td style="text-align: center">40/57&lt;/td>
+&lt;td style="text-align: center">62/76&lt;/td>
+&lt;td style="text-align: center">60/75&lt;/td>
+&lt;td style="text-align: center">30/37&lt;/td>
+&lt;td style="text-align: center">40/50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">037G/045P-T4&lt;/td>
+&lt;td style="text-align: center">37/45&lt;/td>
+&lt;td style="text-align: center">57/69&lt;/td>
+&lt;td style="text-align: center">76/92&lt;/td>
+&lt;td style="text-align: center">75/91&lt;/td>
+&lt;td style="text-align: center">37/45&lt;/td>
+&lt;td style="text-align: center">50/60&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">045G/055P-T4&lt;/td>
+&lt;td style="text-align: center">45/55&lt;/td>
+&lt;td style="text-align: center">69/85&lt;/td>
+&lt;td style="text-align: center">92/113&lt;/td>
+&lt;td style="text-align: center">91/110&lt;/td>
+&lt;td style="text-align: center">45/55&lt;/td>
+&lt;td style="text-align: center">60/70&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">055G/075P-T4&lt;/td>
+&lt;td style="text-align: center">55/75&lt;/td>
+&lt;td style="text-align: center">85/114&lt;/td>
+&lt;td style="text-align: center">113/157&lt;/td>
+&lt;td style="text-align: center">112/150&lt;/td>
+&lt;td style="text-align: center">55/75&lt;/td>
+&lt;td style="text-align: center">70/100&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">075G/093P-T4&lt;/td>
+&lt;td style="text-align: center">75/93&lt;/td>
+&lt;td style="text-align: center">114/134&lt;/td>
+&lt;td style="text-align: center">157/180&lt;/td>
+&lt;td style="text-align: center">150/170&lt;/td>
+&lt;td style="text-align: center">75/93&lt;/td>
+&lt;td style="text-align: center">100/125&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">093G/110P-T4&lt;/td>
+&lt;td style="text-align: center">93/110&lt;/td>
+&lt;td style="text-align: center">134/160&lt;/td>
+&lt;td style="text-align: center">180/214&lt;/td>
+&lt;td style="text-align: center">170/210&lt;/td>
+&lt;td style="text-align: center">93/110&lt;/td>
+&lt;td style="text-align: center">125/150&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">110G/132P-T4&lt;/td>
+&lt;td style="text-align: center">110/132&lt;/td>
+&lt;td style="text-align: center">160/192&lt;/td>
+&lt;td style="text-align: center">214/256&lt;/td>
+&lt;td style="text-align: center">210/253&lt;/td>
+&lt;td style="text-align: center">110/132&lt;/td>
+&lt;td style="text-align: center">150/180&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">132G/160P-T4&lt;/td>
+&lt;td style="text-align: center">132/160&lt;/td>
+&lt;td style="text-align: center">192/231&lt;/td>
+&lt;td style="text-align: center">256/307&lt;/td>
+&lt;td style="text-align: center">253/304&lt;/td>
+&lt;td style="text-align: center">132/160&lt;/td>
+&lt;td style="text-align: center">180/220&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">160G/185P-T4&lt;/td>
+&lt;td style="text-align: center">160/185&lt;/td>
+&lt;td style="text-align: center">231/245&lt;/td>
+&lt;td style="text-align: center">307/345&lt;/td>
+&lt;td style="text-align: center">304/340&lt;/td>
+&lt;td style="text-align: center">160/185&lt;/td>
+&lt;td style="text-align: center">220/250&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">185G/200P-T4&lt;/td>
+&lt;td style="text-align: center">185/200&lt;/td>
+&lt;td style="text-align: center">245/260&lt;/td>
+&lt;td style="text-align: center">345/385&lt;/td>
+&lt;td style="text-align: center">340/377&lt;/td>
+&lt;td style="text-align: center">185/200&lt;/td>
+&lt;td style="text-align: center">250/275&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">200G/220P-T4&lt;/td>
+&lt;td style="text-align: center">200/220&lt;/td>
+&lt;td style="text-align: center">260/280&lt;/td>
+&lt;td style="text-align: center">385/430&lt;/td>
+&lt;td style="text-align: center">377/426&lt;/td>
+&lt;td style="text-align: center">200/220&lt;/td>
+&lt;td style="text-align: center">275/300&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">220G/250P-T4&lt;/td>
+&lt;td style="text-align: center">220/250&lt;/td>
+&lt;td style="text-align: center">280/355&lt;/td>
+&lt;td style="text-align: center">430/468&lt;/td>
+&lt;td style="text-align: center">426/465&lt;/td>
+&lt;td style="text-align: center">220/250&lt;/td>
+&lt;td style="text-align: center">300/340&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">250G/280P-T4&lt;/td>
+&lt;td style="text-align: center">250/280&lt;/td>
+&lt;td style="text-align: center">355/396&lt;/td>
+&lt;td style="text-align: center">468/525&lt;/td>
+&lt;td style="text-align: center">465/520&lt;/td>
+&lt;td style="text-align: center">250/280&lt;/td>
+&lt;td style="text-align: center">340/380&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">280G/315P-T4&lt;/td>
+&lt;td style="text-align: center">280/315&lt;/td>
+&lt;td style="text-align: center">396/445&lt;/td>
+&lt;td style="text-align: center">525/590&lt;/td>
+&lt;td style="text-align: center">520/585&lt;/td>
+&lt;td style="text-align: center">280/315&lt;/td>
+&lt;td style="text-align: center">380/430&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">315G/355P-T4&lt;/td>
+&lt;td style="text-align: center">315/355&lt;/td>
+&lt;td style="text-align: center">445/500&lt;/td>
+&lt;td style="text-align: center">590/665&lt;/td>
+&lt;td style="text-align: center">585/650&lt;/td>
+&lt;td style="text-align: center">315/355&lt;/td>
+&lt;td style="text-align: center">430/480&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">355G/400P-T4&lt;/td>
+&lt;td style="text-align: center">355/400&lt;/td>
+&lt;td style="text-align: center">500/565&lt;/td>
+&lt;td style="text-align: center">665/785&lt;/td>
+&lt;td style="text-align: center">650/725&lt;/td>
+&lt;td style="text-align: center">355/400&lt;/td>
+&lt;td style="text-align: center">480/545&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">400G-T4&lt;/td>
+&lt;td style="text-align: center">400&lt;/td>
+&lt;td style="text-align: center">565&lt;/td>
+&lt;td style="text-align: center">786&lt;/td>
+&lt;td style="text-align: center">725&lt;/td>
+&lt;td style="text-align: center">400&lt;/td>
+&lt;td style="text-align: center">545&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>2.5 键盘托盘尺寸图</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/keyboard-tray-dimensional-diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/product-information/keyboard-tray-dimensional-diagram/</guid><description>
+&lt;p>&lt;img src="https://koltluo.github.io/shop/images/jp.jpg" alt="键盘实物图" loading="lazy" />&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">变频器结构&lt;/th>
+&lt;th style="text-align: center">C系列托盘开孔尺寸&lt;/th>
+&lt;th style="text-align: center">H系列托盘开孔尺寸&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">开孔尺寸图&lt;/td>
+&lt;td style="text-align: center">&lt;img src="https://koltluo.github.io/shop/images/cjp.jpg" alt="C系列托盘开孔尺寸" loading="lazy" />&lt;/td>
+&lt;td style="text-align: center">&lt;img src="https://koltluo.github.io/shop/images/hjp.jpg" alt="H系列托盘开孔尺寸" loading="lazy" />&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>2.6 变频器的日常保养与维护</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/the-daily-maintenance-and-service-of-variable-frequency-drives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/product-information/the-daily-maintenance-and-service-of-variable-frequency-drives/</guid><description>
+&lt;h3>2.6.1 日常保养&lt;span class="hx-absolute -hx-mt-20" id="261-日常保养">&lt;/span>
+&lt;a href="#261-%e6%97%a5%e5%b8%b8%e4%bf%9d%e5%85%bb" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>由于环境的温度、湿度、粉尘及振动的影响，会导致变频器内部的器件老化，导致变频器潜在的故障发生或降低了变频器的使用寿命。因此，有必要对变频器实施日常和定期的保养及维护。&lt;/p>
+&lt;h4>日常检查项目：&lt;span class="hx-absolute -hx-mt-20" id="日常检查项目">&lt;/span>
+&lt;a href="#%e6%97%a5%e5%b8%b8%e6%a3%80%e6%9f%a5%e9%a1%b9%e7%9b%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>1.电机运行中声音是否发生异常变化&lt;br>
+2.电机运行中是否产生了振动&lt;br>
+3.变频器安装环境是否发生变化&lt;br>
+4.变频器散热风扇是否正常工作&lt;br>
+5.变频器是否过热&lt;/p>
+&lt;h4>日常清洁：&lt;span class="hx-absolute -hx-mt-20" id="日常清洁">&lt;/span>
+&lt;a href="#%e6%97%a5%e5%b8%b8%e6%b8%85%e6%b4%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>1.应始终保持变频器处于清洁状态。&lt;br>
+2.有效清除变频器上表面积尘，防止积尘进入变频器内部。特别是金属粉尘。&lt;br>
+3.有效清除变频器散热风扇的油污。&lt;/p>
+&lt;h3>2.6.2 定期检查&lt;span class="hx-absolute -hx-mt-20" id="262-定期检查">&lt;/span>
+&lt;a href="#262-%e5%ae%9a%e6%9c%9f%e6%a3%80%e6%9f%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>请定期对运行中难以检查的地方检查。&lt;/p>
+&lt;h4>定期检查项目：&lt;span class="hx-absolute -hx-mt-20" id="定期检查项目">&lt;/span>
+&lt;a href="#%e5%ae%9a%e6%9c%9f%e6%a3%80%e6%9f%a5%e9%a1%b9%e7%9b%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>1.检查风道，并定期清洁&lt;br>
+2.检查螺丝是否有松动&lt;br>
+3.检查变频器受到腐蚀&lt;br>
+4.检查接线端子是否有拉弧痕迹&lt;br>
+5.主回路绝缘测试&lt;br>
+提醒：在用兆欧表（请用直流500V兆欧表）测量绝缘电阻时，要将主回路线与变频器脱开。不要用绝缘电阻表测试控制回路绝缘。不必进行高压测试（出厂时已完成）。&lt;/p>
+&lt;h3>2.6.3 变频器易损件更换&lt;span class="hx-absolute -hx-mt-20" id="263-变频器易损件更换">&lt;/span>
+&lt;a href="#263-%e5%8f%98%e9%a2%91%e5%99%a8%e6%98%93%e6%8d%9f%e4%bb%b6%e6%9b%b4%e6%8d%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>变频器易损件主要有冷却风扇和滤波用电解电容器，其寿命与使用的环境及保养状况密切相关。一般寿命时间为：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">器件名称&lt;/th>
+&lt;th style="text-align: center">寿命时间&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">风扇&lt;/td>
+&lt;td style="text-align: center">2~3年&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">电解电容&lt;/td>
+&lt;td style="text-align: center">4~5年&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>用户可以根据运行时间确定更换年限。&lt;/p>
+&lt;p>1）冷却风扇&lt;br>
+可能损坏原因：轴承磨损、叶片老化。&lt;br>
+判别标准：风扇叶片等是否有裂缝，开机时声音是否有异常振动声。 &lt;br>
+2）滤波电解电容&lt;br>
+可能损坏原因：输入电源品质差、环境温度较高，频繁的负载跳变、电解质老化。 &lt;br>
+判别标准：有无液体漏出、安全阀是否已凸出，静电电容的测定，绝缘电阻的测定。&lt;/p>
+&lt;h3>2.6.4 变频器的存购&lt;span class="hx-absolute -hx-mt-20" id="264-变频器的存购">&lt;/span>
+&lt;a href="#264-%e5%8f%98%e9%a2%91%e5%99%a8%e7%9a%84%e5%ad%98%e8%b4%ad" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>用户购买变频器后，暂时存贮和长期存贮必须注意以下几点：&lt;br>
+1）存储时尽量按原包装装入本公司的包装箱内。&lt;br>
+2）长时间存放会导致电解电容的劣化，必须保证在2年之内通一次电，通电时间至少5小时，输入电压必须用调压器缓缓升高至额定值。&lt;/p>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>2.7 变频器选型指导</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/variable-frequency-drive-selection-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/product-information/variable-frequency-drive-selection-guide/</guid><description>
+&lt;p>变频器可提供三种控制方式：普通V/F、SVC、VC。&lt;br>
+选用变频器时首先必须明确系统对变频调速的技术要求、变频器的应用场合及负载特性的具体情况，并从适配电机、输出电压、额定输出电流等方面因素进行综合考虑，进而选择满足要求的机型及确定运行方式。&lt;/p>
+&lt;p>基本原则为：电机额定负载电流不能超过变频器的额定电流。一般情况下按&lt;a href="https://koltluo.github.io/shop/zh-cn/docs/" title="变频器说明书">变频器说明书&lt;/a>所规定的配用电机容量进行选择，注意比较电机和变频器的额定电流。变频器的过载能力对于起动和制动过程才有意义。凡是在运行过程中有短时过载的情况，会引起负载速度的变化。如果对速度精度要求比较高时，请考虑放大一个档次。&lt;/p>
+&lt;p>风机和水泵类型：在过载能力方面要求较低，由于负载转矩与速度的平方成正比，所以低速运行时负载较轻（罗茨风机除外）又因为这类负载对转速精度没有特殊要求，故选择平方转矩V/F。&lt;/p>
+&lt;p>恒转矩负载：多数负载具有恒转矩特性，但在转速精度及动态性能等方面要求一般不高。例如挤压机、搅拌机、传送带、厂内运输电车、吊车的平移机构等。选型时可选多段V/F运行方式。&lt;/p>
+&lt;p>被控对象有一定的动、静态指标要求：这类负载一般要求低速时有较硬的机械特性，才能满足生产工艺对控制系统的动、静态指标要求。选型时可选择SVC控制方式。&lt;/p>
+&lt;p>被控对象有较高的动、静态指标要求：对于调速精度和动态性能指标都有较高要求及高精度同步控制的场合，可采用VC控制方式。例如，电梯、造纸，塑料薄膜加工生产线。&lt;/p>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>2.8 变频器制动组件选型指南</title><link>https://koltluo.github.io/shop/docs/vfd/product-information/variable-frequency-drive-braking-component-selection-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/product-information/variable-frequency-drive-braking-component-selection-guide/</guid><description>
+&lt;h3>2.8.1 阻值的选择&lt;span class="hx-absolute -hx-mt-20" id="281-阻值的选择">&lt;/span>
+&lt;a href="#281-%e9%98%bb%e5%80%bc%e7%9a%84%e9%80%89%e6%8b%a9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>制动时，电机的再生能量几乎全部消耗在制动电阻上。&lt;br>
+可根据公式：U*U/R=Pb &lt;br>
+●公式中U&amp;mdash;-系统稳定制动的制动电压 &lt;br>
+（不同的系统也不一样，对于380VAC系统一般取700V）&lt;br>
+●Pb&amp;mdash;-制动功率&lt;/p>
+&lt;h3>2.8.2 制动电阻的功率选择&lt;span class="hx-absolute -hx-mt-20" id="282-制动电阻的功率选择">&lt;/span>
+&lt;a href="#282-%e5%88%b6%e5%8a%a8%e7%94%b5%e9%98%bb%e7%9a%84%e5%8a%9f%e7%8e%87%e9%80%89%e6%8b%a9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>理论上制动电阻的功率和制动功率一致，但是考虑到降额为70%&lt;br>
+可根据公式：0.7&lt;em>Pr=Pb&lt;/em>D&lt;br>
+●Pr&amp;mdash;-电阻的功率&lt;br>
+●D&amp;mdash;-制动频度（再生过程占整个工作过程的比例）&lt;/p>
+&lt;p>电梯&amp;mdash;&amp;ndash;20%&lt;del>30%&lt;br>
+开卷和取卷&amp;mdash;-20&lt;/del>30%&lt;br>
+离心机&amp;mdash;&amp;ndash;50%~60%&lt;br>
+偶然制动负载-5%&lt;br>
+一般取10%&lt;/p>
+&lt;h3>2.8.3 变频器制动组件选型表&lt;span class="hx-absolute -hx-mt-20" id="283-变频器制动组件选型表">&lt;/span>
+&lt;a href="#283-%e5%8f%98%e9%a2%91%e5%99%a8%e5%88%b6%e5%8a%a8%e7%bb%84%e4%bb%b6%e9%80%89%e5%9e%8b%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">变频器功率&lt;/th>
+&lt;th style="text-align: center">制动电阻推荐功率&lt;/th>
+&lt;th style="text-align: center">制动电阻推荐阻值&lt;/th>
+&lt;th style="text-align: center">制动单元&lt;/th>
+&lt;th style="text-align: center">备注&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1.5KWT4&lt;/td>
+&lt;td style="text-align: center">150w&lt;/td>
+&lt;td style="text-align: center">≥220Ω&lt;/td>
+&lt;td style="text-align: center">标准内置&lt;/td>
+&lt;td style="text-align: center">无特殊说明&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.2KWT4&lt;/td>
+&lt;td style="text-align: center">250w&lt;/td>
+&lt;td style="text-align: center">&amp;gt;200Ω&lt;/td>
+&lt;td style="text-align: center">标准内置&lt;/td>
+&lt;td style="text-align: center">无特殊说明&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.7KWT4&lt;/td>
+&lt;td style="text-align: center">300W&lt;/td>
+&lt;td style="text-align: center">≥130Ω&lt;/td>
+&lt;td style="text-align: center">标准内置&lt;/td>
+&lt;td style="text-align: center">无特殊说明&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5.5KWT4&lt;/td>
+&lt;td style="text-align: center">400W&lt;/td>
+&lt;td style="text-align: center">≥90 Ω&lt;/td>
+&lt;td style="text-align: center">标准内置&lt;/td>
+&lt;td style="text-align: center">无特殊说明&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7.5KWT4&lt;/td>
+&lt;td style="text-align: center">500w&lt;/td>
+&lt;td style="text-align: center">≥65Ω&lt;/td>
+&lt;td style="text-align: center">标准内置&lt;/td>
+&lt;td style="text-align: center">无特殊说明&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">11KWT4&lt;/td>
+&lt;td style="text-align: center">800w&lt;/td>
+&lt;td style="text-align: center">≥43Ω&lt;/td>
+&lt;td style="text-align: center">标准内置&lt;/td>
+&lt;td style="text-align: center">无特殊说明&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">15KWT4&lt;/td>
+&lt;td style="text-align: center">1000w&lt;/td>
+&lt;td style="text-align: center">≥32Ω&lt;/td>
+&lt;td style="text-align: center">标准内置&lt;/td>
+&lt;td style="text-align: center">无特殊说明&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">18.5KWT4&lt;/td>
+&lt;td style="text-align: center">1300w&lt;/td>
+&lt;td style="text-align: center">≥25Ω&lt;/td>
+&lt;td style="text-align: center">内置可选&lt;/td>
+&lt;td style="text-align: center">变频器型号后加“B”&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">22KWT4&lt;/td>
+&lt;td style="text-align: center">1500w&lt;/td>
+&lt;td style="text-align: center">≥22Ω&lt;/td>
+&lt;td style="text-align: center">内置可选&lt;/td>
+&lt;td style="text-align: center">变频器型号后加“B”&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">30KWT4&lt;/td>
+&lt;td style="text-align: center">2500w&lt;/td>
+&lt;td style="text-align: center">≥16Ω&lt;/td>
+&lt;td style="text-align: center">内置可选&lt;/td>
+&lt;td style="text-align: center">变频器型号后加“B”&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">37KWT4&lt;/td>
+&lt;td style="text-align: center">3.7 kW&lt;/td>
+&lt;td style="text-align: center">≥16.0Ω&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-35-B&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">45KWT4&lt;/td>
+&lt;td style="text-align: center">4.5 kW&lt;/td>
+&lt;td style="text-align: center">≥16Ω&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-70-B&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">55KWT4&lt;/td>
+&lt;td style="text-align: center">5.5 kW&lt;/td>
+&lt;td style="text-align: center">≥8Ω&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-70-B&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">75KWT4&lt;/td>
+&lt;td style="text-align: center">7.5 kW&lt;/td>
+&lt;td style="text-align: center">≥8Ω&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-70-B×2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">90KWT4&lt;/td>
+&lt;td style="text-align: center">4.5 kW×2&lt;/td>
+&lt;td style="text-align: center">≥8Ω×2&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-70-B×2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">110KWT4&lt;/td>
+&lt;td style="text-align: center">5.5kW×2&lt;/td>
+&lt;td style="text-align: center">≥8Ω×2&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-70-B×2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">132KWT4&lt;/td>
+&lt;td style="text-align: center">6.5 kW×2&lt;/td>
+&lt;td style="text-align: center">≥8Ω×2&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">160KWT4&lt;/td>
+&lt;td style="text-align: center">16kW&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">200KWT4&lt;/td>
+&lt;td style="text-align: center">20 kW&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">220KWT4&lt;/td>
+&lt;td style="text-align: center">22 kW&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B×2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">250KWT4&lt;/td>
+&lt;td style="text-align: center">12.5 kW×2&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω×2&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B×2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">280KWT4&lt;/td>
+&lt;td style="text-align: center">14kW×2&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω×2&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B×2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">315KWT4&lt;/td>
+&lt;td style="text-align: center">16kW×2&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω×2&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B×2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">355KWT4&lt;/td>
+&lt;td style="text-align: center">17kW×2&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω×2&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B×2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">400KWT4&lt;/td>
+&lt;td style="text-align: center">14kW×3&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω×3&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B×3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">450KWT4&lt;/td>
+&lt;td style="text-align: center">15kW×3&lt;/td>
+&lt;td style="text-align: center">≥2.5Ω×3&lt;/td>
+&lt;td style="text-align: center">外置&lt;/td>
+&lt;td style="text-align: center">VFDBU-200-B×3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>注：×2表示两个制动单元带各自的制动电阻并联使用，×3意义同×2。&lt;/p>
+&lt;p>&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200">
+&lt;div class="ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2">&lt;div class="hx-select-none hx-text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">ℹ️&lt;/div>&lt;/div>
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7">
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">注意&lt;/div>
+&lt;/div>
+&lt;/div>
+本选型表是指导数据，用户可根据实际情况选择不同的电阻阻值和功率，（但阻值一定不能小于表中推荐值，功率可以大。）制动电阻的选择需要根据实际应用系统中电机发电的功率来确定，与系统惯性、减速时间、位能负载的能量等都有关系，需要客户根据实际情况选择。系统的惯量越大、需要的减速时间越短、制动得越频繁，则制动电阻需要选择功率越大、阻值越小。&lt;/p>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/fa%ce%a9/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item></channel></rss>

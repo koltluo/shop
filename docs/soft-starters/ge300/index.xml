@@ -1,0 +1,1009 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山东临沂森阔机电有限公司 – GE300软启动器柜使用说明书</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/</link><description>Recent content in GE300软启动器柜使用说明书 on 山东临沂森阔机电有限公司</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://koltluo.github.io/shop/docs/soft-starters/ge300/index.xml" rel="self" type="application/rss+xml"/><item><title>前言及注意事项</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/qy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/qy/</guid><description>
+&lt;h2>前言&lt;span class="hx-absolute -hx-mt-20" id="前言">&lt;/span>
+&lt;a href="#%e5%89%8d%e8%a8%80" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>感谢您选用我公司生产的液晶显示智能交流电动机软起动器。为了充分发挥本产品的功能，在使用前，请详细阅读本说明书。请您按规程正确操作及使用，并确保操作者的安全，当您在使用中发现疑难问题而本说明书无法提供解答时，请与我公司或各地代理、经销商联系，我们将竭诚为您服务。&lt;/p>
+&lt;h2>安全注意事项&lt;span class="hx-absolute -hx-mt-20" id="安全注意事项">&lt;/span>
+&lt;a href="#%e5%ae%89%e5%85%a8%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>1.应由专业技术人员安装或指导安装本软起动； &lt;br>
+2.应尽量保证电动机功率、规格与本软起动匹配；&lt;br>
+3.严禁在软起动器的输出端(U.V.VV)接电容器； &lt;br>
+4.与软起动器输入及输出连线应用绝缘胶带包好； &lt;br>
+5.软起动器外壳必须可靠接地； &lt;br>
+6.设备维修时，必须先切断输入电源； &lt;br>
+7.内部电路板带有高压，非专业人员请勿维修。&lt;/p></description></item><item><title>作用及特点</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/zytd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/zytd/</guid><description>
+&lt;p>智能交流电动机软起动器是采用电力电子技术、微处理器技术及现代控制理论设计生产的具有当今国际先进水平的新型电机起动设备。该产品能有效地限制异步电动机起动时的起动电流，可广泛应用于风机、水泵、输送类及压缩机等负载，是传统的星／三角转换、自耦降压、磁控降压等降压起动设备的理想换代产品。&lt;/p>
+&lt;h2>1.1 GE300系列软起动器作用&lt;span class="hx-absolute -hx-mt-20" id="11-ge300系列软起动器作用">&lt;/span>
+&lt;a href="#11-ge300%e7%b3%bb%e5%88%97%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e4%bd%9c%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>降低电动机的起动电流，减少配电容量，避免增容投资：&lt;/li>
+&lt;li>减少起动应力，延长电动机及相关设备的使用寿命；&lt;/li>
+&lt;li>平稳的起动和软停车避免了传统起动设备的喘振问题、水锤效应：&lt;/li>
+&lt;li>多种起动模式及宽范围的电流、电压设定，可适应多种负载场合，改善工艺；&lt;/li>
+&lt;li>完善可靠的保护功能，更有效的保护电动机及相关设备的安全；&lt;/li>
+&lt;li>可用于频繁起、停的场合。&lt;/li>
+&lt;/ul>
+&lt;h2>1.2 GE300系列软起动器特点&lt;span class="hx-absolute -hx-mt-20" id="12-ge300系列软起动器特点">&lt;/span>
+&lt;a href="#12-ge300%e7%b3%bb%e5%88%97%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e7%89%b9%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>GE300系列智能交流电动机软起动器采用高性能微处理器技术，性能更高，并且有对电压适应范围更宽的特点。&lt;/li>
+&lt;li>6种起动模式可选择，可最大程度使电动机实现最佳起动效果。&lt;/li>
+&lt;li>独创摆动起动模式，对于质心偏心型负载起动效果良好。&lt;/li>
+&lt;li>可实现正反转有级变频点动功能，可实现电动机正反转点动运行;&lt;/li>
+&lt;li>三种停车模式可选择：自由停车，软停车，直流制动停车;&lt;/li>
+&lt;li>在线型与旁路型可自由设置。&lt;/li>
+&lt;li>两种驱动模式可选择：转矩模式与平滑模式。&lt;/li>
+&lt;li>两路独立可编程输出继电器：可方便实现与其它设备的联锁控制，并且具有延时动作功能，延时时间可调。&lt;/li>
+&lt;li>可同时显示三相电流值，电流值可独立校准。&lt;/li>
+&lt;li>大屏幕液晶人机界面，中文（汉显)及英文两种显示模式，操作简便。&lt;/li>
+&lt;li>多种保护监测功能，热过载保护根据负载要求可调等级，多项保护；&lt;/li>
+&lt;li>功能可独立选择打开与关闭。&lt;/li>
+&lt;li>可查询最后12次故障记录，提供故障分析依据。&lt;/li>
+&lt;li>一组4～20mA（0～20mA）模拟输出；&lt;/li>
+&lt;li>MODBUSRTU通讯（RS485），可选择。可以通过上位机进入参数设置、操作及监测，实现高智能化控制。&lt;/li>
+&lt;li>实际功率设置：当软起动器功率比实际负载功率大时，可将软起动器的额定电流按实际负载进行设置，使软起动器实际功率与负载匹配，以保证起动、运行、保护等各参数的准确性。&lt;/li>
+&lt;/ul></description></item><item><title>产品型号及检查</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/cpxh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/cpxh/</guid><description>
+&lt;p>&lt;img src="https://koltluo.github.io/shop/images/GE300/16.jpg" alt="GE300软启动器产品标签" loading="lazy" />
+每台智能交流电动机软起动器在出厂前均进行了全部功能及运行试验，用户在收到设备后，请按下列步骤检查。如发现问题，请立即与供货商联系。检查产品铭牌：确认您收到的货物与您订购的产品是否相符。&lt;/p>
+&lt;h2>型号含义&lt;span class="hx-absolute -hx-mt-20" id="型号含义">&lt;/span>
+&lt;a href="#%e5%9e%8b%e5%8f%b7%e5%90%ab%e4%b9%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;hr>
+&lt;p>SKR-37A-4 在线软启动器，其型号中的各个部分代表了软起动器的不同含义：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>SK&lt;/strong>：代表公司名称森阔。&lt;/li>
+&lt;li>&lt;strong>R&lt;/strong>：代表软起动。&lt;/li>
+&lt;li>&lt;strong>37&lt;/strong>：代表额定功率为37KW。&lt;/li>
+&lt;li>&lt;strong>A&lt;/strong>：A表示在线软启动器，B表示旁路软启动器，C表示在线软启动柜，D表示旁路软启动柜。&lt;/li>
+&lt;li>&lt;strong>4&lt;/strong>：2代表220V，4代表380V，6代表660V。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>检查产品是否在运输过程中损伤，如：内部零件脱落、外壳凹陷、变形及连线脱落等问题。&lt;/li>
+&lt;li>产品合格证及使用说明书：每台软起动器内均附有产品合格证一份及使用说明书一本。&lt;/li>
+&lt;/ul></description></item><item><title>使用条件及安装</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/syaz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/syaz/</guid><description>
+&lt;h2>3.1使用条件&lt;span class="hx-absolute -hx-mt-20" id="31使用条件">&lt;/span>
+&lt;a href="#31%e4%bd%bf%e7%94%a8%e6%9d%a1%e4%bb%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>使用条件对软起动器的正常使用及寿命有一定影响，因此请将软起动器安装在符合下列使用条件的场所。&lt;/p>
+&lt;h3>产品的使用条件：&lt;span class="hx-absolute -hx-mt-20" id="产品的使用条件">&lt;/span>
+&lt;a href="#%e4%ba%a7%e5%93%81%e7%9a%84%e4%bd%bf%e7%94%a8%e6%9d%a1%e4%bb%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>供电电源：市电、自备电站、柴油发电机组；&lt;br>
+输入电压：AC380V（-10%～+15%），50Hz/60Hz；&lt;br>
+适用电机：一般鼠笼式异步电动机（绕线电机订货时请说明）：&lt;br>
+起动频度：标准产品建议每小时起停不超过15次：&lt;br>
+冷却方式：强制风冷（晶闸管在线型》自然风冷（旁路型）：&lt;br>
+安装方式：壁挂式； &lt;br>
+使用条件：智能交流电动机旁路软起动器使用时应配接旁路接触器：&lt;br>
+防护等级：IP20（55kW及以下）/IP00（75kW及以上）：&lt;br>
+环境条件：海拔2000米以下，超过2000米相应降低容量使用：环境温度在-25℃～+40℃之间：&lt;br>
+相对湿度不超过95%（20℃±5℃）无凝露；&lt;br>
+无易燃、易爆、腐蚀性气体，无导电性尘埃。&lt;br>
+室内安装，通风良好。震动小于0.5G。&lt;/p></description></item><item><title>工作原理</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/gzyl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/gzyl/</guid><description>
+&lt;p>GE300系列智能交流电动机软起动器采用三对反并联的晶闸管串接于交流电机的定子回路上。利用晶闸管的电子开关作用，通过微处理器控制其触发角的变化来改变晶闸管的开通程度，由此来改变电动机输入电压大小，以达到控制电动机的软起动目的。当起动完成后软起动器输出达到额定电压。这时将通过旁路控制信号，自动控制三相旁路接触器KM吸合，将电动机投入电网运行，如图4-1。
+&lt;img src="https://koltluo.github.io/shop/images/GE300/2.png" alt="GE300系列软起动器工作原理图" loading="lazy" />&lt;/p></description></item><item><title>基本接线及外接端子</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/jxdz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/jxdz/</guid><description>
+&lt;h2>5.1软起动器端子接线示意图&lt;span class="hx-absolute -hx-mt-20" id="51软起动器端子接线示意图">&lt;/span>
+&lt;a href="#51%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e7%ab%af%e5%ad%90%e6%8e%a5%e7%ba%bf%e7%a4%ba%e6%84%8f%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="https://koltluo.github.io/shop/images/GE300/3.png" alt="GE300系列软起动器端子接线示意图" loading="lazy" />
+注意：内置旁路和在线式软起动器没有L1，L2，L3端子，也不需外接交流接触器KM。&lt;/p>
+&lt;h2>5.2软起动器二次端子排序图&lt;span class="hx-absolute -hx-mt-20" id="52软起动器二次端子排序图">&lt;/span>
+&lt;a href="#52%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e4%ba%8c%e6%ac%a1%e7%ab%af%e5%ad%90%e6%8e%92%e5%ba%8f%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="https://koltluo.github.io/shop/images/GE300/4.png" alt="GE300系列软起动器二次端子排序图" loading="lazy" />
+注意1：端子1－10内部提供电源，只需要在外部接入开关量，不需要接入电源。&lt;br>
+注意2：12到20需要提供外部电源与负载接指示灯线路图等。&lt;/p>
+&lt;h2>5.3软起动器外控起停接线图&lt;span class="hx-absolute -hx-mt-20" id="53软起动器外控起停接线图">&lt;/span>
+&lt;a href="#53%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e5%a4%96%e6%8e%a7%e8%b5%b7%e5%81%9c%e6%8e%a5%e7%ba%bf%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="https://koltluo.github.io/shop/images/GE300/5.png" alt="GE300系列软起动器外控起停接线图" loading="lazy" />
+注：表示外控起停信号有两种接线方式，采用二线控制时，停止端与起动端连接。&lt;/p>
+&lt;h2>5.4软起动器外接端子说明&lt;span class="hx-absolute -hx-mt-20" id="54软起动器外接端子说明">&lt;/span>
+&lt;a href="#54%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e5%a4%96%e6%8e%a5%e7%ab%af%e5%ad%90%e8%af%b4%e6%98%8e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">端子类型&lt;/th>
+&lt;th style="text-align: left">端子号&lt;/th>
+&lt;th style="text-align: left">端子名称&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">主回路&lt;/td>
+&lt;td style="text-align: left">R.S.T&lt;/td>
+&lt;td style="text-align: left">电源输入&lt;/td>
+&lt;td style="text-align: left">软起动器三相交流电源输入&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">主回路&lt;/td>
+&lt;td style="text-align: left">U,V,W&lt;/td>
+&lt;td style="text-align: left">软起动器输出&lt;/td>
+&lt;td style="text-align: left">接三相异步电动机&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">主回路&lt;/td>
+&lt;td style="text-align: left">L1,L2,L3&lt;/td>
+&lt;td style="text-align: left">旁路接触器端子&lt;/td>
+&lt;td style="text-align: left">用于接旁路接触器。只有外置旁路型软起动器有该端子，内置旁路型与晶闸管在线型软起动器无此端子&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">数字输入&lt;/td>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">外控起动&lt;/td>
+&lt;td style="text-align: left">与公共端（5，6）短接可起动软起动器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">数字输入&lt;/td>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">外控停止&lt;/td>
+&lt;td style="text-align: left">与公共端（5，6）断开可停止软起动器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">数字输入&lt;/td>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">外控点动&lt;/td>
+&lt;td style="text-align: left">与公共端（5，6）短接可点动起动软起动器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">数字输入&lt;/td>
+&lt;td style="text-align: left">4&lt;/td>
+&lt;td style="text-align: left">外控故障复位&lt;/td>
+&lt;td style="text-align: left">故障时与公共端（5，6）短接可清除故障状态&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">数字输入&lt;/td>
+&lt;td style="text-align: left">5&lt;/td>
+&lt;td style="text-align: left">数字输入公共端子&lt;/td>
+&lt;td style="text-align: left">数字输入端子公共端&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">数字输入&lt;/td>
+&lt;td style="text-align: left">6&lt;/td>
+&lt;td style="text-align: left">数字输入公共端子&lt;/td>
+&lt;td style="text-align: left">数字输入端子公共端&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">模拟输出&lt;/td>
+&lt;td style="text-align: left">7&lt;/td>
+&lt;td style="text-align: left">4-20mA输出正极&lt;/td>
+&lt;td style="text-align: left">4-20mA输出，20mA对应电流可通过参数 C26,C27,C28调整&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">模拟输出&lt;/td>
+&lt;td style="text-align: left">8&lt;/td>
+&lt;td style="text-align: left">4-20mA输出负极&lt;/td>
+&lt;td style="text-align: left">4-20mA输出，20mA对应电流可通过参数 C26,C27,C28调整&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">通讯&lt;/td>
+&lt;td style="text-align: left">9&lt;/td>
+&lt;td style="text-align: left">RS485+&lt;/td>
+&lt;td style="text-align: left">用于ModBus RTU通讯&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">通讯&lt;/td>
+&lt;td style="text-align: left">10&lt;/td>
+&lt;td style="text-align: left">RS485-&lt;/td>
+&lt;td style="text-align: left">用于ModBus RTU通讯&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">备用&lt;/td>
+&lt;td style="text-align: left">11&lt;/td>
+&lt;td style="text-align: left">备用&lt;/td>
+&lt;td style="text-align: left">无功能，预留&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">编程继电器1&lt;/td>
+&lt;td style="text-align: left">12&lt;/td>
+&lt;td style="text-align: left">编程继电器1常开&lt;/td>
+&lt;td style="text-align: left">可编程输出，可从以下功能中选择：&lt;/br>0.不动作&lt;/br> 1.上电动作&lt;/br> 2.软起中动作&lt;/br> 3.旁路动作 &lt;/br>4.软停中动作&lt;/br> 5.点动中动作 &lt;/br>6.运行时动作&lt;/br> 7.待机动作&lt;/br> 8.故障动作&lt;/br>9.晶闸管击穿动作 &lt;/br>10.电流大于到达值1&lt;/br> 11.电流大于到达值2&lt;/br> 12.电流小于到达值1&lt;/br> 13.电流小于到达值2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">编程继电器1&lt;/td>
+&lt;td style="text-align: left">13&lt;/td>
+&lt;td style="text-align: left">编程继电器1公共&lt;/td>
+&lt;td style="text-align: left">同上&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">编程继电器1&lt;/td>
+&lt;td style="text-align: left">14&lt;/td>
+&lt;td style="text-align: left">编程继电器1常闭&lt;/td>
+&lt;td style="text-align: left">同上&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">编程继电器2&lt;/td>
+&lt;td style="text-align: left">15&lt;/td>
+&lt;td style="text-align: left">编程继电器2常开&lt;/td>
+&lt;td style="text-align: left">同上&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">编程继电器2&lt;/td>
+&lt;td style="text-align: left">16&lt;/td>
+&lt;td style="text-align: left">编程继电器2公共&lt;/td>
+&lt;td style="text-align: left">同上&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">编程继电器2&lt;/td>
+&lt;td style="text-align: left">17&lt;/td>
+&lt;td style="text-align: left">编程继电器2常闭&lt;/td>
+&lt;td style="text-align: left">同上&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">旁路继电器&lt;/td>
+&lt;td style="text-align: left">18&lt;/td>
+&lt;td style="text-align: left">旁路继电器常开&lt;/td>
+&lt;td style="text-align: left">旁路运行时吸合&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">旁路继电器&lt;/td>
+&lt;td style="text-align: left">19&lt;/td>
+&lt;td style="text-align: left">旁路继电器公共&lt;/td>
+&lt;td style="text-align: left">旁路运行时吸合&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">旁路继电器&lt;/td>
+&lt;td style="text-align: left">20&lt;/td>
+&lt;td style="text-align: left">旁路继电器常闭&lt;/td>
+&lt;td style="text-align: left">旁路运行时吸合&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>键盘功能及操作</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/jpcz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/jpcz/</guid><description>
+&lt;h2>键盘开孔&lt;span class="hx-absolute -hx-mt-20" id="键盘开孔">&lt;/span>
+&lt;a href="#%e9%94%ae%e7%9b%98%e5%bc%80%e5%ad%94" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>软起动器采用大屏幕液晶显示模块和微动式按键组成操作显示键盘，6个微动式按键，可实现软起动器的起、停操作、参数设备、修改、故障查询、故障复位等操作。详见图6-1
+&lt;img src="https://koltluo.github.io/shop/images/GE300/6.png" alt="GE300系列软起动器键盘图" loading="lazy" />
+在线软启动柜门板开孔尺寸120x75mm &lt;br>
+旁路软启动柜门板开孔尺寸110x88mm&lt;/p>
+&lt;h2>键盘操作&lt;span class="hx-absolute -hx-mt-20" id="键盘操作">&lt;/span>
+&lt;a href="#%e9%94%ae%e7%9b%98%e6%93%8d%e4%bd%9c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>1.按“程序”键进入参数组，按“△”键切换参数组。&lt;br>
+2.参数修改，按第一步进入对应的参数，按“程序”键进入参数，按“△” 键修改参数值，修改完成后按“确认”键保存参数，再次按“确认”键回到主界面。&lt;br>
+3.按“运行”键起动软起动器。 &lt;br>
+4.按“停止”键停机。&lt;br>
+5.待机状态下按“确认”键查看故障记录。&lt;br>
+6.长按“△”键可清除故障记录。 &lt;br>
+7.长按“V”可恢复出厂设置。&lt;/p></description></item><item><title>软启动参数一览表</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/cslb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/cslb/</guid><description>
+&lt;h2>A基本参数表&lt;span class="hx-absolute -hx-mt-20" id="a基本参数表">&lt;/span>
+&lt;a href="#a%e5%9f%ba%e6%9c%ac%e5%8f%82%e6%95%b0%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>序号&lt;/th>
+&lt;th>参数名称&lt;/th>
+&lt;th>参数范围&lt;/th>
+&lt;th>默认值&lt;/th>
+&lt;th>备注&lt;/th>
+&lt;th>属性&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>控制方式&lt;/td>
+&lt;td>0：禁止启停&lt;/br>1：键盘单独控制 &lt;/br>2：外控单独控制&lt;/br> 3：键盘+外控&lt;/br> 4：通讯单独控制 &lt;/br>5：键盘+通讯 &lt;/br>6：外控+通讯&lt;/br>7：键盘+外控+通讯&lt;/td>
+&lt;td>3：键盘+外控&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>起动方式&lt;/td>
+&lt;td>0：限流起动&lt;/br>1：电压斜坡起动 &lt;/br>2：保留&lt;/br>3：突跳电压斜坡起动&lt;/td>
+&lt;td>0：限流起动&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>起动限流百分比&lt;/td>
+&lt;td>50%~600%&lt;/td>
+&lt;td>300%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>起始电压百分比&lt;/td>
+&lt;td>10%~80%&lt;/td>
+&lt;td>35%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>电压斜坡起动时间&lt;/td>
+&lt;td>1s~120s&lt;/td>
+&lt;td>15s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>突跳电压&lt;/td>
+&lt;td>10%~95%&lt;/td>
+&lt;td>80%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>突跳时间&lt;/td>
+&lt;td>10ms~2000ms&lt;/td>
+&lt;td>500ms&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>停止模式&lt;/td>
+&lt;td>0：自由停车&lt;/br>1：软停车&lt;/td>
+&lt;td>0：自由停车&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>软停时间&lt;/td>
+&lt;td>1s~60s&lt;/td>
+&lt;td>5s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>软起动器类型&lt;/td>
+&lt;td>0:在线型 &lt;/br>1:旁路型&lt;/td>
+&lt;td>1:旁路型&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>✅：表示该参数的设定值在软启动器处于停机、运行状态中，均可更改；&lt;br>
+✳️：表示该参数的设定值在软启动器处于运行状态时，不可更改；&lt;br>
+❎：表示该参数的数值是实际检测记录值，不能更改；&lt;/p>
+&lt;h2>B保护参数一览表&lt;span class="hx-absolute -hx-mt-20" id="b保护参数一览表">&lt;/span>
+&lt;a href="#b%e4%bf%9d%e6%8a%a4%e5%8f%82%e6%95%b0%e4%b8%80%e8%a7%88%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>序号&lt;/th>
+&lt;th>参数名称&lt;/th>
+&lt;th>参数范围&lt;/th>
+&lt;th>默认值&lt;/th>
+&lt;th>备注&lt;/th>
+&lt;th>属性&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>起动过载等级&lt;/td>
+&lt;td>0~30&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>0：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>运行过载等级&lt;/td>
+&lt;td>0~30&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>0：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>运行过流倍数&lt;/td>
+&lt;td>0%-600%&lt;/td>
+&lt;td>0%&lt;/td>
+&lt;td>0：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>运行过流保护时间&lt;/td>
+&lt;td>0s-6000s&lt;/td>
+&lt;td>5s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>过压保护值&lt;/td>
+&lt;td>100%~140%&lt;/td>
+&lt;td>120%&lt;/td>
+&lt;td>100：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>过压保护时间&lt;/td>
+&lt;td>1s~60s&lt;/td>
+&lt;td>5s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>欠压保护值&lt;/td>
+&lt;td>60%-100%&lt;/td>
+&lt;td>80%&lt;/td>
+&lt;td>100：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>欠压保护时间&lt;/td>
+&lt;td>1s~60s&lt;/td>
+&lt;td>5s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>三相不平衡度&lt;/td>
+&lt;td>20%~100%&lt;/td>
+&lt;td>40%&lt;/td>
+&lt;td>100：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>三相不平衡时间&lt;/td>
+&lt;td>0.1s~60.0s&lt;/td>
+&lt;td>10.0s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>起动超时时间&lt;/td>
+&lt;td>0s~150s&lt;/td>
+&lt;td>60s&lt;/td>
+&lt;td>0：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>点动超时时间&lt;/td>
+&lt;td>0s~150s&lt;/td>
+&lt;td>Os&lt;/td>
+&lt;td>0：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>13&lt;/td>
+&lt;td>欠载保护值&lt;/td>
+&lt;td>0%~100%&lt;/td>
+&lt;td>0%&lt;/td>
+&lt;td>0：关闭&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14&lt;/td>
+&lt;td>欠载保护时间&lt;/td>
+&lt;td>1s~60s&lt;/td>
+&lt;td>10s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✅&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>✅：表示该参数的设定值在软启动器处于停机、运行状态中，均可更改；&lt;br>
+✳️：表示该参数的设定值在软启动器处于运行状态时，不可更改；&lt;br>
+❎：表示该参数的数值是实际检测记录值，不能更改；&lt;/p>
+&lt;h2>C高级功能一览表&lt;span class="hx-absolute -hx-mt-20" id="c高级功能一览表">&lt;/span>
+&lt;a href="#c%e9%ab%98%e7%ba%a7%e5%8a%9f%e8%83%bd%e4%b8%80%e8%a7%88%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>序号&lt;/th>
+&lt;th>参数名称&lt;/th>
+&lt;th>参数范围&lt;/th>
+&lt;th>默认值&lt;/th>
+&lt;th>备注&lt;/th>
+&lt;th>属性&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>可编程继电器1&lt;/td>
+&lt;td>功能：&lt;/br>0：不动作 &lt;/br>1：上电动作&lt;/br>2：软起中动作 &lt;/br>3：旁路动作 &lt;/br>4：软停中动作 &lt;/br>5：点动中动作 &lt;/br>6：运行时动作 &lt;/br>7：待机动作 &lt;/br>8：故障动作&lt;/br>9：晶闸管击穿动作&lt;/td>
+&lt;td>8：故障动作&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>可编程输出延时1&lt;/td>
+&lt;td>0-600s&lt;/td>
+&lt;td>0s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>可编程继电器2&lt;/td>
+&lt;td>功能：&lt;/br>0：不动作 &lt;/br>1：上电动作&lt;/br>2：软起中动作 &lt;/br>3：旁路动作 &lt;/br>4：软停中动作 &lt;/br>5：点动中动作 &lt;/br>6：运行时动作 &lt;/br>7：待机动作 &lt;/br>8：故障动作&lt;/br>9：晶闸管击穿动作&lt;/td>
+&lt;td>6：运行时动作&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>可编程输出延时2&lt;/td>
+&lt;td>0-600s&lt;/td>
+&lt;td>0s&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>通讯地址&lt;/td>
+&lt;td>1-127&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>通讯波特率&lt;/td>
+&lt;td>0:2400&lt;/br> 1:4800&lt;/br> 2:9600&lt;/br> 3:19200&lt;/td>
+&lt;td>2:9600&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>A相电流校准值&lt;/td>
+&lt;td>10%~1000%&lt;/td>
+&lt;td>100%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>B相电流校准值&lt;/td>
+&lt;td>10%~1000%&lt;/td>
+&lt;td>100%&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>C相电流校准值&lt;/td>
+&lt;td>10%~1000%&lt;/td>
+&lt;td>100%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>输入电压校准值&lt;/td>
+&lt;td>10%~1000%&lt;/td>
+&lt;td>100%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>4-20mA下限校准&lt;/td>
+&lt;td>0%~150.0%&lt;/td>
+&lt;td>20.0%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>4-20mA上限校准&lt;/td>
+&lt;td>0%~150.0%&lt;/td>
+&lt;td>100%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>13&lt;/td>
+&lt;td>4-20mA上限电流&lt;/td>
+&lt;td>50%~500%&lt;/td>
+&lt;td>200%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>✅：表示该参数的设定值在软启动器处于停机、运行状态中，均可更改；&lt;br>
+✳️：表示该参数的设定值在软启动器处于运行状态时，不可更改；&lt;br>
+❎：表示该参数的数值是实际检测记录值，不能更改；&lt;/p>
+&lt;h2>D状态信息一览表&lt;span class="hx-absolute -hx-mt-20" id="d状态信息一览表">&lt;/span>
+&lt;a href="#d%e7%8a%b6%e6%80%81%e4%bf%a1%e6%81%af%e4%b8%80%e8%a7%88%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>序号&lt;/th>
+&lt;th>参数名称&lt;/th>
+&lt;th>参数范围&lt;/th>
+&lt;th>默认值&lt;/th>
+&lt;th>备注&lt;/th>
+&lt;th>属性&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>软起额定电流&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>❎&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>软起额定电压&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>❎&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>电机额定电流&lt;/td>
+&lt;td>10-1600A&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>软起起动次数&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>❎&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>累计运行小时&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>❎&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>主控软件版本&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>❎&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>✅：表示该参数的设定值在软启动器处于停机、运行状态中，均可更改；&lt;br>
+✳️：表示该参数的设定值在软启动器处于运行状态时，不可更改；&lt;br>
+❎：表示该参数的数值是实际检测记录值，不能更改；&lt;/p>
+&lt;h2>E显示参数一览表&lt;span class="hx-absolute -hx-mt-20" id="e显示参数一览表">&lt;/span>
+&lt;a href="#e%e6%98%be%e7%a4%ba%e5%8f%82%e6%95%b0%e4%b8%80%e8%a7%88%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>序号&lt;/th>
+&lt;th>参数名称&lt;/th>
+&lt;th>参数范围&lt;/th>
+&lt;th>默认值&lt;/th>
+&lt;th>备注&lt;/th>
+&lt;th>属性&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>待机显示模式&lt;/td>
+&lt;td>0：模式0 &lt;/br>1：模式1&lt;/td>
+&lt;td>0：模式0&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>运行显示模式&lt;/td>
+&lt;td>0：模式0 &lt;/br>1：模式1&lt;/td>
+&lt;td>0：模式0&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>操作语言选择&lt;/td>
+&lt;td>0：英语 &lt;/br>1：中文&lt;/td>
+&lt;td>1：中文&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>屏幕保护时间&lt;/td>
+&lt;td>0s~1800s&lt;/td>
+&lt;td>120s&lt;/td>
+&lt;td>0：不保护&lt;/td>
+&lt;td>✳️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>键盘软件版本&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>❎&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>屏幕对比度&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>❎&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>✅：表示该参数的设定值在软启动器处于停机、运行状态中，均可更改；&lt;br>
+✳️：表示该参数的设定值在软启动器处于运行状态时，不可更改；&lt;br>
+❎：表示该参数的数值是实际检测记录值，不能更改；&lt;/p></description></item><item><title>软启动参数说明</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/cssm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/cssm/</guid><description>
+&lt;h2>8.1起动方式&lt;span class="hx-absolute -hx-mt-20" id="81起动方式">&lt;/span>
+&lt;a href="#81%e8%b5%b7%e5%8a%a8%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>智能交流电动机软起动器共有以下6种起动方式，用户可根据自己的负载情况进行选择。&lt;br>
+0：限流起动&lt;br>
+1：电压斜坡起动 &lt;br>
+2：突跳限流起动&lt;br>
+3：突跳电压斜坡起动&lt;br>
+4：点动起动 &lt;br>
+5：摆动起动&lt;br>
+除了点动起动外，所有起动模式都受B10.起动超时时间限制，当起动时间超过起动超时时间限制值时软起动器报告起动超时故障并停机，当 B10设置为0时，表示关闭起动超时保户。&lt;/p>
+&lt;h3>8.1.1限流起动&lt;span class="hx-absolute -hx-mt-20" id="811限流起动">&lt;/span>
+&lt;a href="#811%e9%99%90%e6%b5%81%e8%b5%b7%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>起动后，电机电流快速升至所设定的电流限流值Im，并保持输出电流不大于该值，使电动机逐渐加速，电压逐渐升高，当电动机接近额定转速时，电机电流迅速下降至额定电流le，完成起动过程，如图8-1。
+&lt;img src="https://koltluo.github.io/shop/images/GE300/7.png" alt="" loading="lazy" />&lt;br>
+限流起动方式一般用在对起动电流有严格要求的场合，特别是电网容量偏小，要限制起动容量时，可根据要求设定限流倍数，一般在2.5～3倍之间，设定过小也会造成不能正常起动。采用限流起动时，起动时间和限流倍数大小有关，限流倍数越大，起动时间越短，反之则越长。&lt;br>
+和“电流限流起动”相关的参数：&lt;br>
+A01.起动方式，A02.起动限流百分比&lt;/p>
+&lt;h3>8.1.2电压斜坡起动&lt;span class="hx-absolute -hx-mt-20" id="812电压斜坡起动">&lt;/span>
+&lt;a href="#812%e7%94%b5%e5%8e%8b%e6%96%9c%e5%9d%a1%e8%b5%b7%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>起动后，软起动器输出电压，快速升至“起始电压”值U1，然后根据“电压斜坡起动时间”逐步增加输出电压，直至起动完成，如图8-2。
+&lt;img src="https://koltluo.github.io/shop/images/GE300/8.png" alt="" loading="lazy" />&lt;br>
+电压斜坡起动方式适用于大惯性负载，或对起动电流要求不严，而对起动平稳性要求较高的场合。这种起动方式，可大大降低起动冲击及机械应力。初始电压U1值越大，起动初始转矩越大，但起动瞬间冲击也越大。电压斜坡起动也受限流起动倍数控制，即在电压斜坡起动过程中起动电流也不会超过起动限流值，该措施是为了防止参数设置不当导致对系统的损坏，所以在使用电压斜坡模式时应适当提高起动限流值。起动过程的长短和起动时间设定值及负载的轻重有关。&lt;br>
+和“电压斜坡起动”相关的参数：&lt;br>
+A01.起动方式，A03.起始电压百分比，A04.电压斜坡起动时间，A02.起动限流百分比&lt;/p>
+&lt;h3>8.1.3突跳限流起动&lt;span class="hx-absolute -hx-mt-20" id="813突跳限流起动">&lt;/span>
+&lt;a href="#813%e7%aa%81%e8%b7%b3%e9%99%90%e6%b5%81%e8%b5%b7%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>对某些静态阻力较大的负载，在起动瞬间需要一个较大的力矩，也能正常起动，可选择这种起动模式。起动时，软起动器瞬间输出一个较高的电压（时间可设置），使电机转动，然后再按电流限流起动方式起动，直至起动完成，如图8-3。
+&lt;img src="https://koltluo.github.io/shop/images/GE300/9.png" alt="" loading="lazy" />
+和“突跳电压斜坡起动”相关的参数：&lt;br>
+A01.起动方式，A02.起动限流百分比，A05.突跳电压，A06.突跳时间&lt;/p>
+&lt;h3>8.1.4突跳电压斜坡起动&lt;span class="hx-absolute -hx-mt-20" id="814突跳电压斜坡起动">&lt;/span>
+&lt;a href="#814%e7%aa%81%e8%b7%b3%e7%94%b5%e5%8e%8b%e6%96%9c%e5%9d%a1%e8%b5%b7%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>对某些静态阻力较大的负载，在起动瞬间需要一个较大的力矩，也能正常起动，可选择这种起动模式。起动时，软起动器瞬间输出一个较高的电压（时间可设置），使电机转动，然后再按电压斜坡起动方式起动，直至起动完成，如图8-4。
+&lt;img src="https://koltluo.github.io/shop/images/GE300/10.png" alt="" loading="lazy" />
+和“突跳电压斜坡起动”相关的参数： &lt;br>
+A01.起动方式，A03.起始电压百分比，A04.电压斜坡起动时间， A02.起动限流百分比，A05.突跳电压，A06.突跳时间&lt;/p>
+&lt;h3>8.1.5点动起动&lt;span class="hx-absolute -hx-mt-20" id="815点动起动">&lt;/span>
+&lt;a href="#815%e7%82%b9%e5%8a%a8%e8%b5%b7%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>点动功能主要应用于某些负载定位或者试车功能。该模式可分为降压模式点动与降频模式点动，其中降频模式点动包含三种频率的降频正转与三种模式的降频反转。在降频正转模式中降频正转1速度最快，降频正转 3速度最慢；在降频反转模式中，降频反转1速度最快，降频反转3速度最慢。&lt;br>
+在降压点动时，软起动器的输出电压迅速增加至点动电压Up（A08）并保持不变，改变点动电压Up的设定值，可改变电动机点动时的输出转矩。&lt;br>
+在降频点动模式时，电动机的输出转矩可有A09低频点动力度调节，该数值越大则输出转矩越大，输出电流也越大。&lt;br>
+点动时间受B11.点动超时时间限制，当点动时间超过点动超时时间值时，软起动器报告点动超时故障并停机，将参数B11调整为0表示关闭点动超时保护。&lt;/p>
+&lt;h3>8.1.6摆动起动&lt;span class="hx-absolute -hx-mt-20" id="816摆动起动">&lt;/span>
+&lt;a href="#816%e6%91%86%e5%8a%a8%e8%b5%b7%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>针对于球磨机等大惯性且重心偏心负载起动较为困难的问题，本系列软起动器提供摆动起动功能，通过来回摇摆几次的方式可以使负载顺利起动。&lt;br>
+摆动起动采用的基本起动模式为限流模式，其起动次数可以设置范围为1~4次，每次都可以独立设置起动时间和停止时间。软起动器会以实际起动完成为准，而不会死板的依照设置的摆动次数起动，例如设置的使4 次摆动起动而实际上仅需要2次摆动就可以起动完成，则软起动器起动两次后就会进入运行状态而不会再次执行后面剩余的摆动次数。摆动起动模式如图8-5所示。
+&lt;img src="https://koltluo.github.io/shop/images/GE300/11.png" alt="" loading="lazy" />
+图中：1表示电动机电流，le表示电动机额定电流，Im表示起动限流值， n表示电动机转速，nr表示电动机额定转速，T表示起动时间，Ts1，Ts2表示第一次，第二次摆动起动时间， Tp1，Tp2表示第一次，第二次摆动停止时间， Tr表示起动完成时间，该图为摆动次数设置为2次的示例。&lt;/p>
+&lt;p>与摆动起动相关的参数如下：
+A01.起动方式，A02.起动限流百分比，C11.摆动次数， C12~C19.摆动起动时间及摆动停止时间&lt;/p>
+&lt;h2>8.2停止模式&lt;span class="hx-absolute -hx-mt-20" id="82停止模式">&lt;/span>
+&lt;a href="#82%e5%81%9c%e6%ad%a2%e6%a8%a1%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>软起动器有以下三种停止模式，分别为：&lt;/p>
+&lt;ul>
+&lt;li>0：自由停车&lt;/li>
+&lt;li>1：软停车&lt;/li>
+&lt;li>2：直流制动停车&lt;/li>
+&lt;/ul>
+&lt;h3>8.2.1自由停车&lt;span class="hx-absolute -hx-mt-20" id="821自由停车">&lt;/span>
+&lt;a href="#821%e8%87%aa%e7%94%b1%e5%81%9c%e8%bd%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>当接到停机指令后，软起动器控制旁路接触器断开，同时，封锁主电路晶闸管的输出电压、电动机依惯性逐渐停机。&lt;/p>
+&lt;h3>8.2.2软停车&lt;span class="hx-absolute -hx-mt-20" id="822软停车">&lt;/span>
+&lt;a href="#822%e8%bd%af%e5%81%9c%e8%bd%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>在这种停机模式下，电动机供电由旁路接触器切换到主电路晶闸管，控制输出电压逐渐降低，直至电机平稳停机。该模式一般用于防止垂直供水管道的设备在水平停止瞬间发生的水锤现象，延长管道阀门使用寿命。 &lt;br>
+与软停车相关的参数有：&lt;br>
+A10.停止模式，A11.软停时间&lt;/p>
+&lt;h3>8.2.3直流制动停车&lt;span class="hx-absolute -hx-mt-20" id="823直流制动停车">&lt;/span>
+&lt;a href="#823%e7%9b%b4%e6%b5%81%e5%88%b6%e5%8a%a8%e5%81%9c%e8%bd%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>在这种停机模式下，电动机供电由旁路接触器切换到主电路晶闸管，软起动器控制输出直流电压用于电机制动停机，缩短电动机由旋转状态到达静止状态的运转时间。该模式一般用于对电动机停车时间有要求的场合，可使大惯性负载在较短的时间内完全停止到静止状态。&lt;br>
+C04.直流制动力度用于控制直流制动转矩的大小，该参数数值越大,则制动力矩和制动电流越大，制动时间越短。C05.直流制动时间用于调整施加制动电流的时间，时间越长则制动后电机剩余的转速也就越低。&lt;br>
+与直流制动停车相关的参数有：&lt;br>
+A10.停止模式，C04.直流制动力度，C05.直流制动时间&lt;/p>
+&lt;h2>8.3软起动器类型选择&lt;span class="hx-absolute -hx-mt-20" id="83软起动器类型选择">&lt;/span>
+&lt;a href="#83%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e7%b1%bb%e5%9e%8b%e9%80%89%e6%8b%a9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>参数A12.软起动器类型用于选择软起动器类型，可以在在线型与旁路型之间选择。在线型软起动器在运行状态下晶闸管保存触发状态，用于软起动器的在线工作。而旁路型（包括内置旁路与外置旁路）在运行状态时晶闸管停止触发，由旁路接触器负责接通主回路时电动机全压运行。&lt;/p>
+&lt;h2>8.4过载保护&lt;span class="hx-absolute -hx-mt-20" id="84过载保护">&lt;/span>
+&lt;a href="#84%e8%bf%87%e8%bd%bd%e4%bf%9d%e6%8a%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>过载保护采用反时限控制&lt;/p>
+&lt;p>保护时间：t=$\frac{35*Tp}{(I/Ip)²-1}$&lt;/p>
+&lt;p>其中：t表示动作时间，Tp表示保护等级，I表示运行电流，Ip表示电动机额定电流&lt;/p>
+&lt;h3>电动机过载保护特性曲线&lt;span class="hx-absolute -hx-mt-20" id="电动机过载保护特性曲线">&lt;/span>
+&lt;a href="#%e7%94%b5%e5%8a%a8%e6%9c%ba%e8%bf%87%e8%bd%bd%e4%bf%9d%e6%8a%a4%e7%89%b9%e6%80%a7%e6%9b%b2%e7%ba%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>电动机过载保护特性曲线：图8-6&lt;/p>
+&lt;p>&lt;img src="https://koltluo.github.io/shop/images/GE300/12.png" alt="" loading="lazy" />&lt;/p>
+&lt;h3>电动机过载保护特性&lt;span class="hx-absolute -hx-mt-20" id="电动机过载保护特性">&lt;/span>
+&lt;a href="#%e7%94%b5%e5%8a%a8%e6%9c%ba%e8%bf%87%e8%bd%bd%e4%bf%9d%e6%8a%a4%e7%89%b9%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://koltluo.github.io/shop/images/GE300/13.png" alt="" loading="lazy" />&lt;/p>
+&lt;h2>8.5电流到达功能&lt;span class="hx-absolute -hx-mt-20" id="85电流到达功能">&lt;/span>
+&lt;a href="#85%e7%94%b5%e6%b5%81%e5%88%b0%e8%be%be%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>电流到达功能配合两个多功能继电器使用，分为电流大于到达值动作与电流小于到达值动作两种模式。
+在电流大于到达值动作模式中，当运行电流大于电流到达设定值时继电器动作，当运行电流小于（电流到达值－电流到达回差值）时继电器恢复，如图8-7所示。
+&lt;img src="https://koltluo.github.io/shop/images/GE300/14.png" alt="" loading="lazy" />
+在电流小于到达值动作模式中，当运行电流小于电流到达设定值时继电器动作，当运行电流大于（电流到达值+电流到达回差值）时继电器恢复，如图8-8所示。
+&lt;img src="https://koltluo.github.io/shop/images/GE300/15.png" alt="" loading="lazy" />
+与电流到达功能相关的参数有：&lt;br>
+C00.可编程继电器1，C01.可编程输出延时1，C02.可编程继电器2，C03.可编程输出延时2，C06.电流到达1，C07.电流到达回差1， C08.电流到达2，C09.电流到达回差2
+图中：11表示电流到达值，Ih表示回差电流，ON表示继电器动作，OFF表示继电器恢复。&lt;/p>
+&lt;h2>8.6驱动方式&lt;span class="hx-absolute -hx-mt-20" id="86驱动方式">&lt;/span>
+&lt;a href="#86%e9%a9%b1%e5%8a%a8%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>参数C10.驱动方式用于选择软起动器的驱动方式，可选择0转矩模式与1平滑模式。其中转矩模式电动机起动转矩较大，但起动过程中也可能会存在较大的电流波动，主要应用于起动困难，需要大起动转矩的场合；而平滑模式电动机起动电流平稳，控制更为精准，起动过程对机械负载与电网冲击都更小，适用于大部分场合使用。&lt;/p>
+&lt;h2>8.7模拟电流输出功能&lt;span class="hx-absolute -hx-mt-20" id="87模拟电流输出功能">&lt;/span>
+&lt;a href="#87%e6%a8%a1%e6%8b%9f%e7%94%b5%e6%b5%81%e8%be%93%e5%87%ba%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>模拟电流输出功能可实现模拟4-20mA，0-20mA等电流输出功能。 &lt;br>
+C28.4-20mA上限电流：用于设定模拟电流输出上限对应的软起动器电流。&lt;br>
+C27.4-20mA上限校准：用于设定模拟电流输出上限值，100%表示 20mA。 &lt;br>
+C26.4-20mA下限校准：用于设定模拟电流输出上限值，20%表示 4mA。 &lt;br>
+模拟电流输出参数设置举例：&lt;br>
+例1、20mA对应2倍电动机额定电流，4mA对应0A&lt;br>
+C28=200%，C26=20%，C27=100%&lt;br>
+例2、20mA对应1倍电动机额定电流，0mA对应0A&lt;br>
+C28=100%，C26=0%，C27=100%&lt;br>
+注：如果模拟电流输出有偏差也可以使用参数C26与C27进行微调。&lt;/p>
+&lt;h2>8.8屏幕保护时间&lt;span class="hx-absolute -hx-mt-20" id="88屏幕保护时间">&lt;/span>
+&lt;a href="#88%e5%b1%8f%e5%b9%95%e4%bf%9d%e6%8a%a4%e6%97%b6%e9%97%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>屏幕保护时间用于设置屏幕背光点亮时间，在最后一次操作键盘后经过E03.屏幕保护时间后，屏幕背光关闭用于节能和延长屏幕背光使用寿命。将E03.屏幕保护时间设置为0可以关闭该功能，屏幕始终保存点亮状态。&lt;/p>
+&lt;h2>8.9屏幕对比度&lt;span class="hx-absolute -hx-mt-20" id="89屏幕对比度">&lt;/span>
+&lt;a href="#89%e5%b1%8f%e5%b9%95%e5%af%b9%e6%af%94%e5%ba%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>如果屏幕显示过淡或过浓可使用参数E05.屏幕对比度调整屏幕对比度。&lt;/p>
+&lt;h2>8.10通讯功能&lt;span class="hx-absolute -hx-mt-20" id="810通讯功能">&lt;/span>
+&lt;a href="#810%e9%80%9a%e8%ae%af%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>软起动器可内置ModbusRTU通讯功能（订货时需说明），通讯协议请见通讯手册。&lt;/p></description></item><item><title>软启动故障分析及处理方法</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/gzpc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/gzpc/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>序号&lt;/th>
+&lt;th>故障名称&lt;/th>
+&lt;th>可能故障原因&lt;/th>
+&lt;th>解决办法&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>输入缺相&lt;/td>
+&lt;td>进线电源缺相&lt;/td>
+&lt;td>检查上口三相电源是否存在缺相现象，上口电源进线是否接好，上口断路器是否良好&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>输出缺相&lt;/td>
+&lt;td>下口缺相&lt;/td>
+&lt;td>检查下口电动机接线是否良好，电动机是否有故障&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>运行过载&lt;/td>
+&lt;td>1、电动机过载运行&lt;/br>2、电动机额定电流整定不正确&lt;/br>3、运行过载级别选择不合适&lt;/br>4、电流显示不准确&lt;/td>
+&lt;td>1、检查负载情况，是否存在负载过重现象&lt;/br>2、检查参数D02设置是否正确 &lt;/br>3、检查参数B01设置是否合适&lt;/br>4、调整参数C22，C23，C24使软起动器三相显示电流与实际电流相等&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>起动过载&lt;/td>
+&lt;td>1、电动机过载起动&lt;/br>2、电动机额定电流整定不正确&lt;/br>3、运行过载级别选择不合适&lt;/br>4、电流显示不准确&lt;/td>
+&lt;td>1、检查负载情况，是否存在负载过重现象&lt;/br>2、检查参数D02设置是否正确 &lt;/br>3、检查参数B00设置是否合适&lt;/br>4、调整参数C22，C23，C24使软起动器三相显示电流与实际电流相等&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>软起欠载&lt;/td>
+&lt;td>1、电动机欠载参数设置不正确&lt;/br>2、电流显示不准确&lt;/td>
+&lt;td>1、调整参数B12，B13设置到合适值&lt;/br>2、调整参数C22，C23，C24使软起动器三相显示电流与实际电流相等&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>电流不平衡&lt;/td>
+&lt;td>1、电动机线圈有问题&lt;/br>2、主线接线端子接触不良&lt;/br>3、电流显示不准确&lt;/td>
+&lt;td>1、更换或维修电动机&lt;/br>2、重新拧紧各个接线端子&lt;/br>3、调整参数C22，C23，C24使软起动器三相显示电流与实际电流相等&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>软起过热&lt;/td>
+&lt;td>1、软起动器起动过于频繁&lt;/br>2、软起动器外部环境温度过高&lt;/br>3、软起动器周围有发热较大器件并且安装过于紧凑&lt;/td>
+&lt;td>1、加大起动间隔时间，等待软起动器冷却后再进行下一次起动，或增加冷却装置使软起动器更快速的冷却下来&lt;/br>2、改善软起动器的外部环境，或者进行降容使用&lt;/br>3、改善布局或加强柜内冷却强度&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>过压故障&lt;/td>
+&lt;td>1、电源电压过高&lt;/br>2、电压显示不准确&lt;/td>
+&lt;td>1、调整变压器电源电压 &lt;/br>2、调整参数C25使软起动器显示电压与实际电压一致&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>欠压故障&lt;/td>
+&lt;td>1、电源电压过低&lt;/br>2、电压显示不准确&lt;/td>
+&lt;td>1、调整变压器电源电压；检查进线电缆是否太小，检查变压器功率余量是否太小&lt;/br>2、调整参数C25使软起动器显示电压与实际电压一致&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>晶闸管击穿&lt;/td>
+&lt;td>两相晶闸管击穿，软起动器在停机状态下有电流流过&lt;/td>
+&lt;td>停机状态下有电流存在就会报告该故障，断电，检查是否有两相晶闸管存在击穿现象&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>起动超时&lt;/td>
+&lt;td>起动时间超过B10设置值&lt;/td>
+&lt;td>1、检查参数B10设置是否合适&lt;/br>2、检查负载是否过重导致起动时间过长&lt;/br>3、适当调整起动参数缩短起动时间&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>点动超时&lt;/td>
+&lt;td>点动时间超过B11设置值&lt;/td>
+&lt;td>1、检查参数B10设置是否合适&lt;/br>2、缩短点动操作时间&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>13&lt;/td>
+&lt;td>运行过流&lt;/td>
+&lt;td>1、运行电流过大&lt;/br>2、电机额定电流整定不正确&lt;/br>3、运行过流值设置不正确&lt;/br>3、电流显示不准确&lt;/td>
+&lt;td>1、检查负载情况，是否存在负载过重现象&lt;/br> 2、检查参数D02设置是否正确&lt;/br>3、检查参数B02，B03设置是否合适&lt;/br>4、调整参数C22，C23，C24使软起动器三相显示电流与实际电流相等&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14&lt;/td>
+&lt;td>内部故障&lt;/td>
+&lt;td>软起动器发送内部硬件故障&lt;/td>
+&lt;td>尝试重新上电看是否解决，如果还没有解决请联系厂家&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>软起动器试运行及日常维护注意事项</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/rcwh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/rcwh/</guid><description>
+&lt;h2>10.1试运行检查及注意事项&lt;span class="hx-absolute -hx-mt-20" id="101试运行检查及注意事项">&lt;/span>
+&lt;a href="#101%e8%af%95%e8%bf%90%e8%a1%8c%e6%a3%80%e6%9f%a5%e5%8f%8a%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>为了安全运行在通电前应按下列条款检查。&lt;/p>
+&lt;ul>
+&lt;li>软起动功率是否与电机功率相符？可通过D02.电机额定电流项，按电机铭牌电流值进行设定。&lt;/li>
+&lt;li>电动机绝缘是否符合要求？&lt;/li>
+&lt;li>主电路输入及输出接线是否正确？- 所有接线螺母是否拧紧？&lt;/li>
+&lt;li>用万用表检查三相进线电源（R，S，T）是否有短路现象？&lt;/li>
+&lt;li>上电后，显示“待机”表示处于正常准备起动状态，可利用“点动” 方式检查电机转向是否正确，如不正确，可调换电机端任意两相。&lt;/li>
+&lt;li>在试运行过程中，如电机起动状态不理想，可根据参数表进行起停参数设定，对起动模式及电流、电压、时间等参数做相应修改。&lt;/li>
+&lt;li>如果在整个通电及运行过程中出现故障保护，即会显示故障状态，请按第9章内容相应提示进行处理。&lt;/li>
+&lt;li>软起动器通电后，请勿打开机盖，以免触电。&lt;/li>
+&lt;li>在试运行过程中，如发现异常现象，如异常声音，冒烟或异味应迅速停机，切断电源，检查原因。&lt;/li>
+&lt;li>在软起动器输出未接电机的情况下通电，则U，V，W三相有感应电压，属于正常现象，接上电机后此感应电压即可消失。&lt;/li>
+&lt;/ul>
+&lt;h2>10.2日常维护注意事项&lt;span class="hx-absolute -hx-mt-20" id="102日常维护注意事项">&lt;/span>
+&lt;a href="#102%e6%97%a5%e5%b8%b8%e7%bb%b4%e6%8a%a4%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>感应电压：智能交流电动机软起动器在输入端接通电源后，在负载开路时，即使在停止状态，其输出端会有感应电压，这是由晶闸管的漏电流造成，属于正常现象；接上电机后此感应电压即可消失，因此，使用时应注意触电危险。&lt;/li>
+&lt;li>无功补偿：在配电电路中如需加装提高功率因数的无功补偿电路，则无功补偿电容应接在软起动器的输入端，不得接在其输出端，否则将会造成软起器的功率器件损坏。&lt;/li>
+&lt;li>绝缘测试：严禁用兆欧表测量电动机软起动器输入及输出间的绝缘电阻，否则可能因过压而损坏软起动器的功率器件及控制板。&lt;/li>
+&lt;li>电路接线：不能将电动机软起动器的输入和输出接反，否则可能会损坏软起动器或电机。&lt;/li>
+&lt;li>旁路接触器接线：电动机软起动器在配接旁路接触器时，软起动器输出U、V、W和旁路输出L11、L21、L31相序必须一致。&lt;/li>
+&lt;li>外控端子：智能交流电动机软起动器的外控端子启动、停止、点动、复位、公共，不得引入外部电源，否则会损坏软起动器控制板。&lt;/li>
+&lt;li>在粉尘较多的工况场合，应定期进行粉尘清理，否则会降低软起动器的绝缘等级和散热效果，引起故障或损坏。&lt;/li>
+&lt;li>在潮湿的环境下，如软起动器长期不用，在使用前，必须进行除湿处理（如用电吹风或电炉烘干），否则会因潮湿或结露，降低软起动器的绝缘等级，造成爬电、短路，损坏软起动器。&lt;/li>
+&lt;/ul>
+&lt;h2>订货须知&lt;span class="hx-absolute -hx-mt-20" id="订货须知">&lt;/span>
+&lt;a href="#%e8%ae%a2%e8%b4%a7%e9%a1%bb%e7%9f%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>用户在订货时，请将产品型号、规格、负载情况及使用条件通知供货方，以便正确选择产品。&lt;/li>
+&lt;li>智能交流电动机软起动器外置式产品在使用时应配接旁路接触器。&lt;/li>
+&lt;li>对本产品有特殊使用条件或要求的用户，请在订货时向供货方说明，我们会提供完善的服务。&lt;/li>
+&lt;li>如负载为绕线式电机，订货时应说明。- 如RS485通讯，订货时应说明。&lt;/li>
+&lt;/ul></description></item><item><title>软起动器-软启动柜外形及尺寸</title><link>https://koltluo.github.io/shop/docs/soft-starters/ge300/wxcc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/soft-starters/ge300/wxcc/</guid><description>
+&lt;h2>在线软启动器外形尺寸&lt;span class="hx-absolute -hx-mt-20" id="在线软启动器外形尺寸">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>5.5kW~55kW在线软启动器外形图&lt;span class="hx-absolute -hx-mt-20" id="55kw55kw在线软启动器外形图">&lt;/span>
+&lt;a href="#55kw55kw%e5%9c%a8%e7%ba%bf%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%a4%96%e5%bd%a2%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/16.png" title="5.5kW~55kW在线软启动器外形图" alt="5.5kW~55kW在线软启动器外形图" loading="lazy" />
+&lt;figcaption>5.5kW~55kW在线软启动器外形图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3>75kW-630kW在线软启动器外形图&lt;span class="hx-absolute -hx-mt-20" id="75kw-630kw在线软启动器外形图">&lt;/span>
+&lt;a href="#75kw-630kw%e5%9c%a8%e7%ba%bf%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%a4%96%e5%bd%a2%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/17.png" title="75kW-630kW在线软启动器外形图" alt="75kW-630kW在线软启动器外形图" loading="lazy" />
+&lt;figcaption>75kW-630kW在线软启动器外形图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3>在线软启动器尺寸图&lt;span class="hx-absolute -hx-mt-20" id="在线软启动器尺寸图">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%b0%ba%e5%af%b8%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/18.png" title="5.5kW-800kW在线软启动器尺寸图" alt="5.5kW-800kW在线软启动器尺寸图" loading="lazy" />
+&lt;figcaption>5.5kW-800kW在线软启动器尺寸图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软启动柜外形尺寸&lt;span class="hx-absolute -hx-mt-20" id="在线软启动柜外形尺寸">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>在线软启动柜外形图&lt;span class="hx-absolute -hx-mt-20" id="在线软启动柜外形图">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e5%a4%96%e5%bd%a2%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/19.png" title="22kW~630kW在线软启动柜外形图" alt="22kW~630kW在线软启动柜外形图" loading="lazy" />
+&lt;figcaption>22kW~630kW在线软启动柜外形图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3>在线软启动柜尺寸图&lt;span class="hx-absolute -hx-mt-20" id="在线软启动柜尺寸图">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e5%b0%ba%e5%af%b8%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/20.png" title="22kW-630kW在线软启动柜尺寸图" alt="22kW-630kW在线软启动柜尺寸图" loading="lazy" />
+&lt;figcaption>22kW-630kW在线软启动柜尺寸图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>旁路软启动器外形尺寸&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器外形尺寸">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>5.5kW~75kW旁路软启动器外形图&lt;span class="hx-absolute -hx-mt-20" id="55kw75kw旁路软启动器外形图">&lt;/span>
+&lt;a href="#55kw75kw%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%a4%96%e5%bd%a2%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/21.png" title="5.5kW~55kW旁路软启动器外形图" alt="5.5kW~55kW旁路软启动器外形图" loading="lazy" />
+&lt;figcaption>5.5kW~55kW旁路软启动器外形图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3>90kW-630kW旁路软启动器外形图&lt;span class="hx-absolute -hx-mt-20" id="90kw-630kw旁路软启动器外形图">&lt;/span>
+&lt;a href="#90kw-630kw%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%a4%96%e5%bd%a2%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/22.png" title="75kW-630kW旁路软启动器外形图" alt="75kW-630kW在线软启动器外形图" loading="lazy" />
+&lt;figcaption>75kW-630kW旁路软启动器外形图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3>旁路软启动器尺寸图&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器尺寸图">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%b0%ba%e5%af%b8%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/23.png" title="5.5kW-630kW旁路软启动器尺寸图" alt="5.5kW-630kW旁路软启动器尺寸图" loading="lazy" />
+&lt;figcaption>5.5kW-630kW旁路软启动器尺寸图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>旁路软启动柜外形尺寸&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动柜外形尺寸">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/24.png" title="22kW-630kW旁路软启动柜外形图" alt="22kW-630kW旁路软启动柜外形图" loading="lazy" />
+&lt;figcaption>22kW-630kW旁路软启动柜外形图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/25.png" title="22kW-630kW旁路软启动柜尺寸图" alt="22kW-630kW旁路软启动柜尺寸图" loading="lazy" />
+&lt;figcaption>22kW-630kW旁路软启动柜尺寸图&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item></channel></rss>

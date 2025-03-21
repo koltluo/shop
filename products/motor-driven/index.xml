@@ -1,0 +1,1125 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山东临沂森阔机电有限公司 – 电机驱动类产品</title><link>https://koltluo.github.io/shop/products/motor-driven/</link><description>Recent content in 电机驱动类产品 on 山东临沂森阔机电有限公司</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://koltluo.github.io/shop/products/motor-driven/index.xml" rel="self" type="application/rss+xml"/><item><title>Built in Bypass Soft Starter</title><link>https://koltluo.github.io/shop/products/motor-driven/built-in-bypass-soft-starter.en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/products/motor-driven/built-in-bypass-soft-starter.en/</guid><description>
+&lt;h3>Product Overview&lt;span class="hx-absolute -hx-mt-20" id="product-overview">&lt;/span>
+&lt;a href="#product-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://koltluo.github.io/shop/images/Built-in-Bypass-soft-starter/1.jpg" alt="Built-in Bypass Soft-Starter" loading="lazy" />
+This series of soft starters adopts a three-input and three-outlet structure design, and the complete set of cabinets does not need an external AC contactor; the interior uses a three-phase independent bypass contactor DC coil design to ensure that it is not affected by voltage drop and thus ensures reliable operation of the equipment! Small and classic, with perfect motor comprehensive protection function! This product is widely used in the starting control of transmission equipment, fans, pumps, crushers and other loads. The product complies with GB14048.6-2016&lt;/p>
+&lt;h3>Performance characteristics：&lt;span class="hx-absolute -hx-mt-20" id="performance-characteristics">&lt;/span>
+&lt;a href="#performance-characteristics" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://koltluo.github.io/shop/images/Built-in-Bypass-soft-starter/2.jpg" alt="Built-in Bypass Soft-Starter" loading="lazy" />
+&lt;img src="https://koltluo.github.io/shop/images/Built-in-Bypass-soft-starter/3.jpg" alt="Built-in Bypass Soft-Starter" loading="lazy" />&lt;/p>
+&lt;blockquote>
+&lt;p>The soft starter design concept adheres to the principle of reliability, ease of use, practicality and low overall cost. The comprehensive cost mentioned here includes: manufacturing cost, on-site commissioning cost, fault diagnosis cost, after-sales service cost, etc. The specific features are listed below&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>The screen displays a large amount of information, which is convenient for remote diagnosis and analysis, and reduces the cost of fault resolution caused by miscalculation, including round-trip travel expenses&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Externally adapted N/5 current transformers, compared to N/1 or N/0.1 transformers, market versatility, convenient after-sales maintenance.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The thyristor driver circuit adopts pulse transformer to reduce the damage of the circuit board caused by poor conduction of thyristors.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There is no need to calibrate the current in the field. The V3 soft starter abandons the previous method of adapting the current sampling resistance to different power starter cabinets. The biggest disadvantage of the original method is that when matching different power cabinets, the current sensing resistance needs to be changed, and it often needs to be calibrated in the field. The V3 soft starter can be matched to the respective power cabinet only by means of a transformer ratio setting. Because of its versatility, it is greatly convenient for the whole machine factory stocking and on-site after-sales service personnel.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The trigger circuit is powerful and can be used with thyristors with trigger currents up to 100mA. Expand the adaptation range of thyristors, and also facilitate the selection of the whole machine factory.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>All relays can be programmed for flexible response to user requirements.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Set the starting and stopping methods of panel buttons and terminal blocks (jogging, soft starting, soft stop combinations) respectively, which can cope with some special requirements.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A true two-wire approach. Two-wire control, start-stop mode wiring is extremely simple. In general, this start-stop method is especially suitable for float water supply applications.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Two starting methods: voltage start, current limit start.Voltage starting mode, similar to autocoupling starting or star-delta starting. However, it is especially suitable for occasions where the on-site power supply is relatively &amp;ldquo;soft&amp;rdquo;: the starting voltage output to the motor at starting is not affected by the input voltage, but only depends on the set starting voltage (except for the power supply voltage &amp;lt; the starting voltage). It can reduce the unnecessary &amp;ldquo;slope climbing&amp;rdquo; time, reduce the high current heating time when the motor is started, and facilitate the rapid completion of the starting process;The current-limiting starting method is suitable for occasions where the starting current is relatively small on site. The average current of the three phases during the whole process of starting does not exceed the set value.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Triac current limiting function. During the entire starting, running and soft-stop process, the current is monitored at any time not exceeding the nominal current of the thyristor. Minimize thyristor damage due to overcurrent.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Accurate fault location. For example, when phase loss can occur, in addition to locating the phase of phase loss, it is also located to locate whether it is input phase loss or output phase loss. It is convenient for users to find the source of the fault on site.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Has a record of downtime information. The record contains information such as input voltage, output voltage, current of each phase, shutdown source, and fault cause at the shutdown time. With such records, a standardized description of communication can be established between users and service providers. Avoid waste caused by poor information communication. When encountering difficult and complicated diseases such as on-site starting difficulties and inexplicable shutdown, calling the information of this specification is conducive to rapid communication and understanding of the on-site situation, which greatly facilitates the solution of faults and remote analysis and diagnosis. So that targeted measures can be taken to solve problems quickly.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In order to quickly and easily identify common faults on site, a &amp;ldquo;toolbox&amp;rdquo; is specially designed. There are port tests, power supply tests, and thyristor short-circuit tests in the toolbox. Convenient diagnosis of on-site conditions.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>It has complete protection functions. And all protection functions can be turned off to meet the urgent needs of the site.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The parameter setting menu is designed to be simple and easy to understand. Each related parameter is grouped and classified, and the relevant parameters are attached to the main parameter, which is convenient for the relevant parameters to be set at one time and can avoid missing the setting of the associated parameters.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>&lt;strong>We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://koltluo.github.io/shop/contact/" >contact us&lt;/a>: &lt;a href="mailto:Sales@lyskjd.com" >Sales@lyskjd.com&lt;/a>&lt;/p></description></item><item><title>SKF600-30KW矢量变频器</title><link>https://koltluo.github.io/shop/products/motor-driven/skf600-30/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/products/motor-driven/skf600-30/</guid><description>
+&lt;p>
+&lt;figure>
+&lt;img src="../01.jpg" title="高性能通用矢量变频器厂家" alt="高性能通用矢量变频器厂家" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器厂家&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>高性能通用矢量变频器产品概述&lt;span class="hx-absolute -hx-mt-20" id="高性能通用矢量变频器产品概述">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%ba%a7%e5%93%81%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>矢量变频器&lt;/strong>是利用变频技术和微电子技术，通过改变电动机工作电源的频率来控制交流电动机的功率控制装置。通用变频器主要由整流、滤波、变频、制动单元、驱动单元、检测单元、微处理单元等组成。变频器通过关闭内部GBT来调节输出电源的电压和频率，并根据电机的实际需要提供所需的电源电压，从而达到节能和调节的目的。此外，变频调速器还具有许多保护功能，如过流、过压、过载保护等。随着工业自动化程序的不断改进，变频器也得到了广泛的应用。&lt;/p>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/1.jpg" title="高性能通用矢量变频器" alt="高性能通用矢量变频器" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>矢量控制目的是设法将交流电机等效为直流电机，从而获得较高的调速性能。矢量控制方法就是将交流三相异步电机定子电流矢量分解为产生磁场的电流分量 (励磁电流) 和产生转矩的电流分量 (转矩电流) 分别加以控制，并同时控制两分量间的幅值和相位，这样即可等效于直流电机。矢量控制方式又有基于转差频率控制的矢量控制方式、无速度传感器矢量控制方式和有速度传感器的矢量控制方式等。&lt;/p>
+&lt;h2>高性能通用矢量变频器性能特点&lt;span class="hx-absolute -hx-mt-20" id="高性能通用矢量变频器性能特点">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e6%80%a7%e8%83%bd%e7%89%b9%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>全新欧式风格设计，双屏+书本结构&lt;/li>
+&lt;li>外观精美，体积小巧，优良的风道设计，确保可靠散热&lt;/li>
+&lt;li>全系列模块化机器，矢量重载型&lt;/li>
+&lt;li>内置标准485通讯&lt;/li>
+&lt;li>内置标准2路AI输入0-10V或4-20mA&lt;/li>
+&lt;li>内置标准2路AO输出0-10V或4-20mA&lt;/li>
+&lt;li>内置标准2路可编程继电器输出&lt;/li>
+&lt;li>内置标准2路集电极开路输出&lt;/li>
+&lt;li>内置5-7个多功能终端，最多可实现16种速度、65种多功能应用&lt;/li>
+&lt;li>内置多种应用宏（恒压供水、消防检查、数控机床、主轴雕刻等），可实现一拖五的恒压供水，无需添加供水控制器&lt;/li>
+&lt;li>远程云功能可定制，支持手机、电脑的参数设置和启停控制
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/4.jpg" title="高性能通用矢量变频器性能特点" alt="高性能通用矢量变频器性能特点" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器性能特点&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;/ol>
+&lt;h2>通用矢量变频器主要技术参数&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器主要技术参数">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%b8%bb%e8%a6%81%e6%8a%80%e6%9c%af%e5%8f%82%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>额定电压：三相380V&lt;/li>
+&lt;li>最大频率：0.00-3200.00Hz&lt;/li>
+&lt;li>载波频率：0.5-16KHZ，载波频率可根据负载特性自动调节。&lt;/li>
+&lt;li>输入频率分辨率：数字设置：0.01HZ，模拟设置：最大频率*0.025%。&lt;/li>
+&lt;li>控制方式：开环矢量控制（SVC）、闭环矢量控制（FVC）、V/F控制。&lt;/li>
+&lt;li>命令源：由操作面板给出，由控制终端给出，由串口供电，可多种方式切换。&lt;/li>
+&lt;li>频率源：10种频率源：数字、模拟电压、模拟电流、脉冲、串口、面板电位器等。&lt;/li>
+&lt;li>辅助频率源：10种辅助频率源，可灵活实现辅助频率微调和频率合成。&lt;/li>
+&lt;li>保护功能：通电电机短路检测、输入输出缺相保护、过流、过压保护、欠压保护、过热、过载保护等。&lt;/li>
+&lt;/ol>
+&lt;h2>通用矢量变频器产品展示&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器产品展示">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/z8.jpg" title="高性能通用矢量变频器" alt="高性能通用矢量变频器" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>通用矢量变频器产品包装&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器产品包装">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%ba%a7%e5%93%81%e5%8c%85%e8%a3%85" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/8.jpg" title="高性能通用矢量变频器外包装" alt="高性能通用矢量变频器外包装" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器外包装&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>通用矢量变频器一次接线图&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器一次接线图">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%b8%80%e6%ac%a1%e6%8e%a5%e7%ba%bf%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/13.jpg" title="高性能通用矢量变频器接线图" alt="高性能通用矢量变频器接线图" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>通用矢量变频器外形尺寸图&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器外形尺寸图">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/5.jpg" title="高性能通用矢量变频器外形尺寸图" alt="高性能通用矢量变频器外形尺寸图" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器外形尺寸图&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/6.jpg" title="高性能通用矢量变频器外形尺寸图" alt="高性能通用矢量变频器外形尺寸图" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器外形尺寸图&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/9.jpg" title="高性能通用矢量变频器外形尺寸图" alt="高性能通用矢量变频器外形尺寸图" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器外形尺寸图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>通用矢量变频器经销商出厂价格&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器经销商出厂价格">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e7%bb%8f%e9%94%80%e5%95%86%e5%87%ba%e5%8e%82%e4%bb%b7%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">0.75KW&lt;/td>
+&lt;td style="text-align: center">450元&lt;/td>
+&lt;td style="text-align: center">11&lt;/td>
+&lt;td style="text-align: center">30KW&lt;/td>
+&lt;td style="text-align: center">2500元&lt;/td>
+&lt;td style="text-align: center">21&lt;/td>
+&lt;td style="text-align: center">200KW&lt;/td>
+&lt;td style="text-align: center">14000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">1.5KW&lt;/td>
+&lt;td style="text-align: center">500元&lt;/td>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">37KW&lt;/td>
+&lt;td style="text-align: center">2900元&lt;/td>
+&lt;td style="text-align: center">22&lt;/td>
+&lt;td style="text-align: center">220KW&lt;/td>
+&lt;td style="text-align: center">18400元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">2.2KW&lt;/td>
+&lt;td style="text-align: center">650元&lt;/td>
+&lt;td style="text-align: center">13&lt;/td>
+&lt;td style="text-align: center">45KW&lt;/td>
+&lt;td style="text-align: center">3700元&lt;/td>
+&lt;td style="text-align: center">23&lt;/td>
+&lt;td style="text-align: center">250KW&lt;/td>
+&lt;td style="text-align: center">20300元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">4KW&lt;/td>
+&lt;td style="text-align: center">850元&lt;/td>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;td style="text-align: center">55KW&lt;/td>
+&lt;td style="text-align: center">4600元&lt;/td>
+&lt;td style="text-align: center">24&lt;/td>
+&lt;td style="text-align: center">280KW&lt;/td>
+&lt;td style="text-align: center">23400元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">5.5KW&lt;/td>
+&lt;td style="text-align: center">1000元&lt;/td>
+&lt;td style="text-align: center">15&lt;/td>
+&lt;td style="text-align: center">75KW&lt;/td>
+&lt;td style="text-align: center">5000元&lt;/td>
+&lt;td style="text-align: center">25&lt;/td>
+&lt;td style="text-align: center">315KW&lt;/td>
+&lt;td style="text-align: center">28500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">7.5KW&lt;/td>
+&lt;td style="text-align: center">1150元&lt;/td>
+&lt;td style="text-align: center">16&lt;/td>
+&lt;td style="text-align: center">90KW&lt;/td>
+&lt;td style="text-align: center">6700元&lt;/td>
+&lt;td style="text-align: center">26&lt;/td>
+&lt;td style="text-align: center">355KW&lt;/td>
+&lt;td style="text-align: center">32000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">11KW&lt;/td>
+&lt;td style="text-align: center">1250元&lt;/td>
+&lt;td style="text-align: center">17&lt;/td>
+&lt;td style="text-align: center">110KW&lt;/td>
+&lt;td style="text-align: center">7500元&lt;/td>
+&lt;td style="text-align: center">27&lt;/td>
+&lt;td style="text-align: center">400KW&lt;/td>
+&lt;td style="text-align: center">35000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">8&lt;/td>
+&lt;td style="text-align: center">15KW&lt;/td>
+&lt;td style="text-align: center">1450元&lt;/td>
+&lt;td style="text-align: center">18&lt;/td>
+&lt;td style="text-align: center">132KW&lt;/td>
+&lt;td style="text-align: center">9800元&lt;/td>
+&lt;td style="text-align: center">28&lt;/td>
+&lt;td style="text-align: center">450KW&lt;/td>
+&lt;td style="text-align: center">38000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">9&lt;/td>
+&lt;td style="text-align: center">18.5KW&lt;/td>
+&lt;td style="text-align: center">1650元&lt;/td>
+&lt;td style="text-align: center">19&lt;/td>
+&lt;td style="text-align: center">160KW&lt;/td>
+&lt;td style="text-align: center">11300元&lt;/td>
+&lt;td style="text-align: center">29&lt;/td>
+&lt;td style="text-align: center">500KW&lt;/td>
+&lt;td style="text-align: center">45000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">10&lt;/td>
+&lt;td style="text-align: center">22KW&lt;/td>
+&lt;td style="text-align: center">2000元&lt;/td>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;td style="text-align: center">185KW&lt;/td>
+&lt;td style="text-align: center">12300元&lt;/td>
+&lt;td style="text-align: center">30&lt;/td>
+&lt;td style="text-align: center">560KW&lt;/td>
+&lt;td style="text-align: center">48000元&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>注意: 变频器全系列均为模块机，本价格不含税，不含运费，款到发货。热线：&lt;a href="tel:150-6499-9739" >150-6499-9739&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2>高性能通用矢量变频器质保期限&lt;span class="hx-absolute -hx-mt-20" id="高性能通用矢量变频器质保期限">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e8%b4%a8%e4%bf%9d%e6%9c%9f%e9%99%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>高性能通用矢量变频器质保期为自发货之日起12个月，质保期内有任何质量问题，免费换新！&lt;/p>
+&lt;h2>高性能通用矢量变频器应用范围&lt;span class="hx-absolute -hx-mt-20" id="高性能通用矢量变频器应用范围">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e5%ba%94%e7%94%a8%e8%8c%83%e5%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/1.png" title="高性能通用矢量变频器应用范围" alt="高性能通用矢量变频器应用范围" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器应用范围&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>高性能变频器厂家联系方式&lt;span class="hx-absolute -hx-mt-20" id="高性能变频器厂家联系方式">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e5%8f%98%e9%a2%91%e5%99%a8%e5%8e%82%e5%ae%b6%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/02.jpg" title="高性能通用矢量变频器厂家联系方式" alt="高性能通用矢量变频器厂家联系方式" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器厂家联系方式&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>SKF760-30KW矢量变频器</title><link>https://koltluo.github.io/shop/products/motor-driven/vfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/products/motor-driven/vfd/</guid><description>
+&lt;p>
+&lt;figure>
+&lt;img src="../01.jpg" title="高性能通用矢量变频器厂家" alt="高性能通用矢量变频器厂家" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器厂家&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>高性能通用矢量变频器产品概述&lt;span class="hx-absolute -hx-mt-20" id="高性能通用矢量变频器产品概述">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%ba%a7%e5%93%81%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>矢量变频器&lt;/strong>是利用变频技术和微电子技术，通过改变电动机工作电源的频率来控制交流电动机的功率控制装置。通用变频器主要由整流、滤波、变频、制动单元、驱动单元、检测单元、微处理单元等组成。变频器通过关闭内部GBT来调节输出电源的电压和频率，并根据电机的实际需要提供所需的电源电压，从而达到节能和调节的目的。此外，变频调速器还具有许多保护功能，如过流、过压、过载保护等。随着工业自动化程序的不断改进，变频器也得到了广泛的应用。&lt;/p>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/1.jpg" title="高性能通用矢量变频器" alt="高性能通用矢量变频器" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>矢量控制目的是设法将交流电机等效为直流电机，从而获得较高的调速性能。矢量控制方法就是将交流三相异步电机定子电流矢量分解为产生磁场的电流分量 (励磁电流) 和产生转矩的电流分量 (转矩电流) 分别加以控制，并同时控制两分量间的幅值和相位，这样即可等效于直流电机。矢量控制方式又有基于转差频率控制的矢量控制方式、无速度传感器矢量控制方式和有速度传感器的矢量控制方式等。&lt;/p>
+&lt;h2>高性能通用矢量变频器性能特点&lt;span class="hx-absolute -hx-mt-20" id="高性能通用矢量变频器性能特点">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e6%80%a7%e8%83%bd%e7%89%b9%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>全新欧式风格设计，双屏+书本结构&lt;/li>
+&lt;li>外观精美，体积小巧，优良的风道设计，确保可靠散热&lt;/li>
+&lt;li>全系列模块化机器，矢量重载型&lt;/li>
+&lt;li>内置标准485通讯&lt;/li>
+&lt;li>内置标准2路AI输入0-10V或4-20mA&lt;/li>
+&lt;li>内置标准2路AO输出0-10V或4-20mA&lt;/li>
+&lt;li>内置标准2路可编程继电器输出&lt;/li>
+&lt;li>内置标准2路集电极开路输出&lt;/li>
+&lt;li>内置5-7个多功能终端，最多可实现16种速度、65种多功能应用&lt;/li>
+&lt;li>内置多种应用宏（恒压供水、消防检查、数控机床、主轴雕刻等），可实现一拖五的恒压供水，无需添加供水控制器&lt;/li>
+&lt;li>远程云功能可定制，支持手机、电脑的参数设置和启停控制
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/4.jpg" title="高性能通用矢量变频器性能特点" alt="高性能通用矢量变频器性能特点" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器性能特点&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;/ol>
+&lt;h2>通用矢量变频器主要技术参数&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器主要技术参数">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%b8%bb%e8%a6%81%e6%8a%80%e6%9c%af%e5%8f%82%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>额定电压：三相380V&lt;/li>
+&lt;li>最大频率：0.00-3200.00Hz&lt;/li>
+&lt;li>载波频率：0.5-16KHZ，载波频率可根据负载特性自动调节。&lt;/li>
+&lt;li>输入频率分辨率：数字设置：0.01HZ，模拟设置：最大频率*0.025%。&lt;/li>
+&lt;li>控制方式：开环矢量控制（SVC）、闭环矢量控制（FVC）、V/F控制。&lt;/li>
+&lt;li>命令源：由操作面板给出，由控制终端给出，由串口供电，可多种方式切换。&lt;/li>
+&lt;li>频率源：10种频率源：数字、模拟电压、模拟电流、脉冲、串口、面板电位器等。&lt;/li>
+&lt;li>辅助频率源：10种辅助频率源，可灵活实现辅助频率微调和频率合成。&lt;/li>
+&lt;li>保护功能：通电电机短路检测、输入输出缺相保护、过流、过压保护、欠压保护、过热、过载保护等。&lt;/li>
+&lt;/ol>
+&lt;h2>通用矢量变频器产品展示&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器产品展示">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/z8.jpg" title="高性能通用矢量变频器" alt="高性能通用矢量变频器" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>通用矢量变频器产品包装&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器产品包装">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%ba%a7%e5%93%81%e5%8c%85%e8%a3%85" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/8.jpg" title="高性能通用矢量变频器外包装" alt="高性能通用矢量变频器外包装" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器外包装&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>通用矢量变频器一次接线图&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器一次接线图">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e4%b8%80%e6%ac%a1%e6%8e%a5%e7%ba%bf%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/13.jpg" title="高性能通用矢量变频器接线图" alt="高性能通用矢量变频器接线图" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>通用矢量变频器外形尺寸图&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器外形尺寸图">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/5.jpg" title="高性能通用矢量变频器外形尺寸图" alt="高性能通用矢量变频器外形尺寸图" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器外形尺寸图&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/6.jpg" title="高性能通用矢量变频器外形尺寸图" alt="高性能通用矢量变频器外形尺寸图" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器外形尺寸图&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/BPQ/9.jpg" title="高性能通用矢量变频器外形尺寸图" alt="高性能通用矢量变频器外形尺寸图" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器外形尺寸图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>通用矢量变频器经销商出厂价格&lt;span class="hx-absolute -hx-mt-20" id="通用矢量变频器经销商出厂价格">&lt;/span>
+&lt;a href="#%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e7%bb%8f%e9%94%80%e5%95%86%e5%87%ba%e5%8e%82%e4%bb%b7%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">0.75KW&lt;/td>
+&lt;td style="text-align: center">450元&lt;/td>
+&lt;td style="text-align: center">11&lt;/td>
+&lt;td style="text-align: center">30KW&lt;/td>
+&lt;td style="text-align: center">2500元&lt;/td>
+&lt;td style="text-align: center">21&lt;/td>
+&lt;td style="text-align: center">200KW&lt;/td>
+&lt;td style="text-align: center">14000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">1.5KW&lt;/td>
+&lt;td style="text-align: center">500元&lt;/td>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">37KW&lt;/td>
+&lt;td style="text-align: center">2900元&lt;/td>
+&lt;td style="text-align: center">22&lt;/td>
+&lt;td style="text-align: center">220KW&lt;/td>
+&lt;td style="text-align: center">18400元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">2.2KW&lt;/td>
+&lt;td style="text-align: center">650元&lt;/td>
+&lt;td style="text-align: center">13&lt;/td>
+&lt;td style="text-align: center">45KW&lt;/td>
+&lt;td style="text-align: center">3700元&lt;/td>
+&lt;td style="text-align: center">23&lt;/td>
+&lt;td style="text-align: center">250KW&lt;/td>
+&lt;td style="text-align: center">20300元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">4KW&lt;/td>
+&lt;td style="text-align: center">850元&lt;/td>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;td style="text-align: center">55KW&lt;/td>
+&lt;td style="text-align: center">4600元&lt;/td>
+&lt;td style="text-align: center">24&lt;/td>
+&lt;td style="text-align: center">280KW&lt;/td>
+&lt;td style="text-align: center">23400元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">5.5KW&lt;/td>
+&lt;td style="text-align: center">1000元&lt;/td>
+&lt;td style="text-align: center">15&lt;/td>
+&lt;td style="text-align: center">75KW&lt;/td>
+&lt;td style="text-align: center">5000元&lt;/td>
+&lt;td style="text-align: center">25&lt;/td>
+&lt;td style="text-align: center">315KW&lt;/td>
+&lt;td style="text-align: center">28500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">7.5KW&lt;/td>
+&lt;td style="text-align: center">1150元&lt;/td>
+&lt;td style="text-align: center">16&lt;/td>
+&lt;td style="text-align: center">90KW&lt;/td>
+&lt;td style="text-align: center">6700元&lt;/td>
+&lt;td style="text-align: center">26&lt;/td>
+&lt;td style="text-align: center">355KW&lt;/td>
+&lt;td style="text-align: center">32000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">11KW&lt;/td>
+&lt;td style="text-align: center">1250元&lt;/td>
+&lt;td style="text-align: center">17&lt;/td>
+&lt;td style="text-align: center">110KW&lt;/td>
+&lt;td style="text-align: center">7500元&lt;/td>
+&lt;td style="text-align: center">27&lt;/td>
+&lt;td style="text-align: center">400KW&lt;/td>
+&lt;td style="text-align: center">35000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">8&lt;/td>
+&lt;td style="text-align: center">15KW&lt;/td>
+&lt;td style="text-align: center">1450元&lt;/td>
+&lt;td style="text-align: center">18&lt;/td>
+&lt;td style="text-align: center">132KW&lt;/td>
+&lt;td style="text-align: center">9800元&lt;/td>
+&lt;td style="text-align: center">28&lt;/td>
+&lt;td style="text-align: center">450KW&lt;/td>
+&lt;td style="text-align: center">38000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">9&lt;/td>
+&lt;td style="text-align: center">18.5KW&lt;/td>
+&lt;td style="text-align: center">1650元&lt;/td>
+&lt;td style="text-align: center">19&lt;/td>
+&lt;td style="text-align: center">160KW&lt;/td>
+&lt;td style="text-align: center">11300元&lt;/td>
+&lt;td style="text-align: center">29&lt;/td>
+&lt;td style="text-align: center">500KW&lt;/td>
+&lt;td style="text-align: center">45000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">10&lt;/td>
+&lt;td style="text-align: center">22KW&lt;/td>
+&lt;td style="text-align: center">2000元&lt;/td>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;td style="text-align: center">185KW&lt;/td>
+&lt;td style="text-align: center">12300元&lt;/td>
+&lt;td style="text-align: center">30&lt;/td>
+&lt;td style="text-align: center">560KW&lt;/td>
+&lt;td style="text-align: center">48000元&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>注意: 变频器全系列均为模块机，本价格不含税，不含运费，款到发货。热线：&lt;a href="tel:150-6499-9739" >150-6499-9739&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2>高性能通用矢量变频器质保期限&lt;span class="hx-absolute -hx-mt-20" id="高性能通用矢量变频器质保期限">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e8%b4%a8%e4%bf%9d%e6%9c%9f%e9%99%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>高性能通用矢量变频器质保期为自发货之日起12个月，质保期内有任何质量问题，免费换新！&lt;/p>
+&lt;h2>高性能通用矢量变频器应用范围&lt;span class="hx-absolute -hx-mt-20" id="高性能通用矢量变频器应用范围">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e9%80%9a%e7%94%a8%e7%9f%a2%e9%87%8f%e5%8f%98%e9%a2%91%e5%99%a8%e5%ba%94%e7%94%a8%e8%8c%83%e5%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/1.png" title="高性能通用矢量变频器应用范围" alt="高性能通用矢量变频器应用范围" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器应用范围&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>高性能变频器厂家联系方式&lt;span class="hx-absolute -hx-mt-20" id="高性能变频器厂家联系方式">&lt;/span>
+&lt;a href="#%e9%ab%98%e6%80%a7%e8%83%bd%e5%8f%98%e9%a2%91%e5%99%a8%e5%8e%82%e5%ae%b6%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/02.jpg" title="高性能通用矢量变频器厂家联系方式" alt="高性能通用矢量变频器厂家联系方式" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器厂家联系方式&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>SKR4-22KW在线式软启动器</title><link>https://koltluo.github.io/shop/products/motor-driven/soft-starter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/products/motor-driven/soft-starter/</guid><description>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/01.jpg" title="软起动器厂家" alt="变频器软启动柜厂家" loading="lazy" />
+&lt;figcaption>软起动器厂家&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软启动器产品概述&lt;span class="hx-absolute -hx-mt-20" id="在线软启动器产品概述">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e4%ba%a7%e5%93%81%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>该系列&lt;strong>在线式软起动器&lt;/strong>采用三进三出晶闸管全时在线结构，无需外接交流接触器组成机柜;内部采用大功率风冷散热器和高速轴流风机，确保软启动长期可靠运行;使用时一定要考虑柜内的排风散热！本产品广泛应用于传动设备、风机、泵、破碎机等负载的起动控制，产品符合GB14048.6-2016
+&lt;img src="https://koltluo.github.io/shop/images/GE300/%e4%b8%bb1.jpg" alt="在线软启动器" loading="lazy" />&lt;/p>
+&lt;h2>在线软起动器启动方式&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器启动方式">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e5%90%af%e5%8a%a8%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/2.jpg" title="软起动器启动方式" alt="在线软起动器启动方式" loading="lazy" />
+&lt;figcaption>软起动器启动方式&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软起动器产品展示&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器产品展示">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/5.jpg" title="在线软起动器" alt="在线软起动器" loading="lazy" />
+&lt;figcaption>在线软起动器&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/1.jpg" title="在线软起动器" alt="在线软起动器" loading="lazy" />
+&lt;figcaption>在线软起动器&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/8.jpg" title="在线软起动器" alt="在线软起动器" loading="lazy" />
+&lt;figcaption>在线软起动器&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/9.jpg" title="在线软起动器" alt="在线软起动器" loading="lazy" />
+&lt;figcaption>在线软起动器&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软起动器产品包装&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器产品包装">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e4%ba%a7%e5%93%81%e5%8c%85%e8%a3%85" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/10.jpg" title="在线软起动器外包装" alt="在线软起动器外包装" loading="lazy" />
+&lt;figcaption>在线软起动器外包装&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软起动器一次接线图&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器一次接线图">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e4%b8%80%e6%ac%a1%e6%8e%a5%e7%ba%bf%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/7.jpg" title="在线软起动器接线图" alt="在线软起动器接线图" loading="lazy" />
+&lt;figcaption>在线软起动器接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软起动器外形尺寸图&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器外形尺寸图">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/%e5%9c%a8%e7%ba%bf%e5%99%a8%e5%b0%ba%e5%af%b8%e5%9b%be.jpg" title="在线软起动器外形尺寸图" alt="在线软起动器外形尺寸图" loading="lazy" />
+&lt;figcaption>在线软起动器外形尺寸图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软起动器外围配线选型&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器外围配线选型">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e5%a4%96%e5%9b%b4%e9%85%8d%e7%ba%bf%e9%80%89%e5%9e%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/%e8%bd%af%e5%90%af%e5%8a%a8%e5%a4%96%e5%9b%b4%e9%85%8d%e7%ba%bf.jpg" title="在线软起动器外围配线选型" alt="在线软起动器外围配线选型" loading="lazy" />
+&lt;figcaption>在线软起动器外围配线选型&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软起动器经销商出厂价格&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器经销商出厂价格">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e7%bb%8f%e9%94%80%e5%95%86%e5%87%ba%e5%8e%82%e4%bb%b7%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">18.5KW&lt;/td>
+&lt;td style="text-align: center">850元&lt;/td>
+&lt;td style="text-align: center">11&lt;/td>
+&lt;td style="text-align: center">160KW&lt;/td>
+&lt;td style="text-align: center">2500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">22KW&lt;/td>
+&lt;td style="text-align: center">900元&lt;/td>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">185KW&lt;/td>
+&lt;td style="text-align: center">2600元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">30KW&lt;/td>
+&lt;td style="text-align: center">950元&lt;/td>
+&lt;td style="text-align: center">13&lt;/td>
+&lt;td style="text-align: center">200KW&lt;/td>
+&lt;td style="text-align: center">2700元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">37KW&lt;/td>
+&lt;td style="text-align: center">1000元&lt;/td>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;td style="text-align: center">220KW&lt;/td>
+&lt;td style="text-align: center">3000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">45KW&lt;/td>
+&lt;td style="text-align: center">1050元&lt;/td>
+&lt;td style="text-align: center">15&lt;/td>
+&lt;td style="text-align: center">250KW&lt;/td>
+&lt;td style="text-align: center">3300元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">55KW&lt;/td>
+&lt;td style="text-align: center">1500元&lt;/td>
+&lt;td style="text-align: center">16&lt;/td>
+&lt;td style="text-align: center">280KW&lt;/td>
+&lt;td style="text-align: center">3400元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">75KW&lt;/td>
+&lt;td style="text-align: center">1650元&lt;/td>
+&lt;td style="text-align: center">17&lt;/td>
+&lt;td style="text-align: center">320KW&lt;/td>
+&lt;td style="text-align: center">3600元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">8&lt;/td>
+&lt;td style="text-align: center">90KW&lt;/td>
+&lt;td style="text-align: center">1850元&lt;/td>
+&lt;td style="text-align: center">18&lt;/td>
+&lt;td style="text-align: center">350KW&lt;/td>
+&lt;td style="text-align: center">3700元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">9&lt;/td>
+&lt;td style="text-align: center">115KW&lt;/td>
+&lt;td style="text-align: center">2250元&lt;/td>
+&lt;td style="text-align: center">19&lt;/td>
+&lt;td style="text-align: center">400KW&lt;/td>
+&lt;td style="text-align: center">4500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">10&lt;/td>
+&lt;td style="text-align: center">132KW&lt;/td>
+&lt;td style="text-align: center">2400元&lt;/td>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;td style="text-align: center">450KW&lt;/td>
+&lt;td style="text-align: center">5000元&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>注意: 本价格不含税，不含运费，款到发货。热线：&lt;a href="tel:150-6499-9739" >150-6499-9739&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2>在线软起动器质保期限&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器质保期限">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e8%b4%a8%e4%bf%9d%e6%9c%9f%e9%99%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>在线软起动器质保期为自发货之日起12个月，质保期内有任何质量问题，免费换新！&lt;/p>
+&lt;h2>在线软起动器应用范围&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器应用范围">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e5%ba%94%e7%94%a8%e8%8c%83%e5%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/1.png" title="在线软起动器应用范围" alt="在线软起动器应用范围" loading="lazy" />
+&lt;figcaption>在线软起动器应用范围&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软起动器厂家联系方式&lt;span class="hx-absolute -hx-mt-20" id="在线软起动器厂家联系方式">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e5%99%a8%e5%8e%82%e5%ae%b6%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/02.jpg" title="在线软起动器厂家联系方式" alt="在线软起动器厂家联系方式" loading="lazy" />
+&lt;figcaption>在线软起动器厂家联系方式&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>旁路软启动器</title><link>https://koltluo.github.io/shop/products/motor-driven/external-bypass-soft-starter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/products/motor-driven/external-bypass-soft-starter/</guid><description>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/01.jpg" title="智能旁路软启动器厂家" alt="智能旁路软启动器厂家" loading="lazy" />
+&lt;figcaption>智能旁路软启动器厂家&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>旁路软启动器产品概述&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器产品概述">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e4%ba%a7%e5%93%81%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>智能型旁路软启动器是本公司自主研发的以微处理器为核心，结合可控硅功率驱动、软硬件保护、菜单式LED显示、键盘操作、转矩控制及模糊PID闭环算法等技术、集电机软启动、软停车、轻载节能和多种功能为一体，全新打造的具有国际先进水平的智能启动设备。该设备功能齐全、性能稳定，被广泛的应用于传输类设备、风机、水浆机、压缩机等负载的启动过程中。&lt;/p>
+&lt;p>旁路软启动器（soft starter）是一种集电机软起动、软停车、轻载节能和多种保护功能于一体的新颖电机控制装置，国外称为Soft Starter。它的主要构成是串接于电源与被控电机之间的三相反并联闸管及其电子控制电路。运用不同的方法，控制三相反并联闸管的导通角，使被控电机的输入电压按不同的要求而变化，就可实现不同的功能。&lt;/p>
+&lt;h2>旁路软启动器性能特点&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器性能特点">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e6%80%a7%e8%83%bd%e7%89%b9%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>多种起动方式&lt;span class="hx-absolute -hx-mt-20" id="多种起动方式">&lt;/span>
+&lt;a href="#%e5%a4%9a%e7%a7%8d%e8%b5%b7%e5%8a%a8%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>用户可选择限流起动、电压斜坡起动，并可在每种方式下施加可编程突跳起动及起动电流限制。满足现场需求，实现良好的起动效果。&lt;/p>
+&lt;h3>可靠性&lt;span class="hx-absolute -hx-mt-20" id="可靠性">&lt;/span>
+&lt;a href="#%e5%8f%af%e9%9d%a0%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>微处理器对控制系统中的信号进行数字化处理，避免了以往模拟线路的过多调整，从而获得很好的准确性和执行速度。&lt;/p>
+&lt;h3>强大的抗干扰性&lt;span class="hx-absolute -hx-mt-20" id="强大的抗干扰性">&lt;/span>
+&lt;a href="#%e5%bc%ba%e5%a4%a7%e7%9a%84%e6%8a%97%e5%b9%b2%e6%89%b0%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>所有外部控制信号均采用光电隔离，并设置了不同的抗噪级别，适应在特殊的工业环境中使用。&lt;/p>
+&lt;h3>简便的调整方式&lt;span class="hx-absolute -hx-mt-20" id="简便的调整方式">&lt;/span>
+&lt;a href="#%e7%ae%80%e4%be%bf%e7%9a%84%e8%b0%83%e6%95%b4%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>控制系统应用范围广，方式调整简便、直观，通过各种功能选项可匹配各类不同的控制对象。&lt;/p>
+&lt;h3>优化的结构&lt;span class="hx-absolute -hx-mt-20" id="优化的结构">&lt;/span>
+&lt;a href="#%e4%bc%98%e5%8c%96%e7%9a%84%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>独特的紧凑内部结构设计，特别方便用户集成到已有系统中，为用户节约了电流互感器和旁路接触器的费用。&lt;/p>
+&lt;h3>电源频率自适应&lt;span class="hx-absolute -hx-mt-20" id="电源频率自适应">&lt;/span>
+&lt;a href="#%e7%94%b5%e6%ba%90%e9%a2%91%e7%8e%87%e8%87%aa%e9%80%82%e5%ba%94" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>电源频率50/60Hz自适应功能，方便用户使用。&lt;/p>
+&lt;h3>模拟输出&lt;span class="hx-absolute -hx-mt-20" id="模拟输出">&lt;/span>
+&lt;a href="#%e6%a8%a1%e6%8b%9f%e8%be%93%e5%87%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>4-20mA电流输出功能，方便用户使用。&lt;/p>
+&lt;h3>MODBUS-RTU通讯&lt;span class="hx-absolute -hx-mt-20" id="modbus-rtu通讯">&lt;/span>
+&lt;a href="#modbus-rtu%e9%80%9a%e8%ae%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>在进行网络通讯时，可连接32台设备。用户可通过对波特率、通讯地址的设定以达到自动通讯的目的。通信地址设定范围为1-32，出厂值为1。通信波特率设定范围为：0、2400；1、4800；2、9600；3、19200；出厂值为2(9600)。&lt;/p>
+&lt;h3>保护功能完善&lt;span class="hx-absolute -hx-mt-20" id="保护功能完善">&lt;/span>
+&lt;a href="#%e4%bf%9d%e6%8a%a4%e5%8a%9f%e8%83%bd%e5%ae%8c%e5%96%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>多种电机保护功能（如过流、输入输出缺相、晶闸管短路、过热保护、漏电检测、电子热过载、内部接触器故障、相电流不平衡等）确保电机及软起动器在故障或误操作时不被损坏。&lt;/p>
+&lt;h3>维护简便&lt;span class="hx-absolute -hx-mt-20" id="维护简便">&lt;/span>
+&lt;a href="#%e7%bb%b4%e6%8a%a4%e7%ae%80%e4%be%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>由4位数码显示组成的监控信号编码系统，24小时监控系统设备的工作状况，同时提供快速故障诊断。&lt;/p>
+&lt;h2>旁路软启动器产品展示&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器产品展示">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/06.jpg" title="旁路软启动器" alt="旁路软启动器" loading="lazy" />
+&lt;figcaption>旁路软启动器&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/05.jpg" title="旁路软启动器" alt="旁路软启动器" loading="lazy" />
+&lt;figcaption>旁路软启动器&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/07.jpg" title="旁路软启动器" alt="旁路软启动器" loading="lazy" />
+&lt;figcaption>旁路软启动器&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>旁路软启动器经销商价格&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器经销商价格">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e7%bb%8f%e9%94%80%e5%95%86%e4%bb%b7%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">18.5KW&lt;/td>
+&lt;td style="text-align: center">650元&lt;/td>
+&lt;td style="text-align: center">11&lt;/td>
+&lt;td style="text-align: center">160KW&lt;/td>
+&lt;td style="text-align: center">2200元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">22KW&lt;/td>
+&lt;td style="text-align: center">730元&lt;/td>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">185KW&lt;/td>
+&lt;td style="text-align: center">2300元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">30KW&lt;/td>
+&lt;td style="text-align: center">770元&lt;/td>
+&lt;td style="text-align: center">13&lt;/td>
+&lt;td style="text-align: center">200KW&lt;/td>
+&lt;td style="text-align: center">2400元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">37KW&lt;/td>
+&lt;td style="text-align: center">800元&lt;/td>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;td style="text-align: center">220KW&lt;/td>
+&lt;td style="text-align: center">2500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">45KW&lt;/td>
+&lt;td style="text-align: center">880元&lt;/td>
+&lt;td style="text-align: center">15&lt;/td>
+&lt;td style="text-align: center">250KW&lt;/td>
+&lt;td style="text-align: center">2850元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">55KW&lt;/td>
+&lt;td style="text-align: center">950元&lt;/td>
+&lt;td style="text-align: center">16&lt;/td>
+&lt;td style="text-align: center">280KW&lt;/td>
+&lt;td style="text-align: center">2950元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">75KW&lt;/td>
+&lt;td style="text-align: center">1050元&lt;/td>
+&lt;td style="text-align: center">17&lt;/td>
+&lt;td style="text-align: center">320KW&lt;/td>
+&lt;td style="text-align: center">3200元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">8&lt;/td>
+&lt;td style="text-align: center">90KW&lt;/td>
+&lt;td style="text-align: center">1750元&lt;/td>
+&lt;td style="text-align: center">18&lt;/td>
+&lt;td style="text-align: center">350KW&lt;/td>
+&lt;td style="text-align: center">3300元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">9&lt;/td>
+&lt;td style="text-align: center">115KW&lt;/td>
+&lt;td style="text-align: center">1900元&lt;/td>
+&lt;td style="text-align: center">19&lt;/td>
+&lt;td style="text-align: center">400KW&lt;/td>
+&lt;td style="text-align: center">3800元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">10&lt;/td>
+&lt;td style="text-align: center">132KW&lt;/td>
+&lt;td style="text-align: center">2000元&lt;/td>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;td style="text-align: center">450KW&lt;/td>
+&lt;td style="text-align: center">4500元&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>注意: 本价格不含税，不含运费，款到发货。热线：&lt;a href="tel:150-6499-9739" >150-6499-9739&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2>旁路软启动器接线图&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器接线图">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e6%8e%a5%e7%ba%bf%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/7.jpg" title="旁路软启动器接线图" alt="旁路软启动器接线图" loading="lazy" />
+&lt;figcaption>旁路软启动器接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>旁路软启动器外围配线选型&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器外围配线选型">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%a4%96%e5%9b%b4%e9%85%8d%e7%ba%bf%e9%80%89%e5%9e%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/%e8%bd%af%e5%90%af%e5%8a%a8%e5%a4%96%e5%9b%b4%e9%85%8d%e7%ba%bf.jpg" title="在线软起动器外围配线选型" alt="在线软起动器外围配线选型" loading="lazy" />
+&lt;figcaption>在线软起动器外围配线选型&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>旁路软启动器使用条件&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器使用条件">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e4%bd%bf%e7%94%a8%e6%9d%a1%e4%bb%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>控制电源&lt;span class="hx-absolute -hx-mt-20" id="控制电源">&lt;/span>
+&lt;a href="#%e6%8e%a7%e5%88%b6%e7%94%b5%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>AC110V&amp;ndash;220V±15%，50/60Hz&lt;/p>
+&lt;h3>三相电源&lt;span class="hx-absolute -hx-mt-20" id="三相电源">&lt;/span>
+&lt;a href="#%e4%b8%89%e7%9b%b8%e7%94%b5%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>标准接线AC380V，内三角接线AC380V±30%&lt;/p>
+&lt;h3>标称电流&lt;span class="hx-absolute -hx-mt-20" id="标称电流">&lt;/span>
+&lt;a href="#%e6%a0%87%e7%a7%b0%e7%94%b5%e6%b5%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>37A&amp;ndash;900A，共20种额定值&lt;/p>
+&lt;h3>适用电机&lt;span class="hx-absolute -hx-mt-20" id="适用电机">&lt;/span>
+&lt;a href="#%e9%80%82%e7%94%a8%e7%94%b5%e6%9c%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>一般鼠笼型交流异步电机&lt;/p>
+&lt;h3>起动斜坡方式&lt;span class="hx-absolute -hx-mt-20" id="起动斜坡方式">&lt;/span>
+&lt;a href="#%e8%b5%b7%e5%8a%a8%e6%96%9c%e5%9d%a1%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>限流软起动、电压斜坡起动&lt;/p>
+&lt;h3>停车方式&lt;span class="hx-absolute -hx-mt-20" id="停车方式">&lt;/span>
+&lt;a href="#%e5%81%9c%e8%bd%a6%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>自由停车、软停车&lt;/p>
+&lt;h3>逻辑输入&lt;span class="hx-absolute -hx-mt-20" id="逻辑输入">&lt;/span>
+&lt;a href="#%e9%80%bb%e8%be%91%e8%be%93%e5%85%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>阻抗1.8KΩ，电源+15V&lt;/p>
+&lt;h3>起动频度&lt;span class="hx-absolute -hx-mt-20" id="起动频度">&lt;/span>
+&lt;a href="#%e8%b5%b7%e5%8a%a8%e9%a2%91%e5%ba%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>可做频繁或不频繁起动,建议每小时起动不超过10次&lt;/p>
+&lt;h3>保护功能&lt;span class="hx-absolute -hx-mt-20" id="保护功能">&lt;/span>
+&lt;a href="#%e4%bf%9d%e6%8a%a4%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>断相、过流、短路、SCR保护、过热、欠载、相电流不平衡、接线、内部故障等&lt;/p>
+&lt;h3>防护等级&lt;span class="hx-absolute -hx-mt-20" id="防护等级">&lt;/span>
+&lt;a href="#%e9%98%b2%e6%8a%a4%e7%ad%89%e7%ba%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>IP00、IP20&lt;/p>
+&lt;h3>冷却方式&lt;span class="hx-absolute -hx-mt-20" id="冷却方式">&lt;/span>
+&lt;a href="#%e5%86%b7%e5%8d%b4%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>自然冷却或强迫风冷&lt;/p>
+&lt;h3>安装方式&lt;span class="hx-absolute -hx-mt-20" id="安装方式">&lt;/span>
+&lt;a href="#%e5%ae%89%e8%a3%85%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>壁挂式&lt;/p>
+&lt;h3>环境条件&lt;span class="hx-absolute -hx-mt-20" id="环境条件">&lt;/span>
+&lt;a href="#%e7%8e%af%e5%a2%83%e6%9d%a1%e4%bb%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>海拨超过2000米，应相应降低容量使用&lt;/li>
+&lt;li>环境温度在-25-+45°C之间&lt;/li>
+&lt;li>相应湿度不超过95%(20°C±5°C)&lt;/li>
+&lt;li>无易燃、易爆、腐蚀性气体，无导电尘埃，室内安装，通风良好，振动小于0.5G&lt;/li>
+&lt;/ol>
+&lt;h2>旁路软启动器质保期限&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器质保期限">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e8%b4%a8%e4%bf%9d%e6%9c%9f%e9%99%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>旁路软启动器质保期为自发货之日起12个月，质保期内有任何质量问题，免费换新！&lt;/p>
+&lt;h2>旁路软启动器应用范围&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器应用范围">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%ba%94%e7%94%a8%e8%8c%83%e5%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/1.png" title="旁路软启动器应用范围" alt="旁路软启动器应用范围" loading="lazy" />
+&lt;figcaption>旁路软启动器应用范围&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>旁路软启动器厂家联系方式&lt;span class="hx-absolute -hx-mt-20" id="旁路软启动器厂家联系方式">&lt;/span>
+&lt;a href="#%e6%97%81%e8%b7%af%e8%bd%af%e5%90%af%e5%8a%a8%e5%99%a8%e5%8e%82%e5%ae%b6%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/02.jpg" title="旁路软启动器厂家联系方式" alt="旁路软启动器厂家联系方式" loading="lazy" />
+&lt;figcaption>旁路软启动器厂家联系方式&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>在线软启动柜</title><link>https://koltluo.github.io/shop/products/motor-driven/on-line-soft-start-control-cabinet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/products/motor-driven/on-line-soft-start-control-cabinet/</guid><description>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/01.jpg" title="软起动器厂家" alt="变频器软启动柜厂家" loading="lazy" />
+&lt;figcaption>软起动器厂家&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>软启动柜产品概述&lt;span class="hx-absolute -hx-mt-20" id="软启动柜产品概述">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e4%ba%a7%e5%93%81%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>在线软起动柜&lt;/strong>采用三相并联晶闸管作为稳压器，连接在电源和电机定子之间。这种电路是三相全控桥式整流电路。使用&lt;a href="https://koltluo.github.io/shop/zh/product/2/" title="在线软启动器">软起动器&lt;/a> 启动电机时，晶闸管的输出电压逐渐升高，电机逐渐加速，直到晶闸管完全导通，电机根据额定电压的机械特性工作，实现平稳启动，降低启动电流，避免启动过电流跳闸。在线软起动器柜还提供软停止功能。软停止与软启动过程相反。电压逐渐降低，转速降至零，避免自由停止造成扭矩冲击。
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/4.jpg" title="在线软启动柜" alt="在线软启动柜" loading="lazy" />
+&lt;figcaption>在线软启动柜&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>软启动柜性能特点&lt;span class="hx-absolute -hx-mt-20" id="软启动柜性能特点">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e6%80%a7%e8%83%bd%e7%89%b9%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>三进三出，无需旁路交流接触器，产品价格更便宜，维护成本更低&lt;/li>
+&lt;li>能适应在烟雾、灰尘、灰尘、沙尘等恶劣环境下可靠运行。&lt;/li>
+&lt;li>保护功能齐全，性能可靠，使用寿命长，经济效益高&lt;/li>
+&lt;li>广泛应用于传动设备、风机、泵、压缩机、破碎机等负载的启动过程中&lt;/li>
+&lt;li>工作电压范围宽，接线简单方便&lt;/li>
+&lt;/ol>
+&lt;h2>软启动柜产品展示&lt;span class="hx-absolute -hx-mt-20" id="软启动柜产品展示">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/3.jpg" title="在线软启动柜" alt="在线软启动柜" loading="lazy" />
+&lt;figcaption>在线软启动柜&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/1.jpg" title="在线软启动柜" alt="在线软启动柜" loading="lazy" />
+&lt;figcaption>在线软启动柜&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/4.jpg" title="在线软启动柜" alt="在线软启动柜" loading="lazy" />
+&lt;figcaption>在线软启动柜&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>软启动柜外形尺寸图&lt;span class="hx-absolute -hx-mt-20" id="软启动柜外形尺寸图">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/%e5%9c%a8%e7%ba%bf%e6%9f%9c%e5%a4%96%e5%bd%a2%e5%b0%ba%e5%af%b8.jpg" title="在线软起动器外形尺寸图" alt="在线软起动器外形尺寸图" loading="lazy" />
+&lt;figcaption>在线软起动器外形尺寸图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>在线软起动柜接线图&lt;span class="hx-absolute -hx-mt-20" id="在线软起动柜接线图">&lt;/span>
+&lt;a href="#%e5%9c%a8%e7%ba%bf%e8%bd%af%e8%b5%b7%e5%8a%a8%e6%9f%9c%e6%8e%a5%e7%ba%bf%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/17.jpg" title="在线软起动柜接线图" alt="在线软起动柜接线图" loading="lazy" />
+&lt;figcaption>在线软起动柜接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>软启动柜外围配线选型&lt;span class="hx-absolute -hx-mt-20" id="软启动柜外围配线选型">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e5%a4%96%e5%9b%b4%e9%85%8d%e7%ba%bf%e9%80%89%e5%9e%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/%e8%bd%af%e5%90%af%e5%8a%a8%e5%a4%96%e5%9b%b4%e9%85%8d%e7%ba%bf.jpg" title="在线软起动器外围配线选型" alt="在线软起动器外围配线选型" loading="lazy" />
+&lt;figcaption>在线软起动器外围配线选型&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>软启动柜经销商价格&lt;span class="hx-absolute -hx-mt-20" id="软启动柜经销商价格">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e7%bb%8f%e9%94%80%e5%95%86%e4%bb%b7%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">18.5KW&lt;/td>
+&lt;td style="text-align: center">1300元&lt;/td>
+&lt;td style="text-align: center">11&lt;/td>
+&lt;td style="text-align: center">160KW&lt;/td>
+&lt;td style="text-align: center">3400元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">22KW&lt;/td>
+&lt;td style="text-align: center">1450元&lt;/td>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">185KW&lt;/td>
+&lt;td style="text-align: center">3500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">30KW&lt;/td>
+&lt;td style="text-align: center">1500元&lt;/td>
+&lt;td style="text-align: center">13&lt;/td>
+&lt;td style="text-align: center">200KW&lt;/td>
+&lt;td style="text-align: center">3700元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">37KW&lt;/td>
+&lt;td style="text-align: center">1600元&lt;/td>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;td style="text-align: center">220KW&lt;/td>
+&lt;td style="text-align: center">4500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">45KW&lt;/td>
+&lt;td style="text-align: center">1700元&lt;/td>
+&lt;td style="text-align: center">15&lt;/td>
+&lt;td style="text-align: center">250KW&lt;/td>
+&lt;td style="text-align: center">4800元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">55KW&lt;/td>
+&lt;td style="text-align: center">2100元&lt;/td>
+&lt;td style="text-align: center">16&lt;/td>
+&lt;td style="text-align: center">280KW&lt;/td>
+&lt;td style="text-align: center">5000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">75KW&lt;/td>
+&lt;td style="text-align: center">2300元&lt;/td>
+&lt;td style="text-align: center">17&lt;/td>
+&lt;td style="text-align: center">320KW&lt;/td>
+&lt;td style="text-align: center">5200元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">8&lt;/td>
+&lt;td style="text-align: center">90KW&lt;/td>
+&lt;td style="text-align: center">2700元&lt;/td>
+&lt;td style="text-align: center">18&lt;/td>
+&lt;td style="text-align: center">350KW&lt;/td>
+&lt;td style="text-align: center">5800元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">9&lt;/td>
+&lt;td style="text-align: center">115KW&lt;/td>
+&lt;td style="text-align: center">3000元&lt;/td>
+&lt;td style="text-align: center">19&lt;/td>
+&lt;td style="text-align: center">400KW&lt;/td>
+&lt;td style="text-align: center">6500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">10&lt;/td>
+&lt;td style="text-align: center">132KW&lt;/td>
+&lt;td style="text-align: center">3200元&lt;/td>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;td style="text-align: center">450KW&lt;/td>
+&lt;td style="text-align: center">7200元&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>注意: 本价格不含税，不含运费，款到发货。热线：&lt;a href="tel:150-6499-9739" >150-6499-9739&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2>软启动柜质保期限&lt;span class="hx-absolute -hx-mt-20" id="软启动柜质保期限">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e8%b4%a8%e4%bf%9d%e6%9c%9f%e9%99%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>在线软起动柜质保期为自发货之日起12个月，质保期内有任何质量问题，免费换新！&lt;/p>
+&lt;h2>软启动柜应用范围&lt;span class="hx-absolute -hx-mt-20" id="软启动柜应用范围">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e5%ba%94%e7%94%a8%e8%8c%83%e5%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/GE300/1.png" title="在线软起动柜应用范围" alt="在线软起动柜应用范围" loading="lazy" />
+&lt;figcaption>在线软起动柜应用范围&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>软启动柜厂家联系方式&lt;span class="hx-absolute -hx-mt-20" id="软启动柜厂家联系方式">&lt;/span>
+&lt;a href="#%e8%bd%af%e5%90%af%e5%8a%a8%e6%9f%9c%e5%8e%82%e5%ae%b6%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/02.jpg" title="在线软起动柜厂家联系方式" alt="在线软起动柜厂家联系方式" loading="lazy" />
+&lt;figcaption>在线软起动柜厂家联系方式&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>自耦减压启动柜</title><link>https://koltluo.github.io/shop/products/motor-driven/autotransformer-reduced-voltage-starter-cabinet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/products/motor-driven/autotransformer-reduced-voltage-starter-cabinet/</guid><description>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/01.jpg" title="自耦减压启动柜厂家" alt="自耦减压启动柜厂家" loading="lazy" />
+&lt;figcaption>自耦减压启动柜厂家&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>自耦减压启动柜工作原理&lt;span class="hx-absolute -hx-mt-20" id="自耦减压启动柜工作原理">&lt;/span>
+&lt;a href="#%e8%87%aa%e8%80%a6%e5%87%8f%e5%8e%8b%e5%90%af%e5%8a%a8%e6%9f%9c%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>自耦减压启动柜&lt;/strong>是通过自耦变压器降低加在电动机定子上的电压，从而降低启动电流。电动机启动时，定子绕组连接自耦变压器的二次侧，此时为降压启动状态。启动完成后，自耦变压器脱离，定子绕组连接额定电压，电动机全压运行。自耦减压启动是笼型感应电动机(又称异步电动机)的启动方法之一。它具有线路结构紧凑、不受电动机绕组接线方式限制的优点，还可按允许的启动电流和所需要的启动转矩选用不同的变压器电压抽头，故适用于容量较大的电动机。&lt;/p>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/ZOG/1.jpg" title="自耦减压启动柜" alt="自耦减压启动柜" loading="lazy" />
+&lt;figcaption>自耦减压启动柜&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>自耦减压启动柜启动过程&lt;span class="hx-absolute -hx-mt-20" id="自耦减压启动柜启动过程">&lt;/span>
+&lt;a href="#%e8%87%aa%e8%80%a6%e5%87%8f%e5%8e%8b%e5%90%af%e5%8a%a8%e6%9f%9c%e5%90%af%e5%8a%a8%e8%bf%87%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>按下启动按钮SB2，时间继电器KT线圈的电，时间继电器常开点闭合，时间继电器开始计时，同时KM3、KM2线圈得电吸合并开始工作，此时为自耦变压器降压启动。等时间继电器计时完成后，延时断开点断开，KM3、KM2线圈失电停止工作，同时常闭点闭合，时间继电器延时闭合点闭合，KM1线圈得电，常开点闭合，KM1开始工作。此时自耦降压启动完成。&lt;/p>
+&lt;h2>自耦减压启动柜产品展示&lt;span class="hx-absolute -hx-mt-20" id="自耦减压启动柜产品展示">&lt;/span>
+&lt;a href="#%e8%87%aa%e8%80%a6%e5%87%8f%e5%8e%8b%e5%90%af%e5%8a%a8%e6%9f%9c%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/ZOG/2.jpg" title="自耦减压启动柜" alt="自耦减压启动柜" loading="lazy" />
+&lt;figcaption>自耦减压启动柜&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/ZOG/3.jpg" title="自耦减压启动柜" alt="自耦减压启动柜" loading="lazy" />
+&lt;figcaption>自耦减压启动柜&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/ZOG/4.jpg" title="自耦减压启动柜" alt="自耦减压启动柜" loading="lazy" />
+&lt;figcaption>自耦减压启动柜&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;blockquote>
+&lt;p>自耦变压器降压启动常用于启动较大容量的三相交流电动机，自耦变压器设有65%和80%线路电压的抽头，对应电动机的起动电流分别为全压起动电流的42%和64%。电动机的启动电流和启动转矩与其端电压的平方成比例降低，相同的启动电流，电动机能获得较大的启动转矩。&lt;/p>
+&lt;/blockquote>
+&lt;h2>自耦减压启动柜经销商出厂价格&lt;span class="hx-absolute -hx-mt-20" id="自耦减压启动柜经销商出厂价格">&lt;/span>
+&lt;a href="#%e8%87%aa%e8%80%a6%e5%87%8f%e5%8e%8b%e5%90%af%e5%8a%a8%e6%9f%9c%e7%bb%8f%e9%94%80%e5%95%86%e5%87%ba%e5%8e%82%e4%bb%b7%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">出厂价格&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">22KW&lt;/td>
+&lt;td style="text-align: center">900元&lt;/td>
+&lt;td style="text-align: center">10&lt;/td>
+&lt;td style="text-align: center">190KW&lt;/td>
+&lt;td style="text-align: center">3500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">30KW&lt;/td>
+&lt;td style="text-align: center">1050元&lt;/td>
+&lt;td style="text-align: center">11&lt;/td>
+&lt;td style="text-align: center">225KW&lt;/td>
+&lt;td style="text-align: center">5000元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">40KW&lt;/td>
+&lt;td style="text-align: center">1350元&lt;/td>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">260KW&lt;/td>
+&lt;td style="text-align: center">5500元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">55KW&lt;/td>
+&lt;td style="text-align: center">1550元&lt;/td>
+&lt;td style="text-align: center">13&lt;/td>
+&lt;td style="text-align: center">320KW&lt;/td>
+&lt;td style="text-align: center">5800元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">75KW&lt;/td>
+&lt;td style="text-align: center">1650元&lt;/td>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;td style="text-align: center">350KW&lt;/td>
+&lt;td style="text-align: center">8700元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">90KW&lt;/td>
+&lt;td style="text-align: center">2650元&lt;/td>
+&lt;td style="text-align: center">15&lt;/td>
+&lt;td style="text-align: center">400KW&lt;/td>
+&lt;td style="text-align: center">9700元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">115KW&lt;/td>
+&lt;td style="text-align: center">2750元&lt;/td>
+&lt;td style="text-align: center">16&lt;/td>
+&lt;td style="text-align: center">450KW&lt;/td>
+&lt;td style="text-align: center">10900元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">8&lt;/td>
+&lt;td style="text-align: center">135KW&lt;/td>
+&lt;td style="text-align: center">3150元&lt;/td>
+&lt;td style="text-align: center">17&lt;/td>
+&lt;td style="text-align: center">500KW&lt;/td>
+&lt;td style="text-align: center">11900元&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">9&lt;/td>
+&lt;td style="text-align: center">160KW&lt;/td>
+&lt;td style="text-align: center">3350元&lt;/td>
+&lt;td style="text-align: center">18&lt;/td>
+&lt;td style="text-align: center">600KW&lt;/td>
+&lt;td style="text-align: center">13800元&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>注意: 本价格不含税，不含运费，款到发货。热线：&lt;a href="tel:150-6499-9739" >150-6499-9739&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2>自耦减压启动柜质保期限&lt;span class="hx-absolute -hx-mt-20" id="自耦减压启动柜质保期限">&lt;/span>
+&lt;a href="#%e8%87%aa%e8%80%a6%e5%87%8f%e5%8e%8b%e5%90%af%e5%8a%a8%e6%9f%9c%e8%b4%a8%e4%bf%9d%e6%9c%9f%e9%99%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>自耦减压启动柜质保期为自发货之日起12个月，质保期内有任何质量问题，免费换新！&lt;/p>
+&lt;h2>自耦减压启动柜应用范围&lt;span class="hx-absolute -hx-mt-20" id="自耦减压启动柜应用范围">&lt;/span>
+&lt;a href="#%e8%87%aa%e8%80%a6%e5%87%8f%e5%8e%8b%e5%90%af%e5%8a%a8%e6%9f%9c%e5%ba%94%e7%94%a8%e8%8c%83%e5%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/ZOG/5.jpg" title="自耦减压启动柜应用范围" alt="自耦减压启动柜应用范围" loading="lazy" />
+&lt;figcaption>自耦减压启动柜应用范围&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>自耦减压启动柜厂家联系方式&lt;span class="hx-absolute -hx-mt-20" id="自耦减压启动柜厂家联系方式">&lt;/span>
+&lt;a href="#%e8%87%aa%e8%80%a6%e5%87%8f%e5%8e%8b%e5%90%af%e5%8a%a8%e6%9f%9c%e5%8e%82%e5%ae%b6%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/02.jpg" title="高性能通用矢量变频器厂家联系方式" alt="高性能通用矢量变频器厂家联系方式" loading="lazy" />
+&lt;figcaption>高性能通用矢量变频器厂家联系方式&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item></channel></rss>

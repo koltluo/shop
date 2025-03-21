@@ -1,0 +1,131 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山东临沂森阔机电有限公司 – 第六章 行业应用宏使用说明</title><link>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/</link><description>Recent content in 第六章 行业应用宏使用说明 on 山东临沂森阔机电有限公司</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/index.xml" rel="self" type="application/rss+xml"/><item><title>6.1 恢复出厂设置</title><link>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/restore-to-factory-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/restore-to-factory-settings/</guid><description>
+&lt;p>P0-29=10000，不包括电机参数组的其它参数全部恢复出厂默认值，P0-29=10000，等同于PP-01=1的恢复出厂值效果。执行行业应用宏操作前，请先执行：P0-29=10000。&lt;/p>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>6.2 恒压供水宏</title><link>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/constant-pressure-water-supply-macro-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/constant-pressure-water-supply-macro-settings/</guid><description>
+&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200">
+&lt;div class="ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2">&lt;div class="hx-select-none hx-text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">ℹ️&lt;/div>&lt;/div>
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7">
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">小提示：1bar=1kg=0.1MPa=10米汞柱&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>本恒压力供水宏特点：直接选择供水宏，再输入传感器量程值和目标压力，其它参数基本上不动就能直接实现高效的恒压供水控制，调压能力强大，反应迅速灵敏，因此比传统的PID控制频率方式的供水控制更优秀，压力更稳定，更节能等优点。同时对有压力罐的现场有更好的恒压保压效果。以及主板双继电器直接实现一拖三，或配合Y1和HDO端子外接继电器控制最多可实现一拖五供水，有独立的加泵和减泵压力以及延时控制，还可以实现超压力时，备用紧急的减泵专用时间控制，只要适当减小(b0-15压力上限紧急减辅泵延时)的时间值，即可快速减泵并停机，合理避免水压上升太快的难题。另外，键盘可以通过移位键切换直接监视压力设定目标值，或压力反馈值。掉电后重新上电后运行时，监视内容不变。同时本机还直接支持双显键盘监视压力设定值以及反馈值。&lt;/p>
+&lt;h2>单泵变频恒压力供水宏&lt;span class="hx-absolute -hx-mt-20" id="单泵变频恒压力供水宏">&lt;/span>
+&lt;a href="#%e5%8d%95%e6%b3%b5%e5%8f%98%e9%a2%91%e6%81%92%e5%8e%8b%e5%8a%9b%e4%be%9b%e6%b0%b4%e5%ae%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>P0-29=1时，其自动初始化参数如下：（默认面板电位器给定目标压力值）&lt;br>
+P0-01=2，P0-02=1，P0-03=8，P0-14=20.00Hz，P4-18=2.00，P7-03=8015，P7-04=0001，P7-05=3003，P7-17=15，P7-18=16，PA-00=3，PA-05=50.0，PA-06=0.10，PA-28=0（如果加快反应速度，可以增大PA-05和减小PA-06的值；减慢反应速度，这两参数反之），AI1默认为0&lt;del>10V输入作为PID压力反馈源，如果需要改为4&lt;/del>20mA输入，请补充参数：P4-13=2.00V，P4-37=11(个位设1为电流输入型)。变频器本身出厂AI2默认为0~20MA输入，如果使用AI2作为PID压力反馈源，对应补充参数：P4-18=2.00V，P4-37=10即可。AI1和AI2改为电流输入时，需要串接端子24V为传感器供电。&lt;br>
+b0组为恒压力供水参数组，其中b0-00为压力传感器的量程，需要如实输入。例如：传感器最大值标记为1.6MPa，则b0-00=16.00kg。&lt;br>
+PA-00用于选定目标压力给定源默认是3键盘模拟电位器，如果选为8即由b0-01为供水现场的目标压力值设定，默认为5.00kg，可按需求更改。休眠和唤醒压力以及相关的延时可以调整，休眠，唤醒以及各种压力偏差量，都是自动跟随着目标压力的百分比值联动自动适应调整，基本上不需要调节就能稳定工作。&lt;br>
+注意：关于恒压供水的变频器相关接线，请点&lt;a href="https://koltluo.github.io/shop/docs/panel-display-and-operation/terminal-application-wiring-diagram/" title="变频恒压供水接线图">这里&lt;/a>，不在此叙述。&lt;/p>
+&lt;h2>一拖三变频恒压力供水宏&lt;span class="hx-absolute -hx-mt-20" id="一拖三变频恒压力供水宏">&lt;/span>
+&lt;a href="#%e4%b8%80%e6%8b%96%e4%b8%89%e5%8f%98%e9%a2%91%e6%81%92%e5%8e%8b%e5%8a%9b%e4%be%9b%e6%b0%b4%e5%ae%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>P0-29=2，即可实现1变频泵拖2工频泵的恒压供水模式。此模式基于上面的&lt;strong>单泵变频恒压力供水宏&lt;/strong>的初始化默认参数条件下，增加如下默认参数：&lt;br>
+P5-02=50(RLY1为辅助泵1)，P5-03=51(RLY2为辅助泵2)，P5-25=0.3s，P5-26=0.3s，b0-10=2(两个辅助泵)，更多控制参数请看&lt;a href="https://koltluo.github.io/shop/docs/functional-parameter-table/intelligent-constant-pressure-water-supply-parameters/" title="变频恒压供水参数设置">恒压供水参数b0组&lt;/a>&lt;/p>
+&lt;h2>一拖五变频恒压力供水宏&lt;span class="hx-absolute -hx-mt-20" id="一拖五变频恒压力供水宏">&lt;/span>
+&lt;a href="#%e4%b8%80%e6%8b%96%e4%ba%94%e5%8f%98%e9%a2%91%e6%81%92%e5%8e%8b%e5%8a%9b%e4%be%9b%e6%b0%b4%e5%ae%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>P0-29=3，即可实现1变频泵拖4工频泵的恒压供水模式。此模式基于上面的&lt;strong>一拖三变频恒压力供水宏&lt;/strong>的初始化默认参数条件下，增加如下默认参数：&lt;br>
+P5-04=52（Y1为辅助泵3），P5-01=53(HDO为辅助泵4)，P5-00=1，P5-24=0.3s，P5-27=0.3s，b0-10=4(四个辅助泵)，更多控制参数请看&lt;a href="https://koltluo.github.io/shop/docs/functional-parameter-table/intelligent-constant-pressure-water-supply-parameters/" title="变频恒压供水参数设置">恒压供水参数b0组&lt;/a>&lt;/p>
+&lt;h2>消防供水巡检柜专用宏&lt;span class="hx-absolute -hx-mt-20" id="消防供水巡检柜专用宏">&lt;/span>
+&lt;a href="#%e6%b6%88%e9%98%b2%e4%be%9b%e6%b0%b4%e5%b7%a1%e6%a3%80%e6%9f%9c%e4%b8%93%e7%94%a8%e5%ae%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>P0-29=7，些模式默认参数如下：&lt;br>
+P0-02=1，P0-03=0，P0-08=10.00Hz，P0-12=15.00Hz，P4-00=1，P4-03=9，P6-10=1&lt;/p>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>6.3 机床宏100HZ</title><link>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/machine-tool-macro-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/machine-tool-macro-settings/</guid><description>
+&lt;p>AI1输入0~10V给定转速，X1端子正转启停，须接刹车电阻，如果刹车过压，须要注意减少P9组的过压失速增益值，此值过小，容易对IGBT冲击过大。&lt;/p>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>6.4 雕刻机宏400HZ</title><link>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/engraving-machine-macro-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/industry-application-macro-usage-instructions/engraving-machine-macro-settings/</guid><description>
+&lt;p>X1正转启停，X2多段速端子1，X3多段速端子2，X4多段速端子3，三端子组合如下：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">段速&lt;/th>
+&lt;th style="text-align: center">对应频率&lt;/th>
+&lt;th style="text-align: center">多段速端子1&lt;/th>
+&lt;th style="text-align: center">多段速端子2&lt;/th>
+&lt;th style="text-align: center">多段速端子3&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">0&lt;/td>
+&lt;td style="text-align: center">0Hz&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">100Hz&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">150Hz&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">200Hz&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">250Hz&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">300Hz&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">350Hz&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">400Hz&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item></channel></rss>

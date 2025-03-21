@@ -1,0 +1,432 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山东临沂森阔机电有限公司 – 第四章 面板显示与操作</title><link>https://koltluo.github.io/shop/docs/vfd/panel-display-and-operation/</link><description>Recent content in 第四章 面板显示与操作 on 山东临沂森阔机电有限公司</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://koltluo.github.io/shop/docs/vfd/panel-display-and-operation/index.xml" rel="self" type="application/rss+xml"/><item><title>4.1 显示界面介绍</title><link>https://koltluo.github.io/shop/docs/vfd/panel-display-and-operation/display-interface-introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/panel-display-and-operation/display-interface-introduction/</guid><description>
+&lt;p>用操作面板，可对变频器进行功能参数修改，变频器工作状态监控和变频器进行启动、停止等操作，其外形及功能区如下图所示:
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/cmb.jpg" title="C系列变频器操作面板示意图" alt="C系列变频器操作面板示意图" loading="lazy" />
+&lt;figcaption>C系列变频器操作面板示意图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>C系列变频器操作面板指示灯及按键功能&lt;span class="hx-absolute -hx-mt-20" id="c系列变频器操作面板指示灯及按键功能">&lt;/span>
+&lt;a href="#c%e7%b3%bb%e5%88%97%e5%8f%98%e9%a2%91%e5%99%a8%e6%93%8d%e4%bd%9c%e9%9d%a2%e6%9d%bf%e6%8c%87%e7%a4%ba%e7%81%af%e5%8f%8a%e6%8c%89%e9%94%ae%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">按键符号&lt;/th>
+&lt;th style="text-align: center">名称&lt;/th>
+&lt;th style="text-align: center">功能说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">PRG&lt;/td>
+&lt;td style="text-align: center">编程键&lt;/td>
+&lt;td style="text-align: center">菜单进入或退出，参数修改&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ENTER&lt;/td>
+&lt;td style="text-align: center">确定键&lt;/td>
+&lt;td style="text-align: center">选择参数修改移位及显示内容&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">🔼&lt;/td>
+&lt;td style="text-align: center">递增键&lt;/td>
+&lt;td style="text-align: center">数据或功能码的递增&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">🔽&lt;/td>
+&lt;td style="text-align: center">递减键&lt;/td>
+&lt;td style="text-align: center">数据或功能码的递减&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">▶️&lt;/td>
+&lt;td style="text-align: center">移位键&lt;/td>
+&lt;td style="text-align: center">根据功能切换选择&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">RUN&lt;/td>
+&lt;td style="text-align: center">运行键&lt;/td>
+&lt;td style="text-align: center">进入菜单，确认参数设置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">STOP/RESET&lt;/td>
+&lt;td style="text-align: center">停止/复位键&lt;/td>
+&lt;td style="text-align: center">键盘操作方式下运行操作&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">FUNC&lt;/td>
+&lt;td style="text-align: center">多功能快捷键&lt;/td>
+&lt;td style="text-align: center">点动&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">REV&lt;/td>
+&lt;td style="text-align: center">指示灯&lt;/td>
+&lt;td style="text-align: center">变频器反转指示灯，灯亮时表示反转运行状态&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">FWD&lt;/td>
+&lt;td style="text-align: center">指示灯&lt;/td>
+&lt;td style="text-align: center">变频器正转指示灯，灯亮时表示正转运行状态&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ALM&lt;/td>
+&lt;td style="text-align: center">指示灯&lt;/td>
+&lt;td style="text-align: center">变频器故障指示灯，灯亮时表示处于故障状态&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">Hz&lt;/td>
+&lt;td style="text-align: center">指示灯&lt;/td>
+&lt;td style="text-align: center">频率单位&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">A&lt;/td>
+&lt;td style="text-align: center">指示灯&lt;/td>
+&lt;td style="text-align: center">电流单位&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">V&lt;/td>
+&lt;td style="text-align: center">指示灯&lt;/td>
+&lt;td style="text-align: center">电压单位&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/hmb.jpg" title="H系列变频器操作面板示意图" alt="H系列变频器操作面板示意图" loading="lazy" />
+&lt;figcaption>H系列变频器操作面板示意图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>H系列变频器操作面板指示灯及按键功能&lt;span class="hx-absolute -hx-mt-20" id="h系列变频器操作面板指示灯及按键功能">&lt;/span>
+&lt;a href="#h%e7%b3%bb%e5%88%97%e5%8f%98%e9%a2%91%e5%99%a8%e6%93%8d%e4%bd%9c%e9%9d%a2%e6%9d%bf%e6%8c%87%e7%a4%ba%e7%81%af%e5%8f%8a%e6%8c%89%e9%94%ae%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">名称&lt;/th>
+&lt;th style="text-align: left">功能说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">单位指示灯&lt;/td>
+&lt;td style="text-align: left">Hz：频率单位；A：电流单位；V：电压单位；&lt;/br>RMP(Hz+A)：转速单位；%(A+V) ：百分数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">状态指示灯&lt;/td>
+&lt;td style="text-align: left">RUN：亮/运行；灭/停止；&lt;/br>FWD/REV：亮/正转；灭/反转；闪烁/正反转切换中；&lt;/br>TUNE/TC：慢闪/调谐状态；快闪/通讯状态；慢闪约1次/秒；快闪约2次/秒&lt;/br>LOCAL/REMOTE：亮/端子控制；闪烁/通讯控制；灭/键盘控制。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">PRG（编程键）&lt;/td>
+&lt;td style="text-align: left">一级菜单进入或退出&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ENTER（确定键）&lt;/td>
+&lt;td style="text-align: left">逐级进入菜单画面、设定参数确认&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">🔼（递增键）&lt;/td>
+&lt;td style="text-align: left">数据或功能码的递增&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">🔽（递减键）&lt;/td>
+&lt;td style="text-align: left">数据或功能码的递减&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">▶️ （移位键）&lt;/td>
+&lt;td style="text-align: left">在停机显示界面和运行显示界面下，可循环选择显示参数；在修改参数时，可以选择参数的修改位。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">RUN（运行键）&lt;/td>
+&lt;td style="text-align: left">在键盘操作方式下，用于运行操作。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">STOP/RESET（停止/复位键）&lt;/td>
+&lt;td style="text-align: left">运行状态时，按此键可用于停止运行操作；故障报警状态时，可用来复位操作，该键的特性受功能码F7.02制约。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">MF.K（多功能快捷键）&lt;/td>
+&lt;td style="text-align: left">根据F7.01作功能切换选择。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">旋钮（脉冲电位器）&lt;/td>
+&lt;td style="text-align: left">可以作为频率给定源。当设置变频器采用此旋钮为频率源时，顺时针旋转为增加给定，逆时针旋转为减少给定。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>变频器功能码查看、修改方法说明&lt;span class="hx-absolute -hx-mt-20" id="变频器功能码查看修改方法说明">&lt;/span>
+&lt;a href="#%e5%8f%98%e9%a2%91%e5%99%a8%e5%8a%9f%e8%83%bd%e7%a0%81%e6%9f%a5%e7%9c%8b%e4%bf%ae%e6%94%b9%e6%96%b9%e6%b3%95%e8%af%b4%e6%98%8e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>变频器的操作面板采用三级菜单结构进行参数设置等操作。三级菜单分别为：功能参数级(一级菜单)→功能码（二级菜单）→功能码设定值（三级菜单）。操作流程如下图所示：
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/lct.jpg" title="变频器三级菜单操作流程图" alt="变频器三级菜单操作流程图" loading="lazy" />
+&lt;figcaption>变频器三级菜单操作流程图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>说明：在三级菜单操作时，可按PRG（编程）键或ENTER(确认)键返回二级菜单。两者的区别是：按ENTER(确认)键将设定参数保存后返回二级菜单，并自动转移到下一个功能码；而按PRG(编程)键则直接返回二级菜单，不存储参数，并返回到当前功能码。&lt;br>
+举例：将功能码P3-02从10.00Hz更改为15.00Hz的示例。（粗体字表示闪烁位）
+&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jl.jpg" title="变频器三级菜单参数设置举例" alt="变频器三级菜单参数设置举例" loading="lazy" />
+&lt;figcaption>变频器三级菜单参数设置举例&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>在第三级菜单状态下，若参数没有闪烁位，表示该功能码不能修改，可能原因有：&lt;br>
+1.该功能码为不可修改参数。如实际检测参数、运行记录参数。&lt;br>
+2.该功能码在运行状态下不可修改，需停机后才能进行修改。&lt;/p>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>4.2 端子应用接线图</title><link>https://koltluo.github.io/shop/docs/vfd/panel-display-and-operation/terminal-application-wiring-diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/panel-display-and-operation/terminal-application-wiring-diagram/</guid><description>
+&lt;h2>0.75~37KW变频器接线图&lt;span class="hx-absolute -hx-mt-20" id="07537kw变频器接线图">&lt;/span>
+&lt;a href="#07537kw%e5%8f%98%e9%a2%91%e5%99%a8%e6%8e%a5%e7%ba%bf%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt1.jpg" title="SKF8000系列0.75~37KW矢量变频器外接电位器接线图" alt="SKF8000系列矢量变频器外接电位器接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列0.75~37KW矢量变频器外接电位器接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt2.jpg" title="SKF8000系列0.75~37KW矢量变频器外接按钮启动停止接线图" alt="SKF8000系列矢量变频器外接按钮启动停止接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列0.75~37KW矢量变频器外接按钮启动停止接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：按下绿色按钮，变频器启动；按下红色停止按钮，变频器停止；&lt;br>
+变频器参数设置：P0-02=1;P4-02=3;P4-11=2&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt3.jpg" title="SKF8000系列0.75~37KW矢量变频器外接三档旋钮开关正反转接线图" alt="SKF8000系列矢量变频器外接三档开关正反转接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列0.75~37KW矢量变频器外接三档旋钮开关正反转接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：三档两常开旋钮，打到左边电机正转，打到中间电机停止，打到右边电机反转。&lt;br>
+变频器参数设置：P0-02=1&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt4.jpg" title="SKF8000系列0.75~37KW矢量变频器外接通断信号接线图" alt="SKF8000系列矢量变频器外接通断信号接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列0.75~37KW矢量变频器外接通断信号接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：X1端子和COM端子接通变频器启动；X1端子和COM端子断开变频器停止；来电直启，断电停机，直接COM和X1短接。&lt;br>
+变频器参数设置：P0-02=1&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt5.jpg" title="SKF8000系列0.75~37KW矢量变频器外接远传压力表-简单恒压供水接线图" alt="SKF8000系列矢量变频器外接远传压力表-简单恒压供水接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列0.75~37KW矢量变频器外接远传压力表-简单恒压供水接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：变频器作为供水系统的核心，能够实时监测水压变化，并根据需求智能调节水泵的转速。当多个用户同时使用水源时，变频器会自动增加水泵的输出功率，保持稳定的水压；而在使用较小的水流量时，变频器则会降低水泵的输出功率，避免过高的水压。&lt;br>
+变频器参数设置：P0-29=00001，b0-00=压力表量程，b0-01=设定压力，b0-02=睡眠压力，b0-03=唤醒压力;&lt;br>
+举例：如远传压力表量程为1MPA，b0-00=10，如量程为1.6MPA，b0-00=16。&lt;br>
+上行显示设定压力，下行显示压力表反馈压力。改变设定压力通过面板增加🔼/减少🔽键调整，显示压力单位为公斤。上行可通过▶️键切换显示母线电压，电流，频率，设定压力，反馈压力。&lt;br>
+🌟备注1：以上设置为P0-29=00001后默认外部端子运行，如需面板启动，要设置P0-02=0。&lt;br>
+🌟备注2：b0-02和b0-03设置是相对b0-01的百分比。&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt6.jpg" title="SKF8000系列0.75~37KW矢量变频器外接压力传感器-简单恒压供水接线图" alt="SKF8000系列矢量变频器外接压力传感器-简单恒压供水接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列0.75~37KW矢量变频器外接压力传感器-简单恒压供水接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：变频器作为恒力供水系统的核心，能够实时监测水压变化，并根据需求智能调节水泵的转速。当多个用户同时使用水源时，变频器会自动增加水泵的输出功率，保持稳定的水压；而在使用较小的水流量时，变频器则会降低水泵的输出功率，避免过高的水压。&lt;br>
+变频器参数设置：P0-29=00001，b0-00=压力变送器量程，b0-01=设定压力，b0-02=睡眠压力，b0-03=唤醒压力;&lt;br>
+举例：如压力变送器量程为1MPA，b0-00=10，如量程为1.6MPA，b0-00=16。&lt;br>
+上行显示设定压力，下行显示压力变送器反馈压力。改变设定压力通过面板增加🔼/减少🔽键调整，显示压力单位为公斤。上行可通过▶️键切换显示母线电压，电流，频率，设定压力，反馈压力。&lt;br>
+🌟备注1：以上设置为P0-29=00001后默认外部端子运行，如需面板启动，要设置P0-02=0。&lt;br>
+🌟备注2：b0-02和b0-03设置是相对b0-01的百分比。&lt;/p>
+&lt;hr>
+&lt;h2>45~720KW变频器接线图&lt;span class="hx-absolute -hx-mt-20" id="45720kw变频器接线图">&lt;/span>
+&lt;a href="#45720kw%e5%8f%98%e9%a2%91%e5%99%a8%e6%8e%a5%e7%ba%bf%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt7.jpg" title="SKF8000系列45~720KW矢量变频器外接电位器接线图" alt="SKF8000系列矢量变频器外接电位器接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列45~720KW矢量变频器外接电位器接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt8.jpg" title="SKF8000系列45~720KW矢量变频器外接按钮启动停止接线图" alt="SKF8000系列矢量变频器外接按钮启动停止接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列45~720KW矢量变频器外接按钮启动停止接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：按下绿色按钮，变频器启动；按下红色停止按钮，变频器停止；&lt;br>
+变频器参数设置：P0-02=1;P4-02=3;P4-11=2&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt9.jpg" title="SKF8000系列45~720KW矢量变频器外接三档开关正反转接线图" alt="SKF8000系列矢量变频器外接三档开关正反转接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列45~720KW矢量变频器外接三档开关正反转接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：三档两常开旋钮，打到左边电机正转，打到中间电机停止，打到右边电机反转。&lt;br>
+变频器参数设置：P0-02=1&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt11.jpg" title="SKF8000系列矢量45~720KW变频器外接通断信号接线图" alt="SKF8000系列矢量变频器外接通断信号接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列矢量45~720KW变频器外接通断信号接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：X1端子和COM端子接通变频器启动；X1端子和COM端子断开变频器停止；来电直启，断电停机，直接COM和X1短接。&lt;br>
+变频器参数设置：P0-02=1&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt10.jpg" title="SKF8000系列45~720KW矢量变频器外接远传压力表-简单恒压供水接线图" alt="SKF8000系列矢量变频器外接远传压力表-简单恒压供水接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列45~720KW矢量变频器外接远传压力表-简单恒压供水接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：变频器作为恒压供水系统的核心，能够实时监测水压变化，并根据需求智能调节水泵的转速。当多个用户同时使用水源时，变频器会自动增加水泵的输出功率，保持稳定的水压；而在使用较小的水流量时，变频器则会降低水泵的输出功率，避免过高的水压。&lt;br>
+变频器参数设置：P0-29=00001，b0-00=压力表量程，b0-01=设定压力，b0-02=睡眠压力，b0-03=唤醒压力;&lt;br>
+举例：如远传压力表量程为1MPA，b0-00=10，如量程为1.6MPA，b0-00=16。&lt;br>
+上行显示设定压力，下行显示压力表反馈压力。改变设定压力通过面板增加🔼/减少🔽键调整，显示压力单位为公斤。上行可通过▶️键切换显示母线电压，电流，频率，设定压力，反馈压力。&lt;br>
+🌟备注1：以上设置为P0-29=00001后默认外部端子运行，如需面板启动，要设置P0-02=0。&lt;br>
+🌟备注2：b0-02和b0-03设置是相对b0-01的百分比。&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/jxt12.jpg" title="SKF8000系列45~720KW矢量变频器外接压力传感器-简单恒压供水接线图" alt="SKF8000系列矢量变频器外接压力传感器-简单恒压供水接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列45~720KW矢量变频器外接压力传感器-简单恒压供水接线图&lt;/figcaption>
+&lt;/figure>&lt;br>
+说明：变频器作为供水系统的核心，能够实时监测水压变化，并根据需求智能调节水泵的转速。当多个用户同时使用水源时，变频器会自动增加水泵的输出功率，保持稳定的水压；而在使用较小的水流量时，变频器则会降低水泵的输出功率，避免过高的水压。&lt;br>
+变频器参数设置：P0-29=00001，b0-00=压力变送器量程，b0-01=设定压力，b0-02=睡眠压力，b0-03=唤醒压力;&lt;br>
+举例：如压力变送器量程为1MPA，b0-00=10，如量程为1.6MPA，b0-00=16。&lt;br>
+上行显示设定压力，下行显示压力变送器反馈压力。改变设定压力通过面板增加🔼/减少🔽键调整，显示压力单位为公斤。上行可通过▶️键切换显示母线电压，电流，频率，设定压力，反馈压力。&lt;br>
+🌟备注1：以上设置为P0-29=00001后默认外部端子运行，如需面板启动，要设置P0-02=0。&lt;br>
+🌟备注2：b0-02和b0-03设置是相对b0-01的百分比。&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/yyyb.jpg" title="SKF8000系列高性能通用矢量变频器：一用一备接线图" alt="SKF8000系列高性能通用矢量变频器一用一备接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列高性能通用矢量变频器：一用一备接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;hr>
+&lt;p>&lt;figure>
+&lt;img src="https://koltluo.github.io/shop/images/yblg.jpg" title="SKF8000系列高性能通用矢量变频器：一变频两工频接线图" alt="SKF8000系列高性能通用矢量变频器一变频两工频接线图" loading="lazy" />
+&lt;figcaption>SKF8000系列高性能通用矢量变频器：一变频两工频接线图&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2>SKF8000系列通用变频器多段速指令功能说明&lt;span class="hx-absolute -hx-mt-20" id="skf8000系列通用变频器多段速指令功能说明">&lt;/span>
+&lt;a href="#skf8000%e7%b3%bb%e5%88%97%e9%80%9a%e7%94%a8%e5%8f%98%e9%a2%91%e5%99%a8%e5%a4%9a%e6%ae%b5%e9%80%9f%e6%8c%87%e4%bb%a4%e5%8a%9f%e8%83%bd%e8%af%b4%e6%98%8e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>4个多段速指令端子，可以组合为16种状态，这16种状态对应16个指令设定值。具体如下表所示：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">K4&lt;/th>
+&lt;th style="text-align: center">K3&lt;/th>
+&lt;th style="text-align: center">K2&lt;/th>
+&lt;th style="text-align: center">K1&lt;/th>
+&lt;th style="text-align: center">指令设定&lt;/th>
+&lt;th style="text-align: center">对应参数&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">多段指定0&lt;/td>
+&lt;td style="text-align: center">PC-00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定1&lt;/td>
+&lt;td style="text-align: center">PC-01&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">多段指定2&lt;/td>
+&lt;td style="text-align: center">PC-02&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定3&lt;/td>
+&lt;td style="text-align: center">PC-03&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">多段指定4&lt;/td>
+&lt;td style="text-align: center">PC-04&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定5&lt;/td>
+&lt;td style="text-align: center">PC-05&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定6&lt;/td>
+&lt;td style="text-align: center">PC-06&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定7&lt;/td>
+&lt;td style="text-align: center">PC-07&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">多段指定8&lt;/td>
+&lt;td style="text-align: center">PC-08&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定9&lt;/td>
+&lt;td style="text-align: center">PC-09&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">多段指定10&lt;/td>
+&lt;td style="text-align: center">PC-10&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定11&lt;/td>
+&lt;td style="text-align: center">PC-11&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">多段指定12&lt;/td>
+&lt;td style="text-align: center">PC-12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定13&lt;/td>
+&lt;td style="text-align: center">PC-13&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">OFF&lt;/td>
+&lt;td style="text-align: center">多段指定14&lt;/td>
+&lt;td style="text-align: center">PC-14&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">ON&lt;/td>
+&lt;td style="text-align: center">多段指定15&lt;/td>
+&lt;td style="text-align: center">PC-15&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>当频率源选择为多段速时，功能码PC-00~PC-15的100%，对应PC-10(最大频率)&lt;/p>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item></channel></rss>

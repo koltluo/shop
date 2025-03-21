@@ -1,0 +1,320 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山东临沂森阔机电有限公司 – 第七章 故障诊断及对策</title><link>https://koltluo.github.io/shop/docs/vfd/fault-diagnosis-and-countermeasures/</link><description>Recent content in 第七章 故障诊断及对策 on 山东临沂森阔机电有限公司</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://koltluo.github.io/shop/docs/vfd/fault-diagnosis-and-countermeasures/index.xml" rel="self" type="application/rss+xml"/><item><title>7.1 故障报警及对策</title><link>https://koltluo.github.io/shop/docs/vfd/fault-diagnosis-and-countermeasures/fault-alarm-and-countermeasures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/fault-diagnosis-and-countermeasures/fault-alarm-and-countermeasures/</guid><description>
+&lt;p>变频器共有32项警示信息及保护功能，一旦故障发生，保护功能动作，变频器停止输出，变频器故障继电器接点动作，并在变频器显示面板上显示故障代码。用户在寻求服务之前，可以先按本节提示进行自查，分析故障原因，找出解决方法。如果需要寻求服务，与您所购变频器的代理商或直接与本公司联系。&lt;br>
+21项警示信息中ERR22为硬件过流或过压信号，大部分情况下硬件过压故障造成ERR22报警。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">故障名称&lt;/th>
+&lt;th style="text-align: center">故障代码&lt;/th>
+&lt;th style="text-align: left">故障原因排查&lt;/th>
+&lt;th style="text-align: left">故障处理对策&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">逆变单元保护&lt;/td>
+&lt;td style="text-align: center">ERR01&lt;/td>
+&lt;td style="text-align: left">1、变频器输出回路短路&lt;/br>2、电机和变频器接线过长&lt;/br>3、模块过热&lt;/br>4、变频器内部接线松动&lt;/br>5、主控板异常&lt;/br>6、驱动板异常&lt;/br>7、逆变模块异常&lt;/td>
+&lt;td style="text-align: left">1、排除外围故障&lt;/br>2、加装电抗器或输出滤波器&lt;/br>3、检查风道是否堵塞、风扇是否正常工作并排除存在问题&lt;/br>4、插好所有连接线&lt;/br>5、寻求技术支持&lt;/br>6、寻求技术支持&lt;/br>7、寻求技术支持&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">加速过电流&lt;/td>
+&lt;td style="text-align: center">ERR02&lt;/td>
+&lt;td style="text-align: left">1、变频器输出回路存在接地或短路&lt;/br>2、控制方式为矢量且没有进行参数辨识&lt;/br>3、加速时间太短&lt;/br>4、手动转矩提升或V/F曲线不合适&lt;/br>5、电压偏低&lt;/br>6、对正在旋转的电机进行启动&lt;/br>7、加速过程中突加负载&lt;/br>8、变频器选型偏小&lt;/td>
+&lt;td style="text-align: left">1、排除外围故障&lt;/br>2、进行电机参数辨识&lt;/br>3、增大加速时间&lt;/br>4、调整手动提升转矩V/F曲线&lt;/br>5、将电压调至正常范围&lt;/br>6、选择转速追踪启动或等电机停止后再启动&lt;/br>7、取消突加负载&lt;/br>8、选用功率等级更大的变频器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">减速过电流&lt;/td>
+&lt;td style="text-align: center">ERR03&lt;/td>
+&lt;td style="text-align: left">1、变频器输出回路存在接地或短路&lt;/br>2、控制方式为矢量且没有进行参数辨识长&lt;/br>3、减速时间太短&lt;/br>4、电压偏低&lt;/br>5、减速过程中突加负载&lt;/br>6、没有加装制动单元和制动电阻&lt;/td>
+&lt;td style="text-align: left">1、排除外围故障&lt;/br>2、进行电机参数辨识&lt;/br>3、增大减速时间&lt;/br>4、将电压调至正常范围&lt;/br>5、取消突加负载&lt;/br>6、加装制动单元及电阻&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">恒速过电流&lt;/td>
+&lt;td style="text-align: center">ERR04&lt;/td>
+&lt;td style="text-align: left">1、变频器输出回路存在接地或短路&lt;/br>2、控制方式为矢量且没有进行参数辨识长&lt;/br>3、电压偏低&lt;/br>4、运行过程中是否有突加负载&lt;/br>5、变频器选型偏小&lt;/td>
+&lt;td style="text-align: left">1、排除外围故障&lt;/br>2、进行电机参数辨识&lt;/br>3、将电压调至正常范围&lt;/br>4、取消突加负载&lt;/br>5、选用功率等级更大的变频器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">加速过电压&lt;/td>
+&lt;td style="text-align: center">ERR05&lt;/td>
+&lt;td style="text-align: left">1、输入电压偏高&lt;/br>2、加速过程中存在外力拖动电机运行&lt;/br>3、加速时间过短&lt;/br>4、没有加装制动单元和制动电阻&lt;/td>
+&lt;td style="text-align: left">1、将电压调至正常范围&lt;/br>2、取消此外动力或加装制动电阻&lt;/br>3、增大加速时间&lt;/br>4、加装制动单元及电阻&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">减速过电压&lt;/td>
+&lt;td style="text-align: center">ERR06&lt;/td>
+&lt;td style="text-align: left">1、输入电压偏高&lt;/br>2、减速过程中存在外力拖动电机运行&lt;/br>3、减速时间过短&lt;/br>4、没有加装制动单元和制动电阻&lt;/td>
+&lt;td style="text-align: left">1、将电压调至正常范围&lt;/br>2、取消此外动力或加装制动电阻&lt;/br>3、增大减速时间&lt;/br>4、加装制动单元及电阻&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">恒速过电压&lt;/td>
+&lt;td style="text-align: center">ERR07&lt;/td>
+&lt;td style="text-align: left">1、输入电压偏高&lt;/br>2、减速过程中存在外力拖动电机运行&lt;/td>
+&lt;td style="text-align: left">1、将电压调至正常范围&lt;/br>2、取消此外动力或加装制动电阻&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">8&lt;/td>
+&lt;td style="text-align: center">控制电源故障&lt;/td>
+&lt;td style="text-align: center">ERR08&lt;/td>
+&lt;td style="text-align: left">1、输入电压不在规范规定的范围内&lt;/td>
+&lt;td style="text-align: left">1、将电压调至规范要求的范围内&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">9&lt;/td>
+&lt;td style="text-align: center">欠压故障&lt;/td>
+&lt;td style="text-align: center">ERR09&lt;/td>
+&lt;td style="text-align: left">1、瞬时停电&lt;/br>2、变频器输入电压不在规范要求的范围内&lt;/br>3、母线电压不正常&lt;/br>4、整流桥及缓冲电阻不正常&lt;/br>5、驱动板异常&lt;/br>6、控制板异常&lt;/td>
+&lt;td style="text-align: left">1、复位故障&lt;/br>2、调整电压到正常范围&lt;/br>3、寻求技术支持&lt;/br>4、寻求技术支持&lt;/br>5、寻求技术支持&lt;/br>6、寻求技术支持&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">10&lt;/td>
+&lt;td style="text-align: center">变频器过载&lt;/td>
+&lt;td style="text-align: center">ERR10&lt;/td>
+&lt;td style="text-align: left">1、负载是否过大或发生电机堵转&lt;/br>2、变频器选型偏小&lt;/td>
+&lt;td style="text-align: left">1、减小负载并检查电机及机械情况&lt;/br>2、选用功率等级更大的变频器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">11&lt;/td>
+&lt;td style="text-align: center">电机过载&lt;/td>
+&lt;td style="text-align: center">ERR11&lt;/td>
+&lt;td style="text-align: left">1、电机保护参数P9-01设定是否合适&lt;/br>2、负载是否过大或发生电机堵转&lt;/br>3、变频器选型偏小&lt;/td>
+&lt;td style="text-align: left">1、正确设定此参数&lt;/br>2、减小负载并检查电机及机械情况&lt;/br>3、选用功率等级更大的变频器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">输入缺相&lt;/td>
+&lt;td style="text-align: center">ERR12&lt;/td>
+&lt;td style="text-align: left">1、三相输入电源不正常&lt;/br>2、驱动板异常&lt;/br>3、防雷板异常&lt;/br>4、主控板异常&lt;/td>
+&lt;td style="text-align: left">1、检查并排除外围线路中存在的问题&lt;/br>2、寻求技术支持&lt;/br>3、寻求技术支持&lt;/br>4、寻求技术支持&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">13&lt;/td>
+&lt;td style="text-align: center">输出缺相&lt;/td>
+&lt;td style="text-align: center">ERR13&lt;/td>
+&lt;td style="text-align: left">1、变频器到电机的引线不正常&lt;/br>2、电机运行时变频器三相输出不平衡&lt;/br>3、驱动板异常&lt;/br>4、模块异常&lt;/td>
+&lt;td style="text-align: left">1、检查并排除外围线路中存在的问题&lt;/br>2、检查电机三相绕组是否正常并排除故障&lt;/br>3、寻求技术支持&lt;/br>4、寻求技术支持&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;td style="text-align: center">模块过热&lt;/td>
+&lt;td style="text-align: center">ERR14&lt;/td>
+&lt;td style="text-align: left">1、环境温度过高&lt;/br>2、风道堵塞&lt;/br>3、风扇损坏&lt;/br>4、模块热敏电阻损坏&lt;/br>5、逆变模块损坏&lt;/td>
+&lt;td style="text-align: left">1、降低环境温度&lt;/br>2、清理风扇&lt;/br>3、更换风扇&lt;/br>4、更换热敏电阻&lt;/br>5、更换逆变模块&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">15&lt;/td>
+&lt;td style="text-align: center">外部设备故障&lt;/td>
+&lt;td style="text-align: center">ERR15&lt;/td>
+&lt;td style="text-align: left">1、多功能端子X输入外部故障的信号&lt;/br>2、虚拟IO功能输入外部故障的信号&lt;/td>
+&lt;td style="text-align: left">1、复位运行&lt;/br>2、复位运行&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">16&lt;/td>
+&lt;td style="text-align: center">通讯故障&lt;/td>
+&lt;td style="text-align: center">ERR16&lt;/td>
+&lt;td style="text-align: left">1、上位机工作不正常&lt;/br>2、通讯线不正常&lt;/br>3、保留&lt;/br>4、通讯参数PD组设置不正确&lt;/td>
+&lt;td style="text-align: left">1、检查上位机连接&lt;/br>2、检查通讯连接线&lt;/br>3、正确设置通讯扩展卡类型&lt;/br>4、正确设置通讯参数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">17&lt;/td>
+&lt;td style="text-align: center">接触器故障&lt;/td>
+&lt;td style="text-align: center">ERR17&lt;/td>
+&lt;td style="text-align: left">1、驱动板和电源不正常&lt;/br>2、接触器不正常&lt;/td>
+&lt;td style="text-align: left">1、更换驱动板或电源板&lt;/br>2、更换接触器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">18&lt;/td>
+&lt;td style="text-align: center">电流检测故障&lt;/td>
+&lt;td style="text-align: center">ERR18&lt;/td>
+&lt;td style="text-align: left">1、检查霍尔器件异常&lt;/br>2、驱动板异常&lt;/td>
+&lt;td style="text-align: left">1、更换霍尔器件&lt;/br>2、更换驱动板&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">19&lt;/td>
+&lt;td style="text-align: center">电机调谐故障&lt;/td>
+&lt;td style="text-align: center">ERR19&lt;/td>
+&lt;td style="text-align: left">1、电机参数未按铭牌设置&lt;/br>2、参数辨识过程超时&lt;/td>
+&lt;td style="text-align: left">1、根据铭牌正确设定电机参数&lt;/br>2、检查变频器到电机引线&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;td style="text-align: center">EEPROM读写故障&lt;/td>
+&lt;td style="text-align: center">ERR21&lt;/td>
+&lt;td style="text-align: left">1、EEPROM芯片损坏&lt;/td>
+&lt;td style="text-align: left">1、更换主控板&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">21&lt;/td>
+&lt;td style="text-align: center">变频器硬件故障&lt;/td>
+&lt;td style="text-align: center">ERR22&lt;/td>
+&lt;td style="text-align: left">1、存在过压&lt;/br>2、存在过流&lt;/td>
+&lt;td style="text-align: left">1、按过压故障处理&lt;/br>2、按过流故障处理&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">22&lt;/td>
+&lt;td style="text-align: center">对地短路故障&lt;/td>
+&lt;td style="text-align: center">ERR23&lt;/td>
+&lt;td style="text-align: left">1、电机对地短路&lt;/td>
+&lt;td style="text-align: left">1、更换电缆或电机&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">23&lt;/td>
+&lt;td style="text-align: center">累计运行时间到达故障&lt;/td>
+&lt;td style="text-align: center">ERR26&lt;/td>
+&lt;td style="text-align: left">1、累计运行时间到达设定值&lt;/td>
+&lt;td style="text-align: left">1、使用参数初始化功能清除记录信息&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">24&lt;/td>
+&lt;td style="text-align: center">用户自定义故障1&lt;/td>
+&lt;td style="text-align: center">ERR27&lt;/td>
+&lt;td style="text-align: left">1、通过多功能端子X输入用户自定义故障1的信号&lt;/br>2、通过虚拟IO功能输入用户自定义故障1的信号&lt;/td>
+&lt;td style="text-align: left">1、复位运行&lt;/br>2、复位运行&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">25&lt;/td>
+&lt;td style="text-align: center">用户自定义故障2&lt;/td>
+&lt;td style="text-align: center">ERR28&lt;/td>
+&lt;td style="text-align: left">1、通过多功能端子X输入用户自定义故障2的信号&lt;/br>2、通过虚拟IO功能输入用户自定义故障2的信号&lt;/td>
+&lt;td style="text-align: left">1、复位运行&lt;/br>2、复位运行&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">26&lt;/td>
+&lt;td style="text-align: center">累计上电时间到达故障&lt;/td>
+&lt;td style="text-align: center">ERR29&lt;/td>
+&lt;td style="text-align: left">1、累计上电时间到达设定值&lt;/td>
+&lt;td style="text-align: left">1、使用参数初始化功能清除记录信息&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">27&lt;/td>
+&lt;td style="text-align: center">掉载故障&lt;/td>
+&lt;td style="text-align: center">ERR30&lt;/td>
+&lt;td style="text-align: left">1、变频器运行电流小于P9-64&lt;/td>
+&lt;td style="text-align: left">1、确认负载是否脱离或P9-64、P9-65参数设置是否符合实际运行工况&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">28&lt;/td>
+&lt;td style="text-align: center">运行时PID反馈丢失故障&lt;/td>
+&lt;td style="text-align: center">ERR31&lt;/td>
+&lt;td style="text-align: left">1、PID反馈小于PA-26设定值&lt;/td>
+&lt;td style="text-align: left">1、检查PID反馈信号或设置PA-26为一个合适值&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">29&lt;/td>
+&lt;td style="text-align: center">逐波限流故障&lt;/td>
+&lt;td style="text-align: center">ERR40&lt;/td>
+&lt;td style="text-align: left">1、负载是否过大或发生电机堵转&lt;/br>2、变频器选型偏小&lt;/td>
+&lt;td style="text-align: left">1、减小负载并检查电机及机械情况&lt;/br>2、选用功率等级更大的变频器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">30&lt;/td>
+&lt;td style="text-align: center">运行时切换电机故障&lt;/td>
+&lt;td style="text-align: center">ERR41&lt;/td>
+&lt;td style="text-align: left">1、在变频器运行过程中通过端子更改当前电机选择&lt;/td>
+&lt;td style="text-align: left">1、变频器停车后再进行电机切换操作&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">31&lt;/td>
+&lt;td style="text-align: center">电机过温故障&lt;/td>
+&lt;td style="text-align: center">ERR45&lt;/td>
+&lt;td style="text-align: left">1、温度传感器接线松动&lt;/br>2、电机温度过高&lt;/td>
+&lt;td style="text-align: left">1、检测温度传感器接线并排除故障&lt;/br>2、降低载频或采取其它散热措施对电机进行散热处理&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">32&lt;/td>
+&lt;td style="text-align: center">初始位置错误&lt;/td>
+&lt;td style="text-align: center">ERR51&lt;/td>
+&lt;td style="text-align: left">1、电机参数与实际偏差太大&lt;/td>
+&lt;td style="text-align: left">1、重新确认电机参数是否正确，重点关注额定电流是否设定偏小&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item><item><title>7.2 常见故障及其处理方法</title><link>https://koltluo.github.io/shop/docs/vfd/fault-diagnosis-and-countermeasures/common-faults-and-remediation-procedures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koltluo.github.io/shop/docs/vfd/fault-diagnosis-and-countermeasures/common-faults-and-remediation-procedures/</guid><description>
+&lt;p>变频器使用过程中可能会遇到下列故障情况，请参考下述方法进行简单故障分析：&lt;/p>
+&lt;h3>变频器常见故障及其处理方法&lt;span class="hx-absolute -hx-mt-20" id="变频器常见故障及其处理方法">&lt;/span>
+&lt;a href="#%e5%8f%98%e9%a2%91%e5%99%a8%e5%b8%b8%e8%a7%81%e6%95%85%e9%9a%9c%e5%8f%8a%e5%85%b6%e5%a4%84%e7%90%86%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">序号&lt;/th>
+&lt;th style="text-align: center">故障现象&lt;/th>
+&lt;th style="text-align: left">可能原因&lt;/th>
+&lt;th style="text-align: left">解决方法&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">上电无显示&lt;/td>
+&lt;td style="text-align: left">1、电网电压没有或过低&lt;/br>2、变频器驱动板上的开关电源故障&lt;/br>3、整流桥损坏&lt;/br>4、变频器缓冲电阻损坏&lt;/br>5、控制板、键盘、键盘线故障&lt;/br>6、控制板与驱动板、键盘之间连接线断&lt;/td>
+&lt;td style="text-align: left">1、检查输入电源&lt;/br>2、寻求变频器厂家服务&lt;/br>3、检查母线电压&lt;/br>4、寻求变频器厂家服务&lt;/br>5、更换键盘线排线或联系变频器厂家&lt;/br>6、寻求变频器厂家服务&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">上电重复显示[ ]&lt;/td>
+&lt;td style="text-align: left">1、驱动板与控制板之间的连线接触不良&lt;/br>2、控制板相关器件损坏&lt;/br>3、电网电压过低&lt;/br>4、驱动板开关电源问题&lt;/td>
+&lt;td style="text-align: left">1、重新插拔主板插针排母&lt;/br>2、寻求变频器厂家服务&lt;/br>3、检查电网电压&lt;/br>4、寻求变频器厂家服务&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;td style="text-align: center">上电显示ERR23&lt;/td>
+&lt;td style="text-align: left">1、电机或输出线对地短路&lt;/br>2、变频器损坏&lt;/br>&lt;/td>
+&lt;td style="text-align: left">1、用摇表测量电机和输出线的绝缘&lt;/br>2、寻求变频器厂家服务&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">4&lt;/td>
+&lt;td style="text-align: center">上电显示正常，运行后显示[ ]并马上停&lt;/td>
+&lt;td style="text-align: left">1、风扇损坏或堵转&lt;/br>2、外围控制端子接线有短路&lt;/br>&lt;/td>
+&lt;td style="text-align: left">1、更换风扇&lt;/br>2、排除外部短路故障&lt;/br>3、寻求变频器厂家服务&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">5&lt;/td>
+&lt;td style="text-align: center">频繁报ERR14(模块过热)故障&lt;/td>
+&lt;td style="text-align: left">1、载频设置太高&lt;/br>2、风扇损坏或风道堵塞&lt;/br>3、变频器内部器件损坏（热电偶或其他）&lt;/td>
+&lt;td style="text-align: left">1、降低载频（P0-15）&lt;/br>2、更换风扇、清道风道&lt;/br>3、寻求变频器厂家服务&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">6&lt;/td>
+&lt;td style="text-align: center">变频器运行后电机不转动&lt;/td>
+&lt;td style="text-align: left">1、电机线没接好&lt;/br>2、变频器参数设置错误（电机参数）&lt;/br>3、驱动板与控制板之间的连线接触不良&lt;/br>4、驱动板故障&lt;/td>
+&lt;td style="text-align: left">1、重新确认变频器与电机之间连线&lt;/br>2、更换电机或清除机械故障&lt;/br>3、检查并重新设置电机参数&lt;/br>4、寻求变频器厂家服务&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">7&lt;/td>
+&lt;td style="text-align: center">变频器频繁报过流和过压故障&lt;/td>
+&lt;td style="text-align: left">1、电机参数设置不对&lt;/br>2、加减速时间不合适&lt;/br>3、负载波动&lt;/td>
+&lt;td style="text-align: left">1、重新设置电机参数或进行电机调谐&lt;/br>2、设置合适的加减速时间&lt;/br>3、寻求变频器厂家服务&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>探索这些文档以便了解更多内容：&lt;/p>
+&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583"
+target="_blank" rel="noreferrer">&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>&lt;/svg>立即购买高性能矢量变频器&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/docs/table-of-contents/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器使用说明书目录&lt;/span>&lt;/a>
+&lt;a
+class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="https://koltluo.github.io/shop/blog/faq/"
+>&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>&lt;/svg>变频器常见问题解答&lt;/span>&lt;/a>
+&lt;/div></description></item></channel></rss>
