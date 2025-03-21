@@ -1,0 +1,580 @@
+{{ define "main" }}
+  <div class="hx-mx-auto hx-flex hx-max-w-[90rem]">
+    <article class="hx-w-full hx-break-words hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-pt-4 hx-pb-8 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-left),1.5rem)]">
+ <div class="main-container">
+        <div class="calculator">
+            
+            <div class="loader"><div class="spinner"></div></div>
+            <h1>森阔® 变频器智能选型系统</h1>
+            <div class="input-grid">
+                <div class="input-group">
+                    <label>电机功率 (kW):</label>
+                    <input type="number" id="power" step="0.1" required>
+                </div>
+                <div class="input-group">
+                    <label>电压等级:</label>
+                    <select id="voltageClass" onchange="updateVoltage()">
+                        <option value="220">低压 220V</option>
+                        <option value="380">低压 380V</option>
+                        <option value="690">中压 690V</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>输入电压 (V):</label>
+                    <input type="number" id="voltage" required>
+                </div>
+                <div class="input-group">
+                    <label>功率因数:</label>
+                    <input type="number" id="powerFactor" step="0.01" min="0.8" max="1" value="0.85">
+                </div>
+                <div class="input-group">
+                    <label>电机效率 (%):</label>
+                    <input type="number" id="efficiency" step="1" min="80" max="98" value="90">
+                </div>
+                <div class="input-group">
+                    <label>过载要求 (%):</label>
+                    <input type="number" id="overload" step="5" min="100" max="200" value="120">
+                </div>
+                <div class="input-group">
+                    <label>负载类型:</label>
+                    <select id="loadType">
+                        <option value="1.0">常规负载</option>
+                        <option value="1.15">重载</option>
+                        <option value="1.3">超重载</option>
+                    </select>
+                </div>
+            </div>
+            <button class="calculate-btn" onclick="calculate()">立即计算</button>
+            <div class="result-panel" id="result" style="display:none">
+                <h3>选型结果</h3>
+                <table class="spec-table">
+                    <thead>
+                        <tr>
+                            <th>推荐功率</th>
+                            <th>额定电流</th>
+                            <th>适配型号</th>
+                            <th>电压等级</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="rec-power">-</td>
+                            <td id="rec-current">-</td>
+                            <td id="rec-model">-</td>
+                            <td id="rec-voltage">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="chart-container">
+                <canvas id="specChart"></canvas>
+            </div>
+            <button class="export-btn" onclick="exportPDF()">导出报告</button>
+            <button class="calculate-btn" onclick="window.location.href='/products'">查看详情</button>
+
+        </div>
+		
+
+		
+        <div class="info-panel">
+            <img src="https://blog.lyskjd.com/image/BPQ/3.jpg" alt="变频器产品图" class="product-image">
+
+            <div class="contact-card">
+                <h3>联系我们</h3>
+                <p>服务热线：+86 150-6499-9739</p>
+                <p>邮箱：sales@lyskjd.com</p>
+                <p>地址：中国山东省临沂市兰山区通达路与清河北路交汇东北角</p>
+            </div>
+        </div>
+    </div>
+	        <div class="hx-mb-16"></div>
+        <div class="content">
+          {{ .Content }}
+        </div>
+    </article>
+  </div>
+  <style>
+  
+  /* 主容器 */
+.main-container {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* 计算器主体 */
+.calculator {
+    flex: 1 1 65%;
+    background: #fff;
+    padding: 70px 30px 30px; /* 增加顶部内边距 */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+    min-width: 320px;
+}
+
+/* 标题样式 */
+.calculator h1 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 24px;
+    color: #333;
+    width: calc(100% - 130px); /* 预留按钮空间 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* 信息面板 */
+.info-panel {
+    flex: 1 1 30%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    min-width: 300px;
+}
+
+/* 加载动画 */
+.loader {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.95);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #1890ff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 输入区域 */
+.input-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 3px rgba(24,144,255,0.1);
+    outline: none;
+}
+
+/* 按钮样式 */
+.calculate-btn, .export-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.calculate-btn {
+    background: #1890ff;
+    color: white;
+    margin-top: 15px;
+}
+
+.calculate-btn:hover {
+    background: #40a9ff;
+}
+
+.export-btn {
+    background: #52c41a;
+    color: white;
+    margin-top: 20px;
+}
+
+.export-btn:hover {
+    background: #73d13d;
+}
+
+/* 结果面板 */
+.result-panel {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f8fbff;
+    border-radius: 8px;
+    border: 1px solid #e8f4ff;
+}
+
+.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.spec-table th {
+    background: #f0f7ff;
+    padding: 14px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.spec-table td {
+    padding: 14px;
+    font-size: 15px;
+    color: #1890ff;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+/* 图表容器 */
+.chart-container {
+    margin: 30px 0;
+    height: 280px;
+    position: relative;
+}
+  
+/* 联系信息 */
+.contact-card {
+    padding: 20px;
+    background: #f8fbff;
+    border-radius: 8px;
+    border: 1px solid #e8f4ff;
+}
+
+.contact-card h3 {
+    margin-bottom: 15px;
+    color: #1890ff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-card p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* 新增图片圆角样式 */
+.info-panel img {
+    border-radius: 8px; /* 与联系方式卡片保持一致 */
+    overflow: hidden; /* 确保图片圆角裁剪 */
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 可选：添加与计算器一致的阴影 */
+}  
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .calculator, .info-panel {
+        width: 100%;
+        padding: 90px 20px 20px; /* 调整移动端顶部内边距 */
+    }
+
+    .calculator h1 {
+        top: 15px;
+        left: 20px;
+        font-size: 20px;
+        width: calc(100% - 110px);
+    }
+
+
+    .input-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .chart-container {
+        height: 220px;
+    }
+
+    .spec-table th, .spec-table td {
+        padding: 12px;
+        font-size: 14px;
+    }
+	
+	.info-panel img {
+        border-radius: 6px; /* 移动端稍小圆角 */
+    }
+
+    .calculator, .info-panel {
+        padding: 80px 15px 15px;
+    }
+
+    input, select {
+        padding: 10px;
+    }
+
+    .calculate-btn, .export-btn {
+        padding: 12px;
+    }
+
+    .calculator h1 {
+        left: 15px;
+        width: calc(100% - 95px);
+        font-size: 18px;
+    }
+
+}
+
+  </style>
+    <script >
+let specChart = null;
+let lastSelectedSpec = null;
+let lastRequiredCurrent = null;
+
+const standardSpecs = [
+    { power: 0.75, current: 4, voltage: 220 },
+    { power: 1.5, current: 7, voltage: 220 },
+    { power: 2.2, current: 9.6, voltage: 220 },
+    { power: 4, current: 8, voltage: 220 },
+    { power: 5.5, current: 12, voltage: 220 },
+    { power: 7.5, current: 16, voltage: 220 },
+    { power: 0.75, current: 2.5, voltage: 380 },
+    { power: 1.5, current: 4, voltage: 380 },
+    { power: 2.2, current: 5.5, voltage: 380 },
+    { power: 4, current: 8, voltage: 380 },
+    { power: 5.5, current: 12, voltage: 380 },
+    { power: 7.5, current: 16, voltage: 380 },
+    { power: 11, current: 22, voltage: 380 },
+    { power: 15, current: 30, voltage: 380 },
+    { power: 18.5, current: 37, voltage: 380 },
+    { power: 22, current: 45, voltage: 380 },
+    { power: 30, current: 60, voltage: 380 },
+    { power: 37, current: 75, voltage: 380 },
+    { power: 45, current: 90, voltage: 380 },
+    { power: 55, current: 110, voltage: 380 },
+    { power: 75, current: 150, voltage: 380 },
+    { power: 90, current: 180, voltage: 380 },
+    { power: 110, current: 220, voltage: 380 },
+    { power: 132, current: 265, voltage: 380 },
+    { power: 160, current: 320, voltage: 380 },
+    { power: 185, current: 370, voltage: 380 },
+    { power: 200, current: 400, voltage: 380 },
+    { power: 220, current: 440, voltage: 380 },
+    { power: 250, current: 500, voltage: 380 },
+    { power: 280, current: 560, voltage: 380 },
+    { power: 315, current: 630, voltage: 380 },
+    { power: 355, current: 710, voltage: 380 },
+    { power: 400, current: 800, voltage: 380 },
+    { power: 450, current: 900, voltage: 380 },
+    { power: 500, current: 1000, voltage: 380 },
+    { power: 560, current: 1120, voltage: 380 },
+    { power: 630, current: 1260, voltage: 380 },
+    { power: 720, current: 1440, voltage: 380 },
+    { power: 800, current: 1600, voltage: 380 },
+    { power: 22, current: 28, voltage: 690 },
+    { power: 30, current: 38, voltage: 690 },
+    { power: 37, current: 47, voltage: 690 },
+    { power: 45, current: 57, voltage: 690 },
+    { power: 55, current: 70, voltage: 690 },
+    { power: 75, current: 95, voltage: 690 },
+    { power: 90, current: 115, voltage: 690 },
+    { power: 110, current: 140, voltage: 690 },
+    { power: 132, current: 170, voltage: 690 },
+    { power: 160, current: 205, voltage: 690 },
+    { power: 200, current: 260, voltage: 690 },
+    { power: 250, current: 325, voltage: 690 },
+    { power: 315, current: 410, voltage: 690 },
+    { power: 355, current: 460, voltage: 690 },
+    { power: 400, current: 520, voltage: 690 },
+    { power: 500, current: 650, voltage: 690 },
+    { power: 630, current: 820, voltage: 690 },
+    { power: 800, current: 1040, voltage: 690 }
+    // 请根据实际需求补充完整规格表
+].sort((a, b) => a.current - b.current);
+
+
+
+function updateVoltage() {
+    const voltageClass = document.getElementById('voltageClass').value;
+    document.getElementById('voltage').value = voltageClass;
+    document.getElementById('result').style.display = 'none';
+}
+
+function calculate() {
+    try {
+        showLoader(true);
+        const params = {
+            power: parseFloat(document.getElementById('power').value),
+            voltage: parseFloat(document.getElementById('voltage').value),
+            powerFactor: parseFloat(document.getElementById('powerFactor').value),
+            efficiency: parseFloat(document.getElementById('efficiency').value) / 100,
+            overload: parseFloat(document.getElementById('overload').value) / 100,
+            loadType: parseFloat(document.getElementById('loadType').value)
+        };
+        if (Object.values(params).some(v => isNaN(v) || v <= 0)) {
+            alert("请填写所有有效参数！");
+            return;
+        }
+        const baseCurrent = (params.power * 1000) / 
+            (Math.sqrt(3) * params.voltage * params.powerFactor * params.efficiency);
+        const requiredCurrent = baseCurrent * 
+            Math.max(params.overload, params.loadType) * 1.2;
+        let selectedSpec = standardSpecs.find(spec => 
+            spec.current >= requiredCurrent && 
+            Math.abs(spec.voltage - params.voltage) <= 100
+        );
+        const resultDiv = document.getElementById('result');
+        if (selectedSpec) {
+            const modelSeries = selectedSpec.voltage === 690 ? 'SKF300' : 'SKF600';
+            document.getElementById('rec-power').textContent = `${selectedSpec.power}kW`;
+            document.getElementById('rec-current').textContent = `${selectedSpec.current}A`;
+            document.getElementById('rec-model').textContent = `${modelSeries}-${selectedSpec.power}G`;
+            document.getElementById('rec-voltage').textContent = `${selectedSpec.voltage}V`;
+            resultDiv.style.display = 'block';
+            lastSelectedSpec = selectedSpec;
+            lastRequiredCurrent = requiredCurrent;
+            drawComparisonChart(selectedSpec, requiredCurrent);
+            updateOrderForm(selectedSpec);
+        } else {
+            alert(`需求电流：${requiredCurrent.toFixed(1)}A\n最大可用规格：${standardSpecs[standardSpecs.length-1].current}A\n请联络技术支持定制解决方案`);
+            resultDiv.style.display = 'none';
+        }
+    } finally {
+        showLoader(false);
+    }
+}
+
+function showLoader(show) {
+    document.querySelector('.loader').style.display = show ? 'flex' : 'none';
+}
+
+function drawComparisonChart(spec, current) {
+    if (specChart) specChart.destroy();
+    const ctx = document.getElementById('specChart').getContext('2d');
+    specChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['需求电流', '选定型号'],
+            datasets: [{
+                label: '电流对比 (A)',
+                data: [current, spec.current],
+                backgroundColor: ['#1890ff', '#40a9ff'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: { beginAtZero: true, ticks: { color: '#666' }, grid: { color: '#eee' } }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
+}
+
+
+async function exportPDF() {
+    showLoader(true);
+    try {
+        // 获取选型结果
+        const recPower = document.getElementById('rec-power').textContent;
+        const recCurrent = document.getElementById('rec-current').textContent;
+        const recModel = document.getElementById('rec-model').textContent;
+        const recVoltage = document.getElementById('rec-voltage').textContent;
+        const contactText = document.querySelector('.contact-card').innerText.split('\n');
+
+        // PDF 内容定义
+        const docDefinition = {
+            content: [
+                { text: '森阔® 变频器选型报告', style: 'header' },
+                {
+                    table: {
+                        headerRows: 1,
+                        widths: ['*', '*', '*', '*'],
+                        body: [
+                            ['推荐功率', '额定电流', '适配型号', '电压等级'],
+                            [recPower, recCurrent, recModel, recVoltage]
+                        ]
+                    },
+                    layout: 'lightHorizontalLines'
+                },
+                { text: '联系我们', style: 'subheader', margin: [0, 20, 0, 10] },
+                { text: contactText, style: 'contact' }
+            ],
+            styles: {
+                header: { fontSize: 18, bold: true, margin: [0, 0, 0, 10] },
+                subheader: { fontSize: 14, bold: true },
+                contact: { fontSize: 12 }
+            },
+            defaultStyle: {
+                font: 'Roboto' // 使用中文字体
+            }
+        };
+
+        // 生成 PDF
+        pdfMake.createPdf(docDefinition).download('selection-report.pdf');
+    } finally {
+        showLoader(false);
+    }
+}
+
+
+
+
+
+updateVoltage();
+
+    </script>
+
+	      <!-- 引入 pdfmake -->
+    <script src="https://cdn.jsdelivr.net/npm/pdfmake/build/pdfmake.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pdfmake/build/vfs_fonts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+{{ end }}

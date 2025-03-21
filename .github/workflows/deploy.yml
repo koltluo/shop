@@ -1,0 +1,55 @@
+name: Deploy Hugo Site and Cloudflare Worker
+
+on:
+  push:
+    branches:
+      - main  # 触发部署的分支
+
+jobs:
+  deploy-hugo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build Hugo site
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+  deploy-worker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install Wrangler
+        run: npm install -g wrangler
+
+      - name: Configure Cloudflare Worker environment variables
+        run: |
+          cd cloudflare-worker
+          echo "ALIPAY_APP_ID=${{ secrets.ALIPAY_APP_ID }}" >> .env
+          echo "ALIPAY_PRIVATE_KEY=${{ secrets.ALIPAY_PRIVATE_KEY }}" >> .env
+          echo "ALIPAY_PUBLIC_KEY=${{ secrets.ALIPAY_PUBLIC_KEY }}" >> .env
+
+      - name: Deploy Cloudflare Worker
+        run: |
+          cd cloudflare-worker
+          wrangler publish

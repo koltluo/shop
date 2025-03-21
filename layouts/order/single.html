@@ -1,0 +1,96 @@
+{{ define "main" }}
+  <div class="container mx-auto mt-8">
+    <div class="text-center">
+      <h1 class="text-2xl font-bold text-green-600">订单提交成功！</h1>
+      <p class="mt-4 text-gray-700">感谢您的购买，我们已经收到您的支付和订单信息！</p>
+      <p class="mt-4 text-gray-700">
+        请记录您的 <span class="text-red-500">订单号码</span>，方便查询！
+      </p>
+    </div>
+
+    <div id="orderDetails" class="mt-6 p-6 border rounded shadow-sm bg-white">
+      <h3 class="text-xl font-bold">订单详情</h3>
+      <!-- 订单详细信息会动态渲染 -->
+    </div>
+
+    <div class="text-center mt-8 mb-16">
+      <a href="/" class="bg-green-600 text-white py-2 px-4 rounded">返回首页</a>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const orderData = JSON.parse(sessionStorage.getItem("currentOrder"));
+
+      console.log("订单成功页面读取的订单数据：", orderData); // 调试信息
+
+      if (!orderData) {
+        alert("未找到订单信息，请返回购物车页面重新生成订单！");
+        window.location.href = "/products";
+        return;
+      }
+
+      // 清空购物车
+      localStorage.removeItem("cart");
+      console.log("购物车已清空");
+
+      // 渲染订单详情为表格
+      const orderDetailsHTML = `
+        <p class="text-lg font-bold mb-4">订单编号: ${generateOrderId()}</p>
+        <h3 class="text-lg font-bold mt-4">收货信息:</h3>
+        <p><strong>姓名:</strong> ${orderData.contact.name}</p>
+        <p><strong>电话:</strong> ${orderData.contact.phone}</p>
+        <p><strong>地址:</strong> ${orderData.contact.address}</p>
+        <h3 class="text-lg font-bold mt-4">订单内容:</h3>
+        <table class="table-auto w-full border-collapse border border-gray-300 mt-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2 text-left">商品名称</th>
+              <th class="border border-gray-300 px-4 py-2 text-center">数量</th>
+              <th class="border border-gray-300 px-4 py-2 text-right">单价 (¥)</th>
+              <th class="border border-gray-300 px-4 py-2 text-right">金额 (¥)</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${orderData.cart.map(item => `
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">${item.name}</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">${item.quantity}</td>
+                <td class="border border-gray-300 px-4 py-2 text-right">${item.price.toFixed(2)}</td>
+                <td class="border border-gray-300 px-4 py-2 text-right">${(item.price * item.quantity).toFixed(2)}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+          <tfoot>
+            <tr class="font-bold">
+              <td colspan="3" class="border border-gray-300 px-4 py-2 text-right">订单合计:</td>
+              <td class="border border-gray-300 px-4 py-2 text-right">¥${orderData.total.toFixed(2)}</td>
+            </tr>
+          </tfoot>
+        </table>
+        <p class="mt-4 text-gray-600">我们将尽快为您安排发货，请保持手机畅通。</p>
+      `;
+
+      document.getElementById("orderDetails").innerHTML = orderDetailsHTML;
+    });
+
+    function generateOrderId() {
+      const now = new Date();
+      const year = now.getFullYear();
+      const month = String(now.getMonth() + 1).padStart(2, '0'); // 补齐两位
+      const day = String(now.getDate()).padStart(2, '0'); // 补齐两位
+      const hours = String(now.getHours()).padStart(2, '0'); // 补齐两位
+      const minutes = String(now.getMinutes()).padStart(2, '0'); // 补齐两位
+
+      // 生成一个递增的编号
+      let orderCounter = parseInt(sessionStorage.getItem("orderCounter") || "0", 10) + 1;
+      sessionStorage.setItem("orderCounter", orderCounter);
+
+      // 格式化编号为三位数字
+      const formattedCounter = String(orderCounter).padStart(3, '0');
+
+      // 拼接订单编号
+      return `${year}${month}${day}${hours}${minutes}-${formattedCounter}`;
+    }
+  </script>
+{{ end }}

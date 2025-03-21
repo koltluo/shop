@@ -1,0 +1,11 @@
+{{ $original := resources.Get .src }}
+{{ $webp := $original.Resize "1200x webp picture" }}
+{{ $thumb := $original.Resize "200x200 webp" }}
+
+<picture>
+  <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+  <img src="{{ $original.RelPermalink }}" 
+       width="{{ $webp.Width }}"
+       height="{{ $webp.Height }}"
+       alt="{{ .alt }}">
+</picture>

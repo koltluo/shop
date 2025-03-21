@@ -1,0 +1,96 @@
+{{ define "main" }}
+  <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    {{ partial "toc.html" . }}
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        {{ partial "breadcrumb.html" . }}
+        <div class="content">
+          {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
+          {{ .Content }}
+        </div>
+		
+                <!-- 社交分享部分 -->
+<div class="hx-mt-4">
+  <p class="hx-mb-2 hx-font-medium">我要分享</p>
+  <div class="hx-flex hx-gap-2">
+    <!-- Facebook 分享 -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer" class="hx-text-blue-600 hover:hx-text-blue-800 dark:hx-text-blue-400 dark:hover:hx-text-blue-600">
+      {{ partial "utils/icon.html" (dict "name" "facebook" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- Twitter 分享 -->
+    <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}&text={{ .Title | urlize }}" target="_blank" rel="noopener noreferrer" class="hx-text-blue-400 hover:hx-text-blue-600 dark:hx-text-blue-300 dark:hover:hx-text-blue-500">
+      {{ partial "utils/icon.html" (dict "name" "twitter" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- LinkedIn 分享 -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink | absURL }}&title={{ .Title | urlize }}&summary={{ .Summary | urlize }}" target="_blank" rel="noopener noreferrer" class="hx-text-blue-800 hover:hx-text-blue-900 dark:hx-text-blue-600 dark:hover:hx-text-blue-700">
+      {{ partial "utils/icon.html" (dict "name" "linkedin" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- Instagram 分享 -->
+    <a href="https://www.instagram.com/share?url={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer" class="hx-text-pink-600 hover:hx-text-pink-800 dark:hx-text-pink-400 dark:hover:hx-text-pink-600">
+      {{ partial "utils/icon.html" (dict "name" "instagram" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- WhatsApp 分享 -->
+    <a href="https://api.whatsapp.com/send?text={{ .Title | urlize }}%20{{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer" class="hx-text-green-600 hover:hx-text-green-800 dark:hx-text-green-400 dark:hover:hx-text-green-600">
+      {{ partial "utils/icon.html" (dict "name" "whatsapp" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- Telegram 分享 -->
+    <a href="https://t.me/share/url?url={{ .Permalink | absURL }}&text={{ .Title | urlize }}" target="_blank" rel="noopener noreferrer" class="hx-text-blue-600 hover:hx-text-blue-800 dark:hx-text-blue-400 dark:hover:hx-text-blue-600">
+      {{ partial "utils/icon.html" (dict "name" "telegram" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- LINE 分享 -->
+    <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer" class="hx-text-green-300 hover:hx-text-green-500 dark:hx-text-green-200 dark:hover:hx-text-green-400">
+      {{ partial "utils/icon.html" (dict "name" "line" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- Reddit 分享 -->
+    <a href="https://www.reddit.com/submit?url={{ .Permalink | absURL }}&title={{ .Title | urlize }}" target="_blank" rel="noopener noreferrer" class="hx-text-orange-600 hover:hx-text-orange-800 dark:hx-text-orange-400 dark:hover:hx-text-orange-600">
+      {{ partial "utils/icon.html" (dict "name" "reddit" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- 微信分享 -->
+    <a href="javascript:void(0);" onclick="window.open('weixin://dl/business/?url=' + encodeURIComponent('{{ .Permalink | absURL }}'), '_blank')" class="hx-text-green-600 hover:hx-text-green-800 dark:hx-text-green-400 dark:hover:hx-text-green-600">
+      {{ partial "utils/icon.html" (dict "name" "wechat" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- 微博分享 -->
+    <a href="https://service.weibo.com/share/share.php?url={{ .Permalink | absURL }}&title={{ .Title | urlize }}" target="_blank" rel="noopener noreferrer" class="hx-text-red-600 hover:hx-text-red-800 dark:hx-text-red-400 dark:hover:hx-text-red-600">
+      {{ partial "utils/icon.html" (dict "name" "weibo" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- QQ 分享 -->
+    <a href="http://connect.qq.com/widget/shareqq/index.html?url={{ .Permalink | absURL }}&title={{ .Title | urlize }}" target="_blank" rel="noopener noreferrer" class="hx-text-blue-400 hover:hx-text-blue-600 dark:hx-text-blue-300 dark:hover:hx-text-blue-500">
+      {{ partial "utils/icon.html" (dict "name" "qq" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- QQ 空间分享 -->
+    <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{ .Permalink | absURL }}&title={{ .Title | urlize }}" target="_blank" rel="noopener noreferrer" class="hx-text-yellow-500 hover:hx-text-yellow-700 dark:hx-text-yellow-400 dark:hover:hx-text-yellow-600">
+      {{ partial "utils/icon.html" (dict "name" "qzone" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- 抖音分享 -->
+    <a href="javascript:void(0);" onclick="alert('Sharing directly from the webpage to Douyin is not supported for the time being. You can copy the link to share manually.'); return false;" class="hx-text-purple-600 hover:hx-text-purple-800 dark:hx-text-purple-400 dark:hover:hx-text-purple-600">
+      {{ partial "utils/icon.html" (dict "name" "douyin" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- 邮件分享 -->
+    <a href="mailto:?subject={{ .Title | urlize }}&body={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer" class="hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-600">
+      {{ partial "utils/icon.html" (dict "name" "email" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+    <!-- 链接复制分享 -->
+    <a href="javascript:void(0);" onclick="copyToClipboard('{{ .Permalink | absURL }}'); return false;" class="hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-600">
+      {{ partial "utils/icon.html" (dict "name" "link" "attributes" "width=24 height=24 fill=currentColor") }}
+    </a>
+  </div>
+</div>
+<script>
+function copyToClipboard(text) {
+  const textArea = document.createElement('textarea');
+  textArea.value = text;
+  document.body.appendChild(textArea);
+  textArea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textArea);
+  alert('The link has been copied to the clipboard!');
+}
+</script>
+        {{ partial "components/last-updated.html" . }}
+        {{ partial "components/pager.html" . }}
+        {{ partial "components/comments.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}

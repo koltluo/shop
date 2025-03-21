@@ -1,0 +1,191 @@
+{{ define "main" }}
+  <div class="flex justify-center items-center min-h-screen bg-gray-100">
+    <div class="bg-white shadow-lg rounded-lg p-6 w-full max-w-2xl">
+      <h2 class="text-2xl font-bold mb-4 text-center">确认订单详情</h2>
+      <div id="orderSummary" class="mb-6"></div>
+      <div class="flex justify-between mt-6">
+        <button
+          id="editOrderButton"
+          class="bg-gray-500 text-white py-2 px-4 rounded-lg hover:bg-gray-600 transition"
+        >
+          返回修改
+        </button>
+        <button
+          id="payButton"
+          class="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition"
+        >
+          提交支付
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const orderData = JSON.parse(localStorage.getItem("currentOrder"));
+
+      if (!orderData) {
+        alert("未找到订单数据，请返回购物车页面重新生成订单！");
+        window.location.href = "/products";
+        return;
+      }
+
+      // 渲染订单详情
+      const orderSummaryHTML = `
+        <h3 class="text-lg font-bold mt-4">收货信息:</h3>
+        <p><strong>姓名:</strong> ${orderData.contact.name}</p>
+        <p><strong>电话:</strong> ${orderData.contact.phone}</p>
+        <p><strong>地址:</strong> ${orderData.contact.address}</p>
+        <h3 class="text-lg font-bold mt-4">订单内容:</h3>
+        <table class="table-auto w-full border-collapse border border-gray-300 mt-4">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="border border-gray-300 px-4 py-2 text-left">商品名称</th>
+              <th class="border border-gray-300 px-4 py-2 text-center">数量</th>
+              <th class="border border-gray-300 px-4 py-2 text-right">单价 (¥)</th>
+              <th class="border border-gray-300 px-4 py-2 text-right">金额 (¥)</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${orderData.cart.map(item => `
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">${item.name}</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">${item.quantity}</td>
+                <td class="border border-gray-300 px-4 py-2 text-right">${item.price.toFixed(2)}</td>
+                <td class="border border-gray-300 px-4 py-2 text-right">${(item.price * item.quantity).toFixed(2)}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+          <tfoot>
+            <tr class="font-bold">
+              <td colspan="3" class="border border-gray-300 px-4 py-2 text-right">订单合计:</td>
+              <td class="border border-gray-300 px-4 py-2 text-right">¥${orderData.total.toFixed(2)}</td>
+            </tr>
+          </tfoot>
+        </table>
+      `;
+      document.getElementById("orderSummary").innerHTML = orderSummaryHTML;
+
+      // 修改支付按钮逻辑
+      const payButton = document.getElementById("payButton");
+      payButton.addEventListener("click", async function () {
+        if (!orderData) {
+          alert("未找到订单数据，请返回购物车页面重新生成订单！");
+          return;
+        }
+
+        try {
+          // 调用 Cloudflare Worker 支付接口
+          const response = await fetch('https://your-worker-url.workers.dev/api/alipay', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              total: orderData.total.toFixed(2),  // 订单总金额
+              items: orderData.cart,  // 商品列表
+              outTradeNo: `ORDER_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`  // 生成唯一订单号
+            })
+          });
+
+          if (!response.ok) {
+            throw new Error(`支付请求失败: ${response.status}`);
+          }
+
+          const { payUrl } = await response.json();  // 获取支付链接
+
+          // 新窗口打开支付宝支付页面
+          const payWindow = window.open(payUrl, '_blank');
+
+          // 轮询检查支付状态
+          const checkInterval = setInterval(async () => {
+            try {
+              const checkResponse = await fetch(`https://your-worker-url.workers.dev/api/order/${orderData.outTradeNo}`);
+              const result = await checkResponse.json();
+
+              if (result.status === 'paid') {
+                clearInterval(checkInterval);
+
+                // 支付成功处理
+                sessionStorage.setItem("currentOrder", JSON.stringify(orderData));
+                localStorage.removeItem("currentOrder");
+                window.location.href = "/order-success";  // 跳转到支付成功页面
+              }
+            } catch (error) {
+              console.error('支付状态检查失败:', error);
+            }
+          }, 3000);  // 每3秒检查一次
+
+        } catch (error) {
+          console.error('支付失败:', error);
+          alert(`支付失败: ${error.message}`);
+        }
+      });
+
+      // 返回修改按钮逻辑
+      const editOrderButton = document.getElementById("editOrderButton");
+      editOrderButton.addEventListener("click", function () {
+        // 显示模态框表单
+        const checkoutModal = document.getElementById("checkout-modal");
+        checkoutModal.classList.remove("hidden");
+
+        // 填充模态框表单中的数据
+        document.getElementById("name").value = orderData.contact.name;
+        document.getElementById("address").value = orderData.contact.address;
+        document.getElementById("phone").value = orderData.contact.phone;
+
+        // 提交模态框表单后更新订单数据
+        const checkoutForm = document.getElementById("checkout-form");
+        checkoutForm.addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          const formData = new FormData(checkoutForm);
+          orderData.contact.name = formData.get("name");
+          orderData.contact.address = formData.get("address");
+          orderData.contact.phone = formData.get("phone");
+
+          // 更新 LocalStorage 中的订单数据
+          localStorage.setItem("currentOrder", JSON.stringify(orderData));
+
+          // 隐藏模态框
+          checkoutModal.classList.add("hidden");
+
+          // 更新订单详情
+          document.getElementById("orderSummary").innerHTML = `
+            <h3 class="text-lg font-bold mt-4">收货信息:</h3>
+            <p><strong>姓名:</strong> ${orderData.contact.name}</p>
+            <p><strong>电话:</strong> ${orderData.contact.phone}</p>
+            <p><strong>地址:</strong> ${orderData.contact.address}</p>
+            <h3 class="text-lg font-bold mt-4">订单内容:</h3>
+            <table class="table-auto w-full border-collapse border border-gray-300 mt-4">
+              <thead>
+                <tr class="bg-gray-100">
+                  <th class="border border-gray-300 px-4 py-2 text-left">商品名称</th>
+                  <th class="border border-gray-300 px-4 py-2 text-center">数量</th>
+                  <th class="border border-gray-300 px-4 py-2 text-right">单价 (¥)</th>
+                  <th class="border border-gray-300 px-4 py-2 text-right">金额 (¥)</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${orderData.cart.map(item => `
+                  <tr>
+                    <td class="border border-gray-300 px-4 py-2">${item.name}</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">${item.quantity}</td>
+                    <td class="border border-gray-300 px-4 py-2 text-right">${item.price.toFixed(2)}</td>
+                    <td class="border border-gray-300 px-4 py-2 text-right">${(item.price * item.quantity).toFixed(2)}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+              <tfoot>
+                <tr class="font-bold">
+                  <td colspan="3" class="border border-gray-300 px-4 py-2 text-right">订单合计:</td>
+                  <td class="border border-gray-300 px-4 py-2 text-right">¥${orderData.total.toFixed(2)}</td>
+                </tr>
+              </tfoot>
+            </table>
+          `;
+        });
+      });
+    });
+  </script>
+{{ end }}

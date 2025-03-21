@@ -1,0 +1,12 @@
+{{/* 验证必要字段 */}}
+{{ $requiredFields := slice "title" "sku" "price" }}
+{{ range $requiredFields }}
+  {{ if not (isset $.Params .) }}
+    {{ errorf "产品页面缺失必要字段：%s (%s)" . $.Page.File.Path }}
+  {{ end }}
+{{ end }}
+
+{{/* 自动生成默认值 */}}
+{{ if not .Params.highlights }}
+  {{ $_ := merge .Params (dict "highlights" (slice "高性能设计" "节能环保" "智能控制")) }}
+{{ end }}

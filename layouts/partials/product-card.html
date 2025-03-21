@@ -1,0 +1,83 @@
+<!-- layouts/partials/product-card.html -->
+{{ $ctx := .context }}
+{{ $defaultImg := .fallbackImage | default "/images/default.jpg" }}
+<article class="product-card bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden">
+  <!-- 图片处理增强 -->
+  <div class="image-container relative h-48 bg-gray-100">
+    {{ with $ctx.Params.images }}
+      {{ $firstImg := index . 0 }}
+      {{ $imgResource := resources.Get $firstImg }}
+      
+      {{ if $imgResource }}
+        {{ $webp := $imgResource.Fill "600x450 webp q85" }}
+        <img src="{{ $webp.RelPermalink }}"
+             class="w-full h-full object-cover"
+             alt="{{ $ctx.Title }}"
+             loading="lazy">
+      {{ else }}
+        <div class="absolute inset-0 flex items-center justify-center text-gray-400">
+          <span>产品图待上传</span>
+        </div>
+        <img src="{{ $defaultImg }}"
+             class="w-full h-full object-cover opacity-50"
+             alt="默认产品图"
+             loading="lazy">
+      {{ end }}
+    {{ else }}
+      <div class="absolute inset-0 flex items-center justify-center text-gray-400">
+        <span>产品图待上传</span>
+      </div>
+      <img src="{{ $defaultImg }}"
+           class="w-full h-full object-cover opacity-50"
+           alt="默认产品图"
+           loading="lazy">
+    {{ end }}
+  </div>
+
+  <div class="p-4">
+    <!-- 标题和详情按钮 -->
+    <div class="flex justify-between items-start mb-2">
+      <a href="{{ $ctx.RelPermalink }}" 
+      class="text-blue-600 hover:text-blue-800 text-sm flex items-center">
+      <h3 class="text-lg font-bold">{{ $ctx.Title }}</h3>
+      </a>
+      <a href="{{ $ctx.RelPermalink }}" 
+      class="text-blue-600 hover:text-blue-800 text-sm flex items-center">
+      <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+      </svg>
+      详情
+   </a>
+    </div>
+
+    <!-- 简介 -->
+    {{ with $ctx.Params.description }}
+    <p class="text-gray-600 text-sm mb-4 line-clamp-2">{{ . }}</p>
+    {{ end }}
+
+    <!-- 价格和购物车按钮 -->
+    <div class="price-box flex items-center justify-between">
+      {{ with $ctx.Params.price }}
+      <span class="text-red-600 font-bold text-xl">
+        ¥{{ . | lang.FormatNumber 2 }}
+      </span>
+    {{ else }}
+      <span class="text-gray-400 text-sm">价格待询</span>
+    {{ end }}
+      
+      <div class="flex space-x-2">
+  
+        <button id="add-to-cart" class="add-to-cart flex-1 bg-blue-600 text-white px-8 py-3 rounded-lg
+        hover:bg-blue-700 transition-colors"
+     data-item-id="{{ $ctx.File.TranslationBaseName }}"
+     data-item-price="{{ $ctx.Params.price }}"
+     data-item-url="{{ $ctx.RelPermalink }}"
+     data-item-name="{{ $ctx.Title }}"
+     data-item-description="{{ $ctx.Params.description | truncate 60 }}"
+     data-item-image="{{ with $ctx.Params.images }}{{ index . 0 }}{{ end }}">
+          加入购物车
+        </button>
+      </div>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,20 @@
+<!-- 在product-info区域添加 -->
+<div class="price-box mb-6">
+    {{ if .Params.originalPrice }}
+      <div class="original-price text-gray-400 line-through text-lg">
+        ¥{{ .Params.originalPrice | lang.FormatNumber 2 }}
+      </div>
+      <div class="flex items-baseline gap-4">
+        <span class="discounted-price text-red-600 font-bold text-3xl">
+          ¥{{ .Params.price | lang.FormatNumber 2 }}
+        </span>
+        <span class="discount-badge bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm">
+          立省 ¥{{ sub .Params.originalPrice .Params.price | lang.FormatNumber 0 }}
+        </span>
+      </div>
+    {{ else }}
+      <span class="text-red-600 font-bold text-3xl">
+        ¥{{ .Params.price | lang.FormatNumber 2 }}
+      </span>
+    {{ end }}
+  </div>

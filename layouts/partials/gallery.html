@@ -1,0 +1,90 @@
+{{ $ := index . "$" }}
+{{ $params := $.Site.Params.gallery }}
+{{ $gallery := .gallery }}
+
+<div class="gallery-container not-prose">
+  <div class="lg:sticky lg:top-4">
+    <!-- Main Image -->
+    <div class="relative group cursor-zoom-in" data-pswp data-index="0">
+      {{ $mainImage := index $gallery 0 }}
+      <img src="{{ $mainImage }}" 
+           class="w-full rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl"
+           style="aspect-ratio: {{ $params.mainImageRatio }}"
+           alt="Main gallery image">
+      <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all"></div>
+    </div>
+
+    <!-- Thumbnails -->
+    <div class="mt-4 relative">
+      <div class="flex overflow-x-auto pb-4 snap-x scrollbar-hide" id="thumbScroll">
+        <div class="flex space-x-3 min-w-max">
+          {{ range $index, $item := $gallery }}
+          <div class="thumbnail-item w-{{ $params.thumbWidth }} h-{{ $params.thumbHeight }} flex-shrink-0 relative group">
+            <img src="{{ $item }}" 
+                 class="w-full h-full object-cover rounded-lg border-2 cursor-pointer transition-all
+                        {{ if eq $index 0 }} border-red-500
+                        {{ else }} border-transparent hover:border-red-300{{ end }}"
+                 data-pswp-item
+                 data-index="{{ $index }}"
+                 @click="activeSlide = {{ $index }}"
+                 alt="Thumbnail {{ add $index 1 }}">
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all"></div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button class="thumbnail-nav absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 backdrop-blur rounded-full p-2 shadow-lg hover:bg-white transition-all opacity-0 group-hover:opacity-100"
+              onclick="scrollThumbs(-1)">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+      </button>
+      <button class="thumbnail-nav absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 backdrop-blur rounded-full p-2 shadow-lg hover:bg-white transition-all opacity-0 group-hover:opacity-100"
+              onclick="scrollThumbs(1)">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Thumbnail navigation
+function scrollThumbs(direction) {
+  const container = document.querySelector('#thumbScroll');
+  const scrollAmount = {{ $params.thumbWidth }} + 12; // width + spacing
+  container.scrollBy({
+    left: scrollAmount * direction,
+    behavior: 'smooth'
+  });
+}
+
+// Update main image
+document.querySelectorAll('[data-pswp-item]').forEach(item => {
+  item.addEventListener('click', function() {
+    const index = parseInt(this.dataset.index);
+    const mainImg = document.querySelector('[data-pswp] img');
+    mainImg.src = this.src;
+    
+    // Update active thumbnail
+    document.querySelectorAll('.thumbnail-item').forEach(thumb => {
+      thumb.classList.remove('border-red-500');
+    });
+    this.closest('.thumbnail-item').classList.add('border-red-500');
+  });
+});
+
+// Auto-hide arrows on mobile
+window.addEventListener('resize', checkTouchDevice);
+function checkTouchDevice() {
+  document.querySelectorAll('.thumbnail-nav').forEach(btn => {
+    btn.style.display = window.matchMedia('(pointer: fine)').matches ? 'block' : 'none';
+  });
+}
+checkTouchDevice();
+</script>
+
+{{ $.Scratch.Set "photoswipe_items" (apply .gallery "partial" "photoswipe-item" ".") }}

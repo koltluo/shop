@@ -1,0 +1,21 @@
+.product-card {
+    @apply bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow;
+    
+    .image-container {
+      @apply relative overflow-hidden;
+      
+      img {
+        @apply transition-transform duration-300;
+      }
+      
+      &:hover img {
+        transform: scale(1.03);
+      }
+    }
+    
+    .price-box {
+      del {
+        @apply text-gray-400 text-sm ml-2;
+      }
+    }
+  }

@@ -1,0 +1,6 @@
+{{ $image := resources.Get .Get "src" }}
+{{ $webp := $image | images.Filter (images.WebP "quality=75") }}
+<picture>
+  <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+  < img src="{{ $image.RelPermalink }}" alt="{{ .Get "alt" }}" class="w-full h-48 object-cover lazy" data-src="{{ $image.RelPermalink }}">
+</picture>

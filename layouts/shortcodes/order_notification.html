@@ -1,0 +1,10 @@
+<!-- layouts/shortcodes/order_notification.html -->
+<script>
+    Snipcart.api.configure('tracking', {
+      webhookUrl: 'https://api.yoursite.com/snipcart-webhook',
+      webhookHeaders: {
+        'X-Webhook-Secret': '{{ .Site.Params.snipcart.webhook_secret }}'
+      }
+    });
+  </script>
+  

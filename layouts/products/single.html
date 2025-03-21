@@ -1,0 +1,242 @@
+{{ define "main" }}
+<article class="container max-w-7xl mx-auto px-4 lg:px-8 py-12">
+  <!-- 产品详情主容器 -->
+  <div class="product-detail grid lg:grid-cols-2 gap-12">
+    <!-- 主图区域 -->
+    <div class="product-carousel">
+      <!-- 主图 Swiper -->
+      <div class="swiper main-swiper">
+        <div class="swiper-wrapper">
+          {{ range .Params.images }}
+          <div class="swiper-slide">
+            <!-- 使用 resources.Get 加载图片 -->
+            {{ $original := resources.Get (printf "images/%s" .) }}
+            {{ if $original }}
+              <!-- 调整图片大小 -->
+              {{ $resized := $original.Resize "800x" }}
+              <div class="easyzoom easyzoom--overlay">
+                <a href="{{ $original.Permalink }}">
+                  <picture>
+                    <source srcset="{{ $resized.Permalink }}" type="image/webp">
+                    <img src="{{ $resized.Permalink }}" alt="{{ $.Title }}">
+                  </picture>
+                </a>
+              </div>
+            {{ else }}
+              <!-- 如果图片不存在，显示占位图片 -->
+              <img src="/images/placeholder.jpg" alt="No image available">
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <!-- 缩略图导航 -->
+      <div class="swiper thumb-swiper mt-4">
+        <div class="swiper-wrapper">
+          {{ range .Params.images }}
+          <div class="swiper-slide">
+            <!-- 使用 resources.Get 加载图片 -->
+            {{ $original := resources.Get (printf "images/%s" .) }}
+            {{ if $original }}
+              <!-- 调整图片大小 -->
+              {{ $resized := $original.Resize "300x300" }}
+              <img src="{{ $resized.Permalink }}" alt="{{ $.Title }}">
+            {{ else }}
+              <!-- 如果图片不存在，显示占位图片 -->
+              <img src="/images/placeholder.jpg" alt="No image available">
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <!-- 商品信息区域 -->
+    <div class="product-meta">
+      <h1 class="text-3xl lg:text-4xl font-bold mb-4">{{ .Title }}</h1>
+      
+      <!-- 商品价格 -->
+      <div class="price-box mb-6">
+        {{ if .Params.originalPrice }}
+          <div class="original-price text-gray-400 line-through text-lg">
+            ¥{{ .Params.originalPrice | lang.FormatNumber 2 }}
+          </div>
+          <div class="flex items-baseline gap-4">
+            <span class="discounted-price text-red-600 font-bold text-3xl">
+              ¥{{ .Params.price | lang.FormatNumber 2 }}
+            </span>
+            <span class="discount-badge bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm">
+              立省 ¥{{ sub .Params.originalPrice .Params.price | lang.FormatNumber 0 }}
+            </span>
+          </div>
+        {{ else }}
+          <span class="text-red-600 font-bold text-3xl">
+            ¥{{ .Params.price | lang.FormatNumber 2 }}
+          </span>
+        {{ end }}
+      </div>
+      <!-- 产品规格 -->
+      <div class="mb-6">
+        <h3 class="text-lg font-semibold mb-3">产品规格</h3>
+        <div class="grid grid-cols-2 gap-3">
+          {{ range .Params.variants }}
+          <button class="variant-btn border rounded-md p-3 hover:border-blue-500"
+                  data-sku="{{ .sku }}"
+                  data-price="{{ .price }}">
+            <span class="block font-medium">{{ .name }}</span>
+            <span class="text-sm text-gray-600">¥{{ .price }}</span>
+          </button>
+          {{ end }}
+        </div>
+      </div>
+      <!-- 购买操作 -->
+      <div class="snipcart-actions space-y-4">
+        <div class="flex items-center space-x-4">
+          <div class="quantity-selector flex items-center border rounded-lg">
+            <button class="decrement px-4 py-2 border-r">-</button>
+            <input type="number" value="1" min="1"
+                   class="w-16 text-center focus:outline-none">
+            <button  class="increment px-4 py-2 border-l">+</button>
+          </div>
+          <!-- 加入购物车按钮 -->
+          <button id="add-to-cart" class="add-to-cart flex-1 bg-blue-600 text-white px-8 py-3 rounded-lg
+                        hover:bg-blue-700 transition-colors"
+                  data-item-id="{{ .File.TranslationBaseName }}"
+                  data-item-price="{{ .Params.price }}"
+                  data-item-url="{{ .RelPermalink }}"
+                  data-item-name="{{ .Title }}"
+                  data-item-description="{{ .Description }}">
+            加入购物车
+          </button>
+        </div>
+        <!-- 立即购买按钮 -->
+        <button id="checkout-button" class="w-full bg-green-600 text-white px-8 py-3 rounded-lg
+                      hover:bg-green-700 transition-colors">
+          立即购买
+        </button>
+      </div>
+      <!-- 产品参数 -->
+      <div class="specs-box mt-8 p-6 bg-gray-50 rounded-xl">
+        <h3 class="text-xl font-semibold mb-4">技术参数</h3>
+        <dl class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {{ range $key, $value := .Params.specs }}
+          <div class="spec-item">
+            <dt class="text-gray-600 font-medium">{{ $key | humanize }}</dt>
+            <dd class="text-gray-800">{{ $value }}</dd>
+          </div>
+          {{ end }}
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!-- 商品详情内容 -->
+  <section class="product-content mt-16">
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </section>
+</article>
+
+  <!-- 相关推荐 -->
+  {{ $currentParent := .Parent }} <!-- 获取当前页面的父级目录 -->
+  {{ $related := where $currentParent.Pages "Type" "products" | first 8 }} <!-- 筛选同级栏目下的前 8 个产品 -->
+  {{ if $related }}
+<section class="related-products mt-16 mb-16"> <!-- 添加上下间距 -->
+  <div class="container mx-auto px-4 lg:px-8"> <!-- 添加容器类 -->
+    <h2 class="text-2xl font-bold mb-8">相关产品推荐</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6"> <!-- 两行布局 -->
+      {{ range $related }}
+        {{ partial "product-card" (dict "context" . "fallbackImage" "/images/default.jpg") }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+</article>
+
+<!-- 模态框 -->
+<div id="checkout-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+  <div class="bg-white w-96 p-6 rounded-lg shadow-lg">
+    <h2 class="text-lg font-bold mb-4">填写收货信息</h2>
+    <form id="checkout-form">
+      <div class="mb-4">
+        <label for="name" class="block text-sm font-medium text-gray-700">姓名</label>
+        <input type="text" id="name" name="name" class="w-full border rounded-lg px-3 py-2" required>
+      </div>
+      <div class="mb-4">
+        <label for="address" class="block text-sm font-medium text-gray-700">地址</label>
+        <input type="text" id="address" name="address" class="w-full border rounded-lg px-3 py-2" required>
+      </div>
+      <div class="mb-4">
+        <label for="phone" class="block text-sm font-medium text-gray-700">电话</label>
+        <input type="tel" id="phone" name="phone" class="w-full border rounded-lg px-3 py-2" required>
+      </div>
+      <div class="flex justify-end space-x-4">
+        <button type="button" id="close-modal" class="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600">
+          取消
+        </button>
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+          提交
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- JavaScript 段 -->
+<script defer>
+  document.addEventListener("DOMContentLoaded", () => {
+    // 初始化主图 Swiper
+    const mainSwiper = new Swiper(".main-swiper", {
+      loop: true, // 循环轮播
+      spaceBetween: 10, // 图片间距
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true, // 支持点击分页点
+      },
+    });
+    
+    // 初始化缩略图 Swiper
+    const thumbSwiper = new Swiper(".thumb-swiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 4, // 显示的缩略图数量
+      freeMode: true, // 自由滚动模式
+      watchSlidesProgress: true, // 监听 slide 当前状态
+    });
+    // 关联主图和缩略图 Swiper
+    mainSwiper.controller.control = thumbSwiper;
+    thumbSwiper.controller.control = mainSwiper;
+    // 初始化 EasyZoom 放大镜
+    const easyZoomInstances = document.querySelectorAll(".easyzoom");
+    easyZoomInstances.forEach((zoom) => {
+      new EasyZoom()._init(zoom);
+    });
+
+    // 立即购买按钮点击事件
+    const checkoutButton = document.getElementById("checkout-button");
+    const checkoutModal = document.getElementById("checkout-modal");
+    const closeModalButton = document.getElementById("close-modal");
+
+    checkoutButton.addEventListener("click", () => {
+      checkoutModal.classList.remove("hidden");
+    });
+
+    closeModalButton.addEventListener("click", () => {
+      checkoutModal.classList.add("hidden");
+    });
+
+    // 提交表单事件
+    const checkoutForm = document.getElementById("checkout-form");
+    checkoutForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      // 在这里处理表单提交逻辑
+      alert("表单已提交！");
+      checkoutModal.classList.add("hidden");
+    });
+  });
+</script>
+{{ end }}
