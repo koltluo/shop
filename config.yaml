@@ -108,8 +108,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo.png.webp
-      dark: images/logo.png.webp
+      path: /images/logo.svg
+      dark: /images/logo-dark.svg
       width: 50
       height: 50
           #link: /
