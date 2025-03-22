@@ -1,6 +1,7 @@
 baseurl: https://shop.lyskjd.com
 
-
+title: 山东临沂森阔机电有限公司
+description: 山东临沂森阔机电有限公司是一家专业供应变频器、软启动器、软启动柜、高低压成套设备的公司，具备多年的生产和销售经验，提供高质量、高性能的产品，以满足不同客户的需求。我们致力于为客户提供全面的售前、售中、售后服务，欢迎联系我们。热线：15064999739
 
 enableRobotsTXT: true
 enableGitInfo: false
@@ -10,11 +11,11 @@ hasCJKLanguage: true
 services:
    googleAnalytics:
      ID: G-2NPSXGYM2K
+
 module:
   imports:
     - path: github.com/imfing/hextra
 
-    
 markup:
   goldmark:
     renderer:
@@ -29,17 +30,9 @@ outputs:
   page: [HTML]
   section: [HTML, RSS]
 
-defaultContentLanguage: zh-cn
-languages:
-
-  zh-cn:
-    languageName: "简体中文"
-    weight: 1
-    title: 山东临沂森阔机电有限公司 
-    description: 山东临沂森阔机电有限公司是一家专业供应变频器、软启动器、软启动柜、高低压成套设备的公司，具备多年的生产和销售经验，提供高质量、高性能的产品，以满足不同客户的需求。我们致力于为客户提供全面的售前、售中、售后服务，欢迎联系我们。热线：15064999739
-
 pagination:
   pagerSize: 10
+
 imaging:
   resampleFilter: "CatmullRom"
   quality: 85
@@ -66,7 +59,6 @@ menu:
       name: 产品中心
       pageRef: /products
       weight: 2
-     
     - identifier: blog
       name: 新闻博客
       pageRef: /blog
@@ -83,27 +75,8 @@ menu:
       weight: 8
       params:
         type: search
-    
-        
-
-  sidebar:
-    - identifier: more
-      name: 更多
-      params:
-        type: separator
-      weight: 1
-    - identifier: about
-      name: "关于我们"
-      pageRef: "/about"
-      weight: 4
-    - identifier: contact
-      name: "联系我们"
-      pageRef: "/contact/"
-      weight: 5 
-
 
 params:
-  
   navbar:
     displayTitle: true
     displayLogo: true
@@ -112,15 +85,12 @@ params:
       dark: /images/logo-dark.svg
       width: 50
       height: 50
-          #link: /
     width: full
 
   page:
-    # full (100%), wide (90rem), normal (1280px)
     width: normal
 
   theme:
-    # light | dark | system
     default: system
     displayToggle: true
 
@@ -139,37 +109,16 @@ params:
       name: "临沂森阔机电有限公司"
     icp: 鲁ICP备17034385-2
 
-
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
 
-  # Search
-  # flexsearch is enabled by default
   search:
     enable: true
     type: flexsearch
-
     flexsearch:
-      # index page by: content | summary | heading | title
       index: content
 
   blog:
     list:
       displayTags: true
 
-  comments:
-    enable: false
-    type: giscus
-
-    # https://giscus.app/
-    giscus:
-      repo: koltluo/crusher
-      repoId: R_kgDOLtH5nw
-      category: General
-      categoryId: DIC_kwDOLtH5n84Cet-I
-      # mapping: pathname
-      # strict: 0
-      # reactionsEnabled: 1
-      # emitMetadata: 0
-      # inputPosition: top
-      lang: en

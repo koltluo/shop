@@ -1,0 +1,22 @@
+<script type="text/template" id="snipcart-shipping-rules">
+    [{
+      "id": "free-shipping",
+      "description": "免运费",
+      "price": 0,
+      "guaranteedDeliveryDays": 3,
+      "conditions": {
+        "total": 100
+      }
+    }, {
+      "id": "standard-shipping",
+      "description": "标准运费",
+      "price": 5.99,
+      "guaranteedDeliveryDays": 5
+    }]
+
+  // 在 snipcart-templates.html 中添加
+Snipcart.api.cart.setDiscount('SUMMER10', {
+  amount: 10,
+  type: 'percentage'
+});
+</script>
